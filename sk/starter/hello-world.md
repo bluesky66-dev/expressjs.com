@@ -12,10 +12,10 @@ lang: sk
 # Hello world príklad
 
 <div class="doc-box doc-info" markdown="1">
-Toto bude v podstate najjednoduchšia Express aplikácia akú možete vytvoriť. Aplikácia s jedným súborom &mdash; _nie_ taká, ako keby ste použili [Express generátor](/{{ page.lang }}/starter/generator.html), ktorý vytvorí základnú štruktúru pre plnohodnotnú aplikáciu s niekoľkými JavaScript súbormi, Jade templatami a pod-adresármi pre rôzne účely.
+Toto bude v podstate najjednoduchšia Express aplikácia akú možete vytvoriť. Aplikácia s jedným súborom &mdash; _nie_ taká, ako keby ste použili [Express generátor](/expressjs.com/{{ page.lang }}/starter/generator.html), ktorý vytvorí základnú štruktúru pre plnohodnotnú aplikáciu s niekoľkými JavaScript súbormi, Jade templatami a pod-adresármi pre rôzne účely.
 </div>
 
-Najskôr si vytvorte priečinok s názvom `myapp`, presuňte sa tam a spustite príkaz `npm init`. Potom nainštalujte `express` ako dependenciu podľa [inštalačnej príručky](/{{ page.lang }}/starter/installing.html).
+Najskôr si vytvorte priečinok s názvom `myapp`, presuňte sa tam a spustite príkaz `npm init`. Potom nainštalujte `express` ako dependenciu podľa [inštalačnej príručky](/expressjs.com/{{ page.lang }}/starter/installing.html).
 
 V priečinku `myapp` vytvorte súbor s názvom `app.js` a vložte do neho nasledovný kód:
 

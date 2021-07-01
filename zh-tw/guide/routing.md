@@ -7,7 +7,7 @@ lang: zh-tw
 
 # 路由
 
-*路由*是指應用程式端點 (URI) 的定義，以及應用程式如何回應用戶端要求。如需路由簡介，請參閱[基本路由](/{{ page.lang }}/starter/basic-routing.html)。
+*路由*是指應用程式端點 (URI) 的定義，以及應用程式如何回應用戶端要求。如需路由簡介，請參閱[基本路由](/expressjs.com/{{ page.lang }}/starter/basic-routing.html)。
 
 下列程式碼範例說明相當基本的路由。
 
@@ -178,7 +178,7 @@ app.get(/.*fly$/, function(req, res) {
 
 <h2 id="route-handlers">路由處理程式</h2>
 
-您可以提供其行為類似[中介軟體](/{{ page.lang }}/guide/using-middleware.html)的多個回呼函數，以處理要求。唯一的例外情況是這些回呼可能會呼叫
+您可以提供其行為類似[中介軟體](/expressjs.com/{{ page.lang }}/guide/using-middleware.html)的多個回呼函數，以處理要求。唯一的例外情況是這些回呼可能會呼叫
 `next('route')`，來略過其餘的路由回呼。如果沒有理由繼續處理現行路由，您可以使用這項機制，在路由中強制施行前置條件，然後將控制權傳遞給後續的路由。
 
 路由處理程式的形式可以是一個函數、函數陣列，或上述兩種的組合，如下列範例所示。
@@ -261,20 +261,20 @@ app.get('/example/d', [cb0, cb1], function (req, res, next) {
 
 | 方法               | 說明
 |----------------------|--------------------------------------
-| [res.download()](/{{ page.lang }}/4x/api.html#res.download)   | 提示您提供要下載的檔案。
-| [res.end()](/{{ page.lang }}/4x/api.html#res.end)        | 結束回應程序。
-| [res.json()](/{{ page.lang }}/4x/api.html#res.json)       | 傳送 JSON 回應。
-| [res.jsonp()](/{{ page.lang }}/4x/api.html#res.jsonp)      | 傳送 JSON 回應，並支援 JSONP。
-| [res.redirect()](/{{ page.lang }}/4x/api.html#res.redirect)   | 將要求重新導向。
-| [res.render()](/{{ page.lang }}/4x/api.html#res.render)     | 呈現視圖範本。
-| [res.send()](/{{ page.lang }}/4x/api.html#res.send)       | 傳送各種類型的回應。
-| [res.sendFile()](/{{ page.lang }}/4x/api.html#res.sendFile)     | 以八位元組串流形式傳送檔案。
-| [res.sendStatus()](/{{ page.lang }}/4x/api.html#res.sendStatus) | 設定回應狀態碼，並以回應內文形式傳送其字串表示法。
+| [res.download()](/expressjs.com/{{ page.lang }}/4x/api.html#res.download)   | 提示您提供要下載的檔案。
+| [res.end()](/expressjs.com/{{ page.lang }}/4x/api.html#res.end)        | 結束回應程序。
+| [res.json()](/expressjs.com/{{ page.lang }}/4x/api.html#res.json)       | 傳送 JSON 回應。
+| [res.jsonp()](/expressjs.com/{{ page.lang }}/4x/api.html#res.jsonp)      | 傳送 JSON 回應，並支援 JSONP。
+| [res.redirect()](/expressjs.com/{{ page.lang }}/4x/api.html#res.redirect)   | 將要求重新導向。
+| [res.render()](/expressjs.com/{{ page.lang }}/4x/api.html#res.render)     | 呈現視圖範本。
+| [res.send()](/expressjs.com/{{ page.lang }}/4x/api.html#res.send)       | 傳送各種類型的回應。
+| [res.sendFile()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendFile)     | 以八位元組串流形式傳送檔案。
+| [res.sendStatus()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendStatus) | 設定回應狀態碼，並以回應內文形式傳送其字串表示法。
 
 <h2 id="app-route">app.route()</h2>
 
 您可以使用 `app.route()`，來為路由路徑建立可鏈接的路由處理程式。
-由於是在單一位置指定路徑，建立模組路由很有用，因為它可減少冗餘和打錯字的情況。如需路由的相關資訊，請參閱 [Router() 說明文件](/{{ page.lang }}/4x/api.html#router)。
+由於是在單一位置指定路徑，建立模組路由很有用，因為它可減少冗餘和打錯字的情況。如需路由的相關資訊，請參閱 [Router() 說明文件](/expressjs.com/{{ page.lang }}/4x/api.html#router)。
 
 下列範例顯示利用 `app.route()` 所定義的路由處理程式鏈。
 

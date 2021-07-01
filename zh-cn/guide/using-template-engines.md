@@ -58,4 +58,4 @@ app.get('/', function (req, res) {
 向主页发出请求时，`index.pug` 文件将呈现为 HTML。
 
 
-要了解有关模板引擎在 Express 中如何工作的更多信息，请参阅：[“为 Express 开发模板引擎”](/{{ page.lang }}/advanced/developing-template-engines.html)。
+要了解有关模板引擎在 Express 中如何工作的更多信息，请参阅：[“为 Express 开发模板引擎”](/expressjs.com/{{ page.lang }}/advanced/developing-template-engines.html)。

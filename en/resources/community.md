@@ -37,12 +37,12 @@ Members of the Express technical committee are:
 ## Express is made of many modules
 
 Our vibrant community has created a large variety of extensions,
-[middleware modules](/{{ page.lang }}/resources/middleware.html) and
+[middleware modules](/expressjs.com/{{ page.lang }}/resources/middleware.html) and
 [higher-level frameworks](frameworks.html).
 
 Additionally, the Express community maintains modules in these two GitHub orgs:
 
-- [jshttp](https://jshttp.github.io/) modules providing useful utility functions; see [Utility modules](/{{ page.lang }}/resources/utils.html).
+- [jshttp](https://jshttp.github.io/) modules providing useful utility functions; see [Utility modules](/expressjs.com/{{ page.lang }}/resources/utils.html).
 - [pillarjs](https://pillarjs.github.io/): low-level modules that Express uses internally.
 
 To keep up with what is going on in the whole community, check out the [ExpressJS StatusBoard](https://expressjs.github.com/statusboard).

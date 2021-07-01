@@ -69,7 +69,7 @@ app.use(function (err, req, res, next) {
 })
 ```
 
-สำหรับข้อมูลเพิ่มเติม, ดูที่ [Error handling](/{{ page.lang }}/guide/error-handling.html).
+สำหรับข้อมูลเพิ่มเติม, ดูที่ [Error handling](/expressjs.com/{{ page.lang }}/guide/error-handling.html).
 
 ## จะสร้าง HTML ธรรมดาได้อย่างไร?
 

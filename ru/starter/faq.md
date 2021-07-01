@@ -66,7 +66,7 @@ app.use(function(err, req, res, next) {
 </code>
 </pre>
 
-Дополнительная информация содержится в разделе [Обработка ошибок](/{{ page.lang }}/guide/error-handling.html).
+Дополнительная информация содержится в разделе [Обработка ошибок](/expressjs.com/{{ page.lang }}/guide/error-handling.html).
 
 ## Как отобразить простой HTML-файл?
 

@@ -7,7 +7,7 @@ lang: ru
 
 # Express за прокси
 
-При запуске приложения Express за прокси-сервером, необходимо указать (с помощью [app.set()](/{{ page.lang }}/4x/api.html#app.set)) для переменной приложения `trust proxy` одно из значений, приведенных в таблице ниже.
+При запуске приложения Express за прокси-сервером, необходимо указать (с помощью [app.set()](/expressjs.com/{{ page.lang }}/4x/api.html#app.set)) для переменной приложения `trust proxy` одно из значений, приведенных в таблице ниже.
 
 <div class="doc-box doc-info" markdown="1">
 Хотя приложение будет запущено и без указания значения переменной приложения `trust proxy`, отсутствие заданного значения `trust proxy` приведет к некорректной регистрации IP-адреса прокси в качестве клиентского IP-адреса.
@@ -69,11 +69,11 @@ app.set('trust proxy', ['loopback', 'linklocal', 'uniquelocal']) // specify mult
 Установка значения, отличного от `false`, для `trust proxy` ведет к трем существенным изменениям:
 
 <ul>
-  <li markdown="1">Значение [req.hostname](/{{ page.lang }}/api.html#req.hostname) является производным от значения, указанного в заголовке `X-Forwarded-Host`, который может быть задан клиентом или прокси.
+  <li markdown="1">Значение [req.hostname](/expressjs.com/{{ page.lang }}/api.html#req.hostname) является производным от значения, указанного в заголовке `X-Forwarded-Host`, который может быть задан клиентом или прокси.
   </li>
-  <li markdown="1">Заголовок `X-Forwarded-Proto` может быть задан обратным прокси-сервером и указывает приложению на использование протокола `https`, или  `http`, или даже недопустимого имени. Это значение отражается в [req.protocol](/{{ page.lang }}/api.html#req.protocol).
+  <li markdown="1">Заголовок `X-Forwarded-Proto` может быть задан обратным прокси-сервером и указывает приложению на использование протокола `https`, или  `http`, или даже недопустимого имени. Это значение отражается в [req.protocol](/expressjs.com/{{ page.lang }}/api.html#req.protocol).
   </li>
-  <li markdown="1">Значения [req.ip](/{{ page.lang }}/api.html#req.ip) и [req.ips](/{{ page.lang }}/api.html#req.ips) заполняются собой списком адресов, взятых из `X-Forwarded-For`.
+  <li markdown="1">Значения [req.ip](/expressjs.com/{{ page.lang }}/api.html#req.ip) и [req.ips](/expressjs.com/{{ page.lang }}/api.html#req.ips) заполняются собой списком адресов, взятых из `X-Forwarded-For`.
   </li>
 </ul>
 

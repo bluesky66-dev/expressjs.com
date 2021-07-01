@@ -9,14 +9,14 @@ lang: pt-br
 
 <div class="doc-box doc-info" markdown="1">
 Este é essencialmente o aplicativo mais simples do Express que é possível criar. Ele
-é um aplicativo de arquivo único &mdash; *não* é o que você iria obter usando o [Gerador Express](/{{ page.lang }}/starter/generator.html),
+é um aplicativo de arquivo único &mdash; *não* é o que você iria obter usando o [Gerador Express](/expressjs.com/{{ page.lang }}/starter/generator.html),
 que cria a estrutura para um aplicativo completo com inúmeros arquivos JavaScript, modelos Jade, e subdiretórios para vários
 propósitos.
 </div>
 
 Primeiro crie um diretório chamado `myapp`,
 mude para ele e execute o `npm init`. Em seguida
-instale o `express` como uma dependência, de acordo com o [guia de instalação](/{{ page.lang }}/starter/installing.html).
+instale o `express` como uma dependência, de acordo com o [guia de instalação](/expressjs.com/{{ page.lang }}/starter/installing.html).
 
 No diretório `myapp`, crie um arquivo chamado `app.js` e inclua o seguinte código:
 

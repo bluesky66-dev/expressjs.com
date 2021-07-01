@@ -44,7 +44,7 @@ app.use(express.static('files'));
 
 Express 在查閱檔案時，會依照您使用 `express.static` 中介軟體函數來設定靜態目錄的順序。
 
-如果要為 `express.static` 函數所提供的檔案，建立虛擬路徑字首（其中的路徑事實上不存在於檔案系統中），請為靜態目錄[指定裝載路徑](/{{ page.lang }}/4x/api.html#app.use)，如下所示：
+如果要為 `express.static` 函數所提供的檔案，建立虛擬路徑字首（其中的路徑事實上不存在於檔案系統中），請為靜態目錄[指定裝載路徑](/expressjs.com/{{ page.lang }}/4x/api.html#app.use)，如下所示：
 
 <pre>
 <code class="language-javascript" translate="no">

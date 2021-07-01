@@ -25,7 +25,7 @@ app.METHOD(PATH, HANDLER)
 - `HANDLER` เป็นฟังชันส์ที่กระทำเมื่อเส้นทางถูกจับคู่.
 
 <div class="doc-box doc-notice" markdown="1">
-การสอนนี้จะสมมติว่าอินสแตนซ์ของ `express` ชื่อว่า `app` จะถูกสร้างขึ้นเมื่อรันเซิร์ฟเวอร์ ถ้าไม่คุ้นเคยกับการสร้าง app และโครงสร้างของมัน ดูเพิ่มเติมได้ที่ [ตัวอย่าง Hello world](/{{ page.lang }}/starter/hello-world.html)
+การสอนนี้จะสมมติว่าอินสแตนซ์ของ `express` ชื่อว่า `app` จะถูกสร้างขึ้นเมื่อรันเซิร์ฟเวอร์ ถ้าไม่คุ้นเคยกับการสร้าง app และโครงสร้างของมัน ดูเพิ่มเติมได้ที่ [ตัวอย่าง Hello world](/expressjs.com/{{ page.lang }}/starter/hello-world.html)
 </div>
 
 ตัวอย่างดังต่อไปนี้จะแสดงให้เห็นการกำหนดเส้นทางอย่างง่าย
@@ -61,4 +61,4 @@ app.delete('/user', function (req, res) {
   res.send('Got a DELETE request at /user')
 })
 ```
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการกำหนดเส้นทาง ดูได้ที่ [คำแนะนำการกำหนดเส้นทาง](/{{ page.lang }}/guide/routing.html)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการกำหนดเส้นทาง ดูได้ที่ [คำแนะนำการกำหนดเส้นทาง](/expressjs.com/{{ page.lang }}/guide/routing.html)

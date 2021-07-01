@@ -23,7 +23,7 @@ Windows'ta aynı komutun karşılığını kullanın.
 ```sh
 > set DEBUG=express:* & node index.js
 ```
-[express generator](/{{ page.lang }}/starter/generator.html) kullanılarak yaratılan varsayılan uygulamada bu komutu koşmak aşağıdakileri yazdıracak:
+[express generator](/expressjs.com/{{ page.lang }}/starter/generator.html) kullanılarak yaratılan varsayılan uygulamada bu komutu koşmak aşağıdakileri yazdıracak:
 
 ```sh
 $ DEBUG=express:* node ./bin/www

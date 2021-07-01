@@ -50,4 +50,4 @@ $ npm install express --no-save
 npm 5.0+ versiyonları için npm install komutu, kurulacak modülü varsayılan olarak `package.json` içindeki bağımlılıklar listesine ekler; daha eski npm versiyonları için `--save` ayrıca belirtilmelidir. Daha sonrasında, uygulama dizininde `npm install` komutunu çalıştırmak, bağımlılık listesindeki uygulamaları otomatik olarak yükler.
 </div>
 
-###  [Sonraki: Merhaba Dünya ](/{{ page.lang }}/starter/hello-world.html)
+###  [Sonraki: Merhaba Dünya ](/expressjs.com/{{ page.lang }}/starter/hello-world.html)

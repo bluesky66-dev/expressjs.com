@@ -116,7 +116,7 @@ La forma en que define las rutas no varía, pero el sistema de direccionamiento 
 
 <h4 id="app-route">Método <code>app.route()</code></h4>
 
-El nuevo método `app.route()` permite crear manejadores de rutas encadenables para una vía de acceso de ruta. Como la vía de acceso se especifica en una única ubicación, la creación de rutas modulares es muy útil, al igual que la reducción de redundancia y errores tipográficos. Para obtener más información sobre las rutas, consulte la [`documentación` de Router()](/{{ page.lang }}/4x/api.html#router).
+El nuevo método `app.route()` permite crear manejadores de rutas encadenables para una vía de acceso de ruta. Como la vía de acceso se especifica en una única ubicación, la creación de rutas modulares es muy útil, al igual que la reducción de redundancia y errores tipográficos. Para obtener más información sobre las rutas, consulte la [`documentación` de Router()](/expressjs.com/{{ page.lang }}/4x/api.html#router).
 
 A continuación, se muestra un ejemplo de manejadores de rutas encadenados que se definen utilizando la función `app.route()`.
 

@@ -17,7 +17,7 @@ lang: zh-cn
 
 ### 路由器 (router)
 
-请参阅“API 参考”中的[路由器](/{{ page.lang }}/4x/api.html#router)。
+请参阅“API 参考”中的[路由器](/expressjs.com/{{ page.lang }}/4x/api.html#router)。
 
 ### 请求 (request)
 
@@ -29,7 +29,7 @@ HTTP 响应。服务器将 HTTP 响应消息返回给客户机。此响应包含
 
 ### 应用程序 (application)
 
-一般而言，表示设计为针对特定目的执行操作的一个或多个程序。在 Express 的上下文中，表示使用 Node.js 平台上运行的 Express API 的一个程序。可能还指[应用程序对象](/{{ page.lang }}/api.html#express)。
+一般而言，表示设计为针对特定目的执行操作的一个或多个程序。在 Express 的上下文中，表示使用 Node.js 平台上运行的 Express API 的一个程序。可能还指[应用程序对象](/expressjs.com/{{ page.lang }}/api.html#express)。
 
 ### 中间件 (middleware)
 

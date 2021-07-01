@@ -26,7 +26,7 @@ Where:
 - `HANDLER` is the function executed when the route is matched.
 
 <div class="doc-box doc-notice" markdown="1">
-This tutorial assumes that an instance of `express` named `app` is created and the server is running. If you are not familiar with creating an app and starting it, see the [Hello world example](/{{ page.lang }}/starter/hello-world.html).
+This tutorial assumes that an instance of `express` named `app` is created and the server is running. If you are not familiar with creating an app and starting it, see the [Hello world example](/expressjs.com/{{ page.lang }}/starter/hello-world.html).
 </div>
 
 The following examples illustrate defining simple routes.
@@ -63,6 +63,6 @@ app.delete('/user', function (req, res) {
 })
 ```
 
-For more details about routing, see the [routing guide](/{{ page.lang }}/guide/routing.html).
+For more details about routing, see the [routing guide](/expressjs.com/{{ page.lang }}/guide/routing.html).
 
-###  [Previous: Express application generator ](/{{ page.lang }}/starter/generator.html)&nbsp;&nbsp;&nbsp;&nbsp;[Next: Serving static files in Express ](/{{ page.lang }}/starter/static-files.html)
+###  [Previous: Express application generator ](/expressjs.com/{{ page.lang }}/starter/generator.html)&nbsp;&nbsp;&nbsp;&nbsp;[Next: Serving static files in Express ](/expressjs.com/{{ page.lang }}/starter/static-files.html)

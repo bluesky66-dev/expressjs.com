@@ -12,7 +12,7 @@ This approach makes it easier to design an HTML page.
 
 Some popular template engines that work with Express are [Pug](https://pugjs.org/api/getting-started.html),
 [Mustache](https://www.npmjs.com/package/mustache), and [EJS](https://www.npmjs.com/package/ejs).
-The [Express application generator](/{{ page.lang }}/starter/generator.html) uses [Jade](https://www.npmjs.com/package/jade) as its default, but it also supports several others.
+The [Express application generator](/expressjs.com/{{ page.lang }}/starter/generator.html) uses [Jade](https://www.npmjs.com/package/jade) as its default, but it also supports several others.
 
 See [Template Engines (Express wiki)](https://github.com/expressjs/express/wiki#template-engines)
 for a list of template engines you can use with Express.
@@ -22,7 +22,7 @@ See also [Comparing JavaScript Templating Engines: Jade, Mustache, Dust and More
 **Note**: Jade has been renamed to [Pug](https://www.npmjs.com/package/pug).  You can continue to use Jade in your app, and it will work just fine.  However if you want the latest updates to the template engine, you must replace Jade with Pug in your app.
 </div>
 
-To render template files, set the following [application setting properties](/{{ page.lang }}/4x/api.html#app.set), set in `app.js` in the default app created by the generator:
+To render template files, set the following [application setting properties](/expressjs.com/{{ page.lang }}/4x/api.html#app.set), set in `app.js` in the default app created by the generator:
 
 * `views`, the directory where the template files are located. Eg: `app.set('views', './views')`.
 This defaults to the `views` directory in the application root directory.
@@ -73,4 +73,4 @@ When you make a request to the home page, the `index.pug` file will be rendered 
 Note: The view engine cache does not cache the contents of the template's output, only the underlying template itself. The view is still re-rendered with every request even when the cache is on.
 
 To learn more about how template engines work in Express, see:
-["Developing template engines for Express"](/{{ page.lang }}/advanced/developing-template-engines.html).
+["Developing template engines for Express"](/expressjs.com/{{ page.lang }}/advanced/developing-template-engines.html).

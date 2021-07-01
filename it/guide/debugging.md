@@ -33,7 +33,7 @@ Su Windows, utilizzare il comando corrispondente.
 </code>
 </pre>
 
-L'esecuzione di questo comando sull'applicazione predefinita generata da [Programma di creazione express](/{{ page.lang }}/starter/generator.html) consentirà di stampare il seguente output:
+L'esecuzione di questo comando sull'applicazione predefinita generata da [Programma di creazione express](/expressjs.com/{{ page.lang }}/starter/generator.html) consentirà di stampare il seguente output:
 
 <pre>
 <code class="language-sh" translate="no">

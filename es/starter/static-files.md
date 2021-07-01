@@ -44,7 +44,7 @@ app.use(express.static('files'));
 
 Express busca los archivos en el orden en el que se definen los directorios estáticos con la función de middleware `express.static`.
 
-Para crear un prefijo de vía de acceso virtual (donde la vía de acceso no existe realmente en el sistema de archivos) para los archivos a los que da servicio la función `express.static`, [especifique una vía de acceso de montaje](/{{ page.lang }}/4x/api.html#app.use) para el directorio estático, como se muestra a continuación:
+Para crear un prefijo de vía de acceso virtual (donde la vía de acceso no existe realmente en el sistema de archivos) para los archivos a los que da servicio la función `express.static`, [especifique una vía de acceso de montaje](/expressjs.com/{{ page.lang }}/4x/api.html#app.use) para el directorio estático, como se muestra a continuación:
 
 <pre>
 <code class="language-javascript" translate="no">

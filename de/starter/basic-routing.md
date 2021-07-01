@@ -26,7 +26,7 @@ Bedeutung:
 - `HANDLER` ist die Funktion, die ausgeführt wird, wenn die Weiterleitung abgeglichen wird.
 
 <div class="doc-box doc-notice" markdown="1">
-In diesem Lernprogramm wird vorausgesetzt, dass eine Instanz von `express` namens `app` erstellt und der Server ausgeführt wird. Wenn Sie mit dem Erstellen und Starten von Anwendungen nicht vertraut sind, spielen Sie das [Beispiel "Hello World"](/{{ page.lang }}/starter/hello-world.html) durch.
+In diesem Lernprogramm wird vorausgesetzt, dass eine Instanz von `express` namens `app` erstellt und der Server ausgeführt wird. Wenn Sie mit dem Erstellen und Starten von Anwendungen nicht vertraut sind, spielen Sie das [Beispiel "Hello World"](/expressjs.com/{{ page.lang }}/starter/hello-world.html) durch.
 </div>
 
 Die folgenden Beispiele veranschaulichen das Definieren einfacher Weiterleitungen.
@@ -71,4 +71,4 @@ app.delete('/user', function (req, res) {
 </code>
 </pre>
 
-Details zum Thema Routing finden Sie in der entsprechenden [Routinganleitung](/{{ page.lang }}/guide/routing.html).
+Details zum Thema Routing finden Sie in der entsprechenden [Routinganleitung](/expressjs.com/{{ page.lang }}/guide/routing.html).

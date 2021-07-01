@@ -7,7 +7,7 @@ lang: ja
 
 # プロキシーの背後の Express
 
-Express アプリケーションをプロキシーの背後で実行する場合、([app.set()](/{{ page.lang }}/4x/api.html#app.set) を使用して) アプリケーション変数 `trust proxy` を次の表にリストされているいずれかの値に設定します。
+Express アプリケーションをプロキシーの背後で実行する場合、([app.set()](/expressjs.com/{{ page.lang }}/4x/api.html#app.set) を使用して) アプリケーション変数 `trust proxy` を次の表にリストされているいずれかの値に設定します。
 
 <div class="doc-box doc-info" markdown="1">
 
@@ -80,15 +80,15 @@ app.set('trust proxy', function (ip) {
 <ul>
   <li markdown="1">
 
-  [req.hostname](/{{ page.lang }}/api.html#req.hostname) の値は、クライアントまたはプロキシーが設定できる `X-Forwarded-Host` ヘッダーに設定された値から導き出されます。
+  [req.hostname](/expressjs.com/{{ page.lang }}/api.html#req.hostname) の値は、クライアントまたはプロキシーが設定できる `X-Forwarded-Host` ヘッダーに設定された値から導き出されます。
   </li>
   <li markdown="1">
 
-  `X-Forwarded-Proto` は、`https` と `http` のどちらであるか、または無効な名前であるかをアプリケーションに通知するためにリバース・プロキシーによって設定できます。この値は、[req.protocol](/{{ page.lang }}/api.html#req.protocol) に反映されます。
+  `X-Forwarded-Proto` は、`https` と `http` のどちらであるか、または無効な名前であるかをアプリケーションに通知するためにリバース・プロキシーによって設定できます。この値は、[req.protocol](/expressjs.com/{{ page.lang }}/api.html#req.protocol) に反映されます。
   </li>
   <li markdown="1">
   
-  [req.ip](/{{ page.lang }}/api.html#req.ip) および [req.ips](/{{ page.lang }}/api.html#req.ips) の値は、`X-Forwarded-For` のアドレス・リストから取り込まれます。
+  [req.ip](/expressjs.com/{{ page.lang }}/api.html#req.ip) および [req.ips](/expressjs.com/{{ page.lang }}/api.html#req.ips) の値は、`X-Forwarded-For` のアドレス・リストから取り込まれます。
   </li>
 </ul>
 

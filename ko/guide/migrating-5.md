@@ -85,7 +85,7 @@ Express 5는 `app.del()` 함수를 더 이상 지원하지 않습니다. 이 함
 
 `app.param(name, fn)` 함수의 이름(name)의 첫머리 콜론 문자(:)는 Express 3의 잔존물이며, 하위 호환성을 위해 Express 4에서는 첫머리 콜론을 지원하면서 사용 중단 알림을 표시했습니다. Express 5는 아무런 메시지 표시 없이 첫머리 콜론을 무시하며, 콜론을 이용한 접두부가 없는 이름 매개변수를 사용합니다.
 
-[app.param](/{{ page.lang }}/4x/api.html#app.param)에 대한 Express 4 문서에는 첫머리 콜론이 언급되어 있지 않으므로, 이 문서를 따라 앱을 작성한 경우에는 이 변경사항이 코드에 영향을 미치지 않을 것입니다.
+[app.param](/expressjs.com/{{ page.lang }}/4x/api.html#app.param)에 대한 Express 4 문서에는 첫머리 콜론이 언급되어 있지 않으므로, 이 문서를 따라 앱을 작성한 경우에는 이 변경사항이 코드에 영향을 미치지 않을 것입니다.
 
 <h4 id="req.param">req.param(name)</h4>
 

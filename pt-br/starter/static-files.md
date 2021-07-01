@@ -57,7 +57,7 @@ os diretórios estáticos com a função de middleware
 Para criar um prefixo de caminho virtual (onde o caminho não
 existe realmente no sistema de arquivos) para arquivos que são
 entregues pela função `express.static`,
-[especifique um caminho de montagem](/{{ page.lang }}/4x/api.html#app.use) para o
+[especifique um caminho de montagem](/expressjs.com/{{ page.lang }}/4x/api.html#app.use) para o
 diretório estático, como mostrado abaixo:
 
 <pre>

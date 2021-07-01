@@ -38,7 +38,7 @@ No Windows, use o comando correspondente.
 </pre>
 
 Executar este comando no aplicativo padrão gerado pelo
-[express generator](/{{ page.lang }}/starter/generator.html) imprime a seguinte saída:
+[express generator](/expressjs.com/{{ page.lang }}/starter/generator.html) imprime a seguinte saída:
 
 <pre>
 <code class="language-sh" translate="no">

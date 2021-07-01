@@ -9,7 +9,7 @@ lang: zh-tw
 
 Express 是一個本身功能極簡的路由與中介軟體 Web 架構：本質上，Express 應用程式是一系列的中介軟體函數呼叫。
 
-*中介軟體*函數是一些有權存取[要求物件](/{{ page.lang }}/4x/api.html#req) (`req`)、[回應物件](/{{ page.lang }}/4x/api.html#res) (`res`) 和應用程式要求/回應循環中之下一個中介軟體函數的函數。下一個中介軟體函數通常以名為 `next` 的變數表示。
+*中介軟體*函數是一些有權存取[要求物件](/expressjs.com/{{ page.lang }}/4x/api.html#req) (`req`)、[回應物件](/expressjs.com/{{ page.lang }}/4x/api.html#res) (`res`) 和應用程式要求/回應循環中之下一個中介軟體函數的函數。下一個中介軟體函數通常以名為 `next` 的變數表示。
 
 中介軟體函數可以執行下列作業：
 
@@ -32,7 +32,7 @@ Express 應用程式可以使用下列類型的中介軟體：
 
 <h2 id='middleware.application'>應用程式層次的中介軟體</h2>
 
-使用 `app.use()` 和 `app.METHOD()` 函數，將應用程式層次的中介軟體連結至 [app object](/{{ page.lang }}/4x/api.html#app) 實例，其中 `METHOD` 是中介軟體函數要處理的 HTTP 要求方法（例如 GET、PUT 或 POST），並採小寫。
+使用 `app.use()` 和 `app.METHOD()` 函數，將應用程式層次的中介軟體連結至 [app object](/expressjs.com/{{ page.lang }}/4x/api.html#app) 實例，其中 `METHOD` 是中介軟體函數要處理的 HTTP 要求方法（例如 GET、PUT 或 POST），並採小寫。
 
 本例顯示沒有裝載路徑的中介軟體函數。每當應用程式收到要求時，就會執行此函數。
 
@@ -198,7 +198,7 @@ app.use(function(err, req, res, next) {
 </code>
 </pre>
 
-如需錯誤處理中介軟體的詳細資料，請參閱：[錯誤處理](/{{ page.lang }}/guide/error-handling.html)。
+如需錯誤處理中介軟體的詳細資料，請參閱：[錯誤處理](/expressjs.com/{{ page.lang }}/guide/error-handling.html)。
 
 <h2 id='middleware.built-in'>內建中介軟體</h2>
 

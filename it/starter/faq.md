@@ -79,7 +79,7 @@ app.use(function(err, req, res, next) {
 </code>
 </pre>
 
-Per ulteriori informazioni, consultare [Gestione degli errori](/{{ page.lang }}/guide/error-handling.html).
+Per ulteriori informazioni, consultare [Gestione degli errori](/expressjs.com/{{ page.lang }}/guide/error-handling.html).
 
 ## In che modo è possibile eseguire il rendering dell'HTML normale?
 

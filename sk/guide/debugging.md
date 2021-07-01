@@ -34,7 +34,7 @@ Na Windows-e použite nasledujúci príkaz.
 </code>
 </pre>
 
-Spustením tohto príkazu v prípade defaultnej aplikácie vygenerovanej pomocou [express generátora](/{{ page.lang }}/starter/generator.html) vypíše nasledujúci výstup:
+Spustením tohto príkazu v prípade defaultnej aplikácie vygenerovanej pomocou [express generátora](/expressjs.com/{{ page.lang }}/starter/generator.html) vypíše nasledujúci výstup:
 
 <pre>
 <code class="language-sh" translate="no">

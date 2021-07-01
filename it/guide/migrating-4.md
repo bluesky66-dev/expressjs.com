@@ -126,7 +126,7 @@ funzioni utili per organizzare le route:
 
 Il nuovo metodo `app.route()` consente di creare handler di route a catena
 per un percorso route. Poiché il percorso è specificato in una singola ubicazione, la creazione di route modulari è utile, poiché riduce le possibilità di riscontrare errori tipografici e di ridondanza. Per ulteriori informazioni
-sulle route, consultare la documentazione [`Router()`](/{{ page.lang }}/4x/api.html#router).
+sulle route, consultare la documentazione [`Router()`](/expressjs.com/{{ page.lang }}/4x/api.html#router).
 
 Segue un esempio di handler di route a catena definiti utilizzando la funzione `app.route()`.
 

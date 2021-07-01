@@ -7,7 +7,7 @@ lang: es
 
 # Express detrás de proxies
 
-Cuando ejecute una aplicación Express detrás de un proxy, establezca (utilizando [app.set()](/{{ page.lang }}/4x/api.html#app.set)) la variable de aplicación `trust proxy` en uno de los valores de la siguiente tabla.
+Cuando ejecute una aplicación Express detrás de un proxy, establezca (utilizando [app.set()](/expressjs.com/{{ page.lang }}/4x/api.html#app.set)) la variable de aplicación `trust proxy` en uno de los valores de la siguiente tabla.
 
 <div class="doc-box doc-info" markdown="1">
 Aunque la aplicación no dejará de ejecutarse si no se establece la variable de aplicación `trust proxy`, registrará incorrectamente la dirección IP del proxy como la dirección IP del cliente, a menos que se configure `trust proxy`.
@@ -69,11 +69,11 @@ Implementación de confianza personalizada. Utilícela sólo si sabe lo que est�
 Si establece un valor de `trust proxy` distinto de `false`, se producen tres cambios importantes:
 
 <ul>
-  <li markdown="1">El valor de [req.hostname](/{{ page.lang }}/api.html#req.hostname) se obtiene del valor definido en la cabecera `X-Forwarded-Host`, que puede estar establecido por el cliente o el proxy.
+  <li markdown="1">El valor de [req.hostname](/expressjs.com/{{ page.lang }}/api.html#req.hostname) se obtiene del valor definido en la cabecera `X-Forwarded-Host`, que puede estar establecido por el cliente o el proxy.
   </li>
-  <li markdown="1">El proxy inverso puede establecer `X-Forwarded-Proto` para indicar a la aplicación si es `https`, `http` o incluso un nombre no válido. [req.protocol](/{{ page.lang }}/api.html#req.protocol) refleja este valor.
+  <li markdown="1">El proxy inverso puede establecer `X-Forwarded-Proto` para indicar a la aplicación si es `https`, `http` o incluso un nombre no válido. [req.protocol](/expressjs.com/{{ page.lang }}/api.html#req.protocol) refleja este valor.
   </li>
-  <li markdown="1">Los valores [req.ip](/{{ page.lang }}/api.html#req.ip) y [req.ips](/{{ page.lang }}/api.html#req.ips) se rellenan con la lista de direcciones de `X-Forwarded-For`.
+  <li markdown="1">Los valores [req.ip](/expressjs.com/{{ page.lang }}/api.html#req.ip) y [req.ips](/expressjs.com/{{ page.lang }}/api.html#req.ips) se rellenan con la lista de direcciones de `X-Forwarded-For`.
   </li>
 </ul>
 

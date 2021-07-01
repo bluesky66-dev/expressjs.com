@@ -58,4 +58,4 @@ app.get('/', function (req, res) {
 
 홈 페이지에 대한 요청을 실행할 때, `index.pug` 파일은 HTML 형식으로 렌더링됩니다.
 
-Express에서 템플리트 엔진이 작동하는 방식에 대한 자세한 내용을 확인하려면 ["Express용 템플리트 엔진 개발"](/{{ page.lang }}/advanced/developing-template-engines.html)을 참조하십시오.
+Express에서 템플리트 엔진이 작동하는 방식에 대한 자세한 내용을 확인하려면 ["Express용 템플리트 엔진 개발"](/expressjs.com/{{ page.lang }}/advanced/developing-template-engines.html)을 참조하십시오.

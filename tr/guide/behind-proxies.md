@@ -7,7 +7,7 @@ redirect_from: "/guide/behind-proxies.html"
 ---
 # Proxy arkasında Express
 
-Bir proxy'nin arkasında bir Express uygulaması koşulduğunda, ([app.set()](/{{ page.lang }}/4x/api.html#app.set) kullanarak) `trust proxy` uygulama değişkenine aşağıdaki tabloda listelenen değerlerden birini verin.
+Bir proxy'nin arkasında bir Express uygulaması koşulduğunda, ([app.set()](/expressjs.com/{{ page.lang }}/4x/api.html#app.set) kullanarak) `trust proxy` uygulama değişkenine aşağıdaki tabloda listelenen değerlerden birini verin.
 
 <div class="doc-box doc-info" markdown="1">
 `trust proxy` uygulama değişkeni ayarlanmadığında uygulama başarısız olmayacağına rağmen, `trust proxy` ayarlanmadıkça istemci IP adresini proxy IP adresiyle hatalı olarak kaydedecektir.
@@ -72,11 +72,11 @@ app.set('trust proxy', function (ip) {
 `trust proxy` ayarını etkinleştirmenin etkileri aşağıdaki gibidir:
 
 <ul>
-  <li markdown="1">[req.hostname](/{{ page.lang }}/api.html#req.hostname) alanının değeri, istemci veya proxy tarafından ayarlanabilen `X-Forwarded-Host` başlığındaki değerler kümesinden alınacak.
+  <li markdown="1">[req.hostname](/expressjs.com/{{ page.lang }}/api.html#req.hostname) alanının değeri, istemci veya proxy tarafından ayarlanabilen `X-Forwarded-Host` başlığındaki değerler kümesinden alınacak.
   </li>
-  <li markdown="1">`X-Forwarded-Proto` değeri; `https`, `http` veya geçersiz bir ad olduğunu uygulamaya belirtmesi için ters proxy tarafından ayarlanabilir. Bu değer, [req.protocol](/{{ page.lang }}/api.html#req.protocol) tarafından yansıtılır.
+  <li markdown="1">`X-Forwarded-Proto` değeri; `https`, `http` veya geçersiz bir ad olduğunu uygulamaya belirtmesi için ters proxy tarafından ayarlanabilir. Bu değer, [req.protocol](/expressjs.com/{{ page.lang }}/api.html#req.protocol) tarafından yansıtılır.
   </li>
-  <li markdown="1">[req.ip](/{{ page.lang }}/api.html#req.ip) ve [req.ips](/{{ page.lang }}/api.html#req.ips) alanlarının değerleri, `X-Forwarded-For` başlığındaki adres listesi ile doldurulur.
+  <li markdown="1">[req.ip](/expressjs.com/{{ page.lang }}/api.html#req.ip) ve [req.ips](/expressjs.com/{{ page.lang }}/api.html#req.ips) alanlarının değerleri, `X-Forwarded-For` başlığındaki adres listesi ile doldurulur.
   </li>
 </ul>
 

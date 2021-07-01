@@ -26,7 +26,7 @@ app.METHOD(PATH, HANDLER)
 - `HANDLER` 是當路由相符時要執行的函數。
 
 <div class="doc-box doc-notice" markdown="1">
-這項指導教學假設已建立名稱為 `app` 的 `express` 實例，且伺服器正在執行。如果您不熟悉如何建立和啟動應用程式，請參閱 [Hello world 範例](/{{ page.lang }}/starter/hello-world.html)。
+這項指導教學假設已建立名稱為 `app` 的 `express` 實例，且伺服器正在執行。如果您不熟悉如何建立和啟動應用程式，請參閱 [Hello world 範例](/expressjs.com/{{ page.lang }}/starter/hello-world.html)。
 </div>
 
 下列範例說明如何定義簡單的路由。
@@ -71,4 +71,4 @@ app.delete('/user', function (req, res) {
 </code>
 </pre>
 
-如需路由的詳細資料，請參閱[路由手冊](/{{ page.lang }}/guide/routing.html)。
+如需路由的詳細資料，請參閱[路由手冊](/expressjs.com/{{ page.lang }}/guide/routing.html)。

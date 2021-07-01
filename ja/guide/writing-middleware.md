@@ -9,7 +9,7 @@ lang: ja
 
 <h2>概説</h2>
 
-*ミドルウェア* 関数は、[リクエストオブジェクト](/{{ page.lang }}/4x/api.html#req) (`req`)、[レスポンスオブジェクト](/{{ page.lang }}/4x/api.html#res) (`res`)、およびアプリケーションのリクエストレスポンスサイクルにおける次のミドルウェア関数に対するアクセス権限を持つ関数です。次のミドルウェア関数は一般的に、`next` という変数で表されます。
+*ミドルウェア* 関数は、[リクエストオブジェクト](/expressjs.com/{{ page.lang }}/4x/api.html#req) (`req`)、[レスポンスオブジェクト](/expressjs.com/{{ page.lang }}/4x/api.html#res) (`res`)、およびアプリケーションのリクエストレスポンスサイクルにおける次のミドルウェア関数に対するアクセス権限を持つ関数です。次のミドルウェア関数は一般的に、`next` という変数で表されます。
 
 ミドルウェア関数は以下のタスクを実行できます。
 
@@ -24,7 +24,7 @@ lang: ja
 
 <table id="mw-fig">
 <tr><td id="mw-fig-imgcell">
-<img src="/images/express-mw.png" id="mw-fig-img" />
+<img src="/expressjs.com/images/express-mw.png" id="mw-fig-img" />
 </td>
 <td class="mw-fig-callouts">
 <div class="callout" id="callout1">ミドルウェア関数が適用される HTTP メソッド。</div>
@@ -139,7 +139,7 @@ app.listen(3000)
 
 リクエストオブジェクト、レスポンスオブジェクト、スタック内の次のミドルウェア関数、および Node.js API を利用できるため、ミドルウェア関数が持つ可能性は無限です。
 
-Express ミドルウェアについて詳しくは、[Express ミドルウェアの使用](/{{ page.lang }}/guide/using-middleware.html)を参照してください。
+Express ミドルウェアについて詳しくは、[Express ミドルウェアの使用](/expressjs.com/{{ page.lang }}/guide/using-middleware.html)を参照してください。
 
 <h2>設定可能なミドルウェア</h2>
 

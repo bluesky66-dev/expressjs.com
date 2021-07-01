@@ -26,7 +26,7 @@ app.METHOD(PATH, HANDLER)
 - `HANDLER`는 라우트가 일치할 때 실행되는 함수입니다.
 
 <div class="doc-box doc-notice" markdown="1">
-이 학습서에서는 `app`이라는 이름의 `express` 인스턴스가 작성되며 서버가 실행 중인 것으로 가정합니다. 앱의 작성 및 시작에 익숙하지 않은 경우에는 [Hello world 예제](/{{ page.lang }}/starter/hello-world.html)를 참조하십시오.
+이 학습서에서는 `app`이라는 이름의 `express` 인스턴스가 작성되며 서버가 실행 중인 것으로 가정합니다. 앱의 작성 및 시작에 익숙하지 않은 경우에는 [Hello world 예제](/expressjs.com/{{ page.lang }}/starter/hello-world.html)를 참조하십시오.
 </div>
 
 다음 예에서는 간단한 라우트의 정의를 설명합니다.
@@ -71,4 +71,4 @@ app.delete('/user', function (req, res) {
 </code>
 </pre>
 
-라우팅에 대한 자세한 내용을 확인하려면 [라우팅 안내서](/{{ page.lang }}/guide/routing.html)를 참조하십시오.
+라우팅에 대한 자세한 내용을 확인하려면 [라우팅 안내서](/expressjs.com/{{ page.lang }}/guide/routing.html)를 참조하십시오.

@@ -17,9 +17,9 @@ In questo articolo vengono descritte alcune best practice sulla sicurezza per le
 
 ## Non utilizzare versioni obsolete o vulnerabili di Express
 
-Express 2.x e 3.x non sono più supportati. I problemi relativi alla sicurezza e alle prestazioni in queste versioni non verranno risolti. Non utilizzare queste versioni!  Se non è stato effettuato l'aggiornamento alla versione 4, consultare la [guida alla migrazione](/{{ page.lang }}/guide/migrating-4.html).
+Express 2.x e 3.x non sono più supportati. I problemi relativi alla sicurezza e alle prestazioni in queste versioni non verranno risolti. Non utilizzare queste versioni!  Se non è stato effettuato l'aggiornamento alla versione 4, consultare la [guida alla migrazione](/expressjs.com/{{ page.lang }}/guide/migrating-4.html).
 
-Inoltre, assicurarsi che non si stia utilizzando nessuna delle versioni vulnerabili di Express elencate nella [pagina Aggiornamenti sulla sicurezza](/{{ page.lang }}/advanced/security-updates.html). Nel caso si stia utilizzando una di queste versioni, effettuare l'aggiornamento a una versione aggiornata, preferibilmente l'ultima.
+Inoltre, assicurarsi che non si stia utilizzando nessuna delle versioni vulnerabili di Express elencate nella [pagina Aggiornamenti sulla sicurezza](/expressjs.com/{{ page.lang }}/advanced/security-updates.html). Nel caso si stia utilizzando una di queste versioni, effettuare l'aggiornamento a una versione aggiornata, preferibilmente l'ultima.
 
 ## Utilizzare TLS
 

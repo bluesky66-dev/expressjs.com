@@ -30,11 +30,11 @@ aplicativos do Express implementadas na produção.
 
 Os Express 2.x e 3.x não são mais mantidos. Problemas de
 segurança e desempenho nestas versões não serão corrigidos. Não use-as!  Se
-não tiver migrado para a versão 4, siga o [guia de migração](/{{ page.lang }}/guide/migrating-4.html).
+não tiver migrado para a versão 4, siga o [guia de migração](/expressjs.com/{{ page.lang }}/guide/migrating-4.html).
 
 Assegure-se também de que não esteja usando nenhuma das versões
 vulneráveis do Express listadas na [Página de
-atualizações de segurança](/{{ page.lang }}/advanced/security-updates.html). Se estiver, atualize para uma das
+atualizações de segurança](/expressjs.com/{{ page.lang }}/advanced/security-updates.html). Se estiver, atualize para uma das
 liberações estáveis, preferivelmente a mais recente.
 
 ## Use TLS

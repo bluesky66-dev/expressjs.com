@@ -10,8 +10,8 @@ lang: pt-br
 <h2>Visão Geral</h2>
 
 Funções de *Middleware* são funções que tem acesso
-ao [objeto de solicitação](/{{ page.lang }}/4x/api.html#req)
-(`req`), o [objeto de resposta](/{{ page.lang }}/4x/api.html#res)
+ao [objeto de solicitação](/expressjs.com/{{ page.lang }}/4x/api.html#req)
+(`req`), o [objeto de resposta](/expressjs.com/{{ page.lang }}/4x/api.html#res)
 (`res`), e a próxima função de middleware no ciclo
 solicitação-resposta do aplicativo. A próxima função middleware é
 comumente denotada por uma variável chamada `next`.
@@ -32,7 +32,7 @@ O exemplo a seguir mostra os elementos de uma chamada de função de middleware:
 
 <table id="mw-fig"> 
 <tr><td id="mw-fig-imgcell">
-<img src="/images/express-mw.png" id="mw-fig-img" />
+<img src="/expressjs.com/images/express-mw.png" id="mw-fig-img" />
 </td>
 <td class="mw-fig-callouts">
 <div class="callout" id="callout1">O método HTTP para o qual a função de middleware é aplicada.</div>
@@ -176,4 +176,4 @@ Node.js, as possibilidades com as funções de middleware são ilimitadas.
 
 Para obter mais informações sobre middlewares no Express,
 consulte: [Usando
-middlewares no Express](/{{ page.lang }}/guide/using-middleware.html).
+middlewares no Express](/expressjs.com/{{ page.lang }}/guide/using-middleware.html).

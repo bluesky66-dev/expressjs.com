@@ -83,7 +83,7 @@ Express 5 は、`app.del()` 関数をサポートしなくなりました。こ�
 
 `app.param(name, fn)` 関数の name の先頭コロン文字 (:) は、Express 3 の残余物であり、Express 4 では後方互換性のためにサポートされていましたが、非推奨の通知が出されてました。Express 5 では、サイレントに無視して、先頭にコロンを付けない name パラメーターを使用します。
 
-[app.param](/{{ page.lang }}/4x/api.html#app.param) に関する Express 4 の資料では、先頭のコロンについて言及していないため、この資料に従う場合には、コードに影響は及ばないはずです。
+[app.param](/expressjs.com/{{ page.lang }}/4x/api.html#app.param) に関する Express 4 の資料では、先頭のコロンについて言及していないため、この資料に従う場合には、コードに影響は及ばないはずです。
 
 <h4 id="req.param">req.param(name)</h4>
 

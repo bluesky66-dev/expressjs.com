@@ -13,7 +13,7 @@ Interfaz de programación de aplicaciones.  Explique la abreviatura la primera v
 
 ### aplicación
 
-En general, uno o varios programas diseñados para realizar operaciones para un determinado propósito.  En el contexto de Express, un programa que utiliza la API de Express que se ejecuta en la plataforma Node.js.  También puede hacer referencia a un [objeto de aplicación](/{{ page.lang }}/api.html#express).
+En general, uno o varios programas diseñados para realizar operaciones para un determinado propósito.  En el contexto de Express, un programa que utiliza la API de Express que se ejecuta en la plataforma Node.js.  También puede hacer referencia a un [objeto de aplicación](/expressjs.com/{{ page.lang }}/api.html#express).
 
 ### código abierto
 
@@ -21,7 +21,7 @@ Consulte [Open source software en la Wikipedia](http://en.wikipedia.org/wiki/Ope
 
 ### direccionador
 
-Consulte [direccionador](/{{ page.lang }}/4x/api.html#router) en la referencia de API.
+Consulte [direccionador](/expressjs.com/{{ page.lang }}/4x/api.html#router) en la referencia de API.
 
 ### Express
 

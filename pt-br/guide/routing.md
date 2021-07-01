@@ -11,7 +11,7 @@ O *Roteamento* refere-se à definição de terminais
 do aplicativo (URIs) e como eles respondem  às solicitações do
 cliente.
 Para obter uma introdução a roteamento, consulte
-[Roteamento básico](/{{ page.lang }}/starter/basic-routing.html).
+[Roteamento básico](/expressjs.com/{{ page.lang }}/starter/basic-routing.html).
 
 O código a seguir é um exemplo de uma rota muito básica.
 
@@ -205,7 +205,7 @@ app.get(/.*fly$/, function(req, res) {
 <h2 id="route-handlers">Manipuladores de rota</h2>
 
 É possível fornecer várias funções de retorno de chamada
-que se comportam como [middleware](/{{ page.lang }}/guide/using-middleware.html) para
+que se comportam como [middleware](/expressjs.com/{{ page.lang }}/guide/using-middleware.html) para
 manipular uma solicitação. A única exceção é que estes retornos de
 chamada podem chamar `next('route')` para efetuar um
 bypass nos retornos de chamada da rota restantes. É possível usar
@@ -298,20 +298,20 @@ deixada em suspenso.
 
 | Método               | Descrição
 |----------------------|--------------------------------------
-| [res.download()](/{{ page.lang }}/4x/api.html#res.download)   | Solicita que seja efetuado o download de um arquivo
-| [res.end()](/{{ page.lang }}/4x/api.html#res.end)        | Termina o processo de resposta.
-| [res.json()](/{{ page.lang }}/4x/api.html#res.json)       | Envia uma resposta JSON.
-| [res.jsonp()](/{{ page.lang }}/4x/api.html#res.jsonp)      | Envia uma resposta JSON com suporta ao JSONP.
-| [res.redirect()](/{{ page.lang }}/4x/api.html#res.redirect)   | Redireciona uma solicitação.
-| [res.render()](/{{ page.lang }}/4x/api.html#res.render)     | Renderiza um modelo de visualização.
-| [res.send()](/{{ page.lang }}/4x/api.html#res.send)       | Envia uma resposta de vários tipos.
-| [res.sendFile](/{{ page.lang }}/4x/api.html#res.sendFile)     | Envia um arquivo como um fluxo de octeto.
-| [res.sendStatus()](/{{ page.lang }}/4x/api.html#res.sendStatus) | Configura o código do status de resposta e envia a sua representação em sequência de caracteres como o corpo de resposta.
+| [res.download()](/expressjs.com/{{ page.lang }}/4x/api.html#res.download)   | Solicita que seja efetuado o download de um arquivo
+| [res.end()](/expressjs.com/{{ page.lang }}/4x/api.html#res.end)        | Termina o processo de resposta.
+| [res.json()](/expressjs.com/{{ page.lang }}/4x/api.html#res.json)       | Envia uma resposta JSON.
+| [res.jsonp()](/expressjs.com/{{ page.lang }}/4x/api.html#res.jsonp)      | Envia uma resposta JSON com suporta ao JSONP.
+| [res.redirect()](/expressjs.com/{{ page.lang }}/4x/api.html#res.redirect)   | Redireciona uma solicitação.
+| [res.render()](/expressjs.com/{{ page.lang }}/4x/api.html#res.render)     | Renderiza um modelo de visualização.
+| [res.send()](/expressjs.com/{{ page.lang }}/4x/api.html#res.send)       | Envia uma resposta de vários tipos.
+| [res.sendFile](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendFile)     | Envia um arquivo como um fluxo de octeto.
+| [res.sendStatus()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendStatus) | Configura o código do status de resposta e envia a sua representação em sequência de caracteres como o corpo de resposta.
 
 <h2 id="app-route">app.route()</h2>
 
 É possível criar manipuladores de rota encadeáveis para um caminho de rota usando o `app.route()`.
-Como o caminho é especificado em uma localização única, criar rotas modulares é útil, já que reduz redundâncias e erros tipográficos. Para obter mais informações sobre rotas, consulte: [documentação do Router()](/{{ page.lang }}/4x/api.html#router).
+Como o caminho é especificado em uma localização única, criar rotas modulares é útil, já que reduz redundâncias e erros tipográficos. Para obter mais informações sobre rotas, consulte: [documentação do Router()](/expressjs.com/{{ page.lang }}/4x/api.html#router).
 
 Aqui está um exemplo de manipuladores de rotas encadeáveis que são definidos usando `app.route()`.
 

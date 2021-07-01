@@ -78,4 +78,4 @@ app.get('/', function (req, res) {
 Ao fazer uma solicitação à página inicial, o arquivo `index.pug` será renderizado como HTML.
 
 Para aprender mais sobre como mecanismos de modelo funcionam no
-Express, consulte: ["Desenvolvendo mecanismos de para o Express"](/{{ page.lang }}/advanced/developing-template-engines.html).
+Express, consulte: ["Desenvolvendo mecanismos de para o Express"](/expressjs.com/{{ page.lang }}/advanced/developing-template-engines.html).

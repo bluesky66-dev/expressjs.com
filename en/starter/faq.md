@@ -81,7 +81,7 @@ app.use(function (err, req, res, next) {
 })
 ```
 
-For more information, see [Error handling](/{{ page.lang }}/guide/error-handling.html).
+For more information, see [Error handling](/expressjs.com/{{ page.lang }}/guide/error-handling.html).
 
 ## How do I render plain HTML?
 
@@ -90,4 +90,4 @@ If you have a specific file, use the `res.sendFile()` function.
 If you are serving many assets from a directory, use the `express.static()`
 middleware function.
 
-###  [Previous: More examples ](/{{ page.lang }}/starter/examples.html)
+###  [Previous: More examples ](/expressjs.com/{{ page.lang }}/starter/examples.html)

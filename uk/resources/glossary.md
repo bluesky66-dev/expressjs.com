@@ -9,7 +9,7 @@ lang: uk
 
 ### застосунок
 
-In general, one or more programs that are designed to carry out operations for a specific purpose.  In the context of Express, a program that uses the Express API running on the Node.js platform.  Might also refer to an [app object](/{{ page.lang }}/api.html#express).
+In general, one or more programs that are designed to carry out operations for a specific purpose.  In the context of Express, a program that uses the Express API running on the Node.js platform.  Might also refer to an [app object](/expressjs.com/{{ page.lang }}/api.html#express).
 
 ### API
 
@@ -53,4 +53,4 @@ Part of a URL that identifies a resource.  For example, in `http://foo.com/produ
 
 ### router
 
-See [router](/{{ page.lang }}/api.html#router) in the API reference.
+See [router](/expressjs.com/{{ page.lang }}/api.html#router) in the API reference.

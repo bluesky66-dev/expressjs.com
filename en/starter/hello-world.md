@@ -9,7 +9,7 @@ redirect_from: "/starter/hello-world.html"
 # Hello world example
 
 <div class="doc-box doc-info" markdown="1">
-Embedded below is essentially the simplest Express app you can create. It is a single file app &mdash; _not_ what you'd get if you use the [Express generator](/{{ page.lang }}/starter/generator.html), which creates the scaffolding for a full app with numerous JavaScript files, Jade templates, and sub-directories for various purposes.
+Embedded below is essentially the simplest Express app you can create. It is a single file app &mdash; _not_ what you'd get if you use the [Express generator](/expressjs.com/{{ page.lang }}/starter/generator.html), which creates the scaffolding for a full app with numerous JavaScript files, Jade templates, and sub-directories for various purposes.
 </div>
 
 <script src="https://embed.runkit.com" data-element-id="hello-example" data-mode="endpoint" async defer></script>
@@ -39,7 +39,7 @@ RunKit is a third-party service not affiliated with the Express project.
 
 ### Running Locally
 
-First create a directory named `myapp`, change to it and run `npm init`. Then install `express` as a dependency, as per the [installation guide](/{{ page.lang }}/starter/installing.html).
+First create a directory named `myapp`, change to it and run `npm init`. Then install `express` as a dependency, as per the [installation guide](/expressjs.com/{{ page.lang }}/starter/installing.html).
 
 In the `myapp` directory, create a file named `app.js` and copy in the code from the example above.
 
@@ -56,4 +56,4 @@ $ node app.js
 
 Then, load `http://localhost:3000/` in a browser to see the output.
 
-###  [Previous: Installing ](/{{ page.lang }}/starter/installing.html)&nbsp;&nbsp;&nbsp;&nbsp;[Next: Express Generator ](/{{ page.lang }}/starter/generator.html)
+###  [Previous: Installing ](/expressjs.com/{{ page.lang }}/starter/installing.html)&nbsp;&nbsp;&nbsp;&nbsp;[Next: Express Generator ](/expressjs.com/{{ page.lang }}/starter/generator.html)

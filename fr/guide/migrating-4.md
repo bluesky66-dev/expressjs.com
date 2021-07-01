@@ -122,7 +122,7 @@ pour vous aider à organiser vos routes :
 
 <h4 id="app-route">méthode <code>app.route()</code></h4>
 
-La nouvelle méthode `app.route()` vous permet de créer des gestionnaires de routage sous forme de chaîne pour un chemin de routage. Etant donné que le chemin est spécifié à une seul emplacement, la création de routes modulaires est utile car elle réduit la redondance et les erreurs. Pour plus d'informations sur les routes, voir la [documentation `Router()`](/{{ page.lang }}/4x/api.html#router).
+La nouvelle méthode `app.route()` vous permet de créer des gestionnaires de routage sous forme de chaîne pour un chemin de routage. Etant donné que le chemin est spécifié à une seul emplacement, la création de routes modulaires est utile car elle réduit la redondance et les erreurs. Pour plus d'informations sur les routes, voir la [documentation `Router()`](/expressjs.com/{{ page.lang }}/4x/api.html#router).
 
 Voici quelques exemples de gestionnaires de chemin de chaînage définis à l'aide de la fonction `app.route()`.
 

@@ -63,7 +63,7 @@ app.use(function(err, req, res, next) {
 </code>
 </pre>
 
-Para obtener más información, consulte [Manejo de errores](/{{ page.lang }}/guide/error-handling.html).
+Para obtener más información, consulte [Manejo de errores](/expressjs.com/{{ page.lang }}/guide/error-handling.html).
 
 ## ¿Cómo represento el HTML sin formato?
 

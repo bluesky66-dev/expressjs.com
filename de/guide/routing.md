@@ -7,7 +7,7 @@ lang: de
 
 # Weiterleitung (Routing)
 
-Der Begriff *Weiterleitung* (Routing) bezieht sich auf die Definition von Anwendungsendpunkten (URIs) und deren Antworten auf Clientanforderungen. Eine Einführung in dieses Routing siehe [Basisrouting](/{{ page.lang }}/starter/basic-routing.html).
+Der Begriff *Weiterleitung* (Routing) bezieht sich auf die Definition von Anwendungsendpunkten (URIs) und deren Antworten auf Clientanforderungen. Eine Einführung in dieses Routing siehe [Basisrouting](/expressjs.com/{{ page.lang }}/starter/basic-routing.html).
 
 Der folgende Code ist ein Beispiel für ein sehr einfaches Basisrouting.
 
@@ -176,7 +176,7 @@ app.get(/.*fly$/, function(req, res) {
 
 <h2 id="route-handlers">Routenhandler (Weiterleitungsroutinen)</h2>
 
-Sie können mehrere Callback-Funktionen angeben, die sich wie [Middleware](/{{ page.lang }}/guide/using-middleware.html) verhalten, um eine Anforderung zu verarbeiten. Die einzige Ausnahme hierbei ist, dass diese Callbacks möglicherweise `next('route')` aufrufen, um die verbleibenden Weiterleitungs-Callbacks zu umgehen. Mit diesem Verfahren können Sie Vorabbedingungen für eine Weiterleitung festlegen und dann die Steuerung an nachfolgende Weiterleitungen übergeben, wenn kein Grund vorliegt, mit der aktuellen Weiterleitung fortzufahren.
+Sie können mehrere Callback-Funktionen angeben, die sich wie [Middleware](/expressjs.com/{{ page.lang }}/guide/using-middleware.html) verhalten, um eine Anforderung zu verarbeiten. Die einzige Ausnahme hierbei ist, dass diese Callbacks möglicherweise `next('route')` aufrufen, um die verbleibenden Weiterleitungs-Callbacks zu umgehen. Mit diesem Verfahren können Sie Vorabbedingungen für eine Weiterleitung festlegen und dann die Steuerung an nachfolgende Weiterleitungen übergeben, wenn kein Grund vorliegt, mit der aktuellen Weiterleitung fortzufahren.
 
 Routenhandler können eine Funktion und/oder ein Funktionsarray sein, wie in den folgenden Beispielen zu sehen ist.
 
@@ -254,19 +254,19 @@ app.get('/example/d', [cb0, cb1], function (req, res, next) {
 
 | Methode               | Beschreibung
 |----------------------|--------------------------------------
-| [res.download()](/{{ page.lang }}/4x/api.html#res.download)   | Gibt eine Eingabeaufforderung zum Herunterladen einer Datei aus.
-| [res.end()](/{{ page.lang }}/4x/api.html#res.end)        | Beendet den Prozess "Antwort".
-| [res.json()](/{{ page.lang }}/4x/api.html#res.json)       | Sendet eine JSON-Antwort.
-| [res.jsonp()](/{{ page.lang }}/4x/api.html#res.jsonp)      | Sendet eine JSON-Antwort mit JSONP-Unterstützung.
-| [res.redirect()](/{{ page.lang }}/4x/api.html#res.redirect)   | Leitet eine Anforderung um.
-| [res.render()](/{{ page.lang }}/4x/api.html#res.render)     | Gibt eine Anzeigevorlage aus.
-| [res.send()](/{{ page.lang }}/4x/api.html#res.send)       | Sendet eine Antwort mit unterschiedlichen Typen.
-| [res.sendFile](/{{ page.lang }}/4x/api.html#res.sendFile)     | Sendet eine Datei als Oktett-Stream.
-| [res.sendStatus()](/{{ page.lang }}/4x/api.html#res.sendStatus) | Legt den Antwortstatuscode fest und sendet dessen Zeichenfolgedarstellung als Antworthauptteil.
+| [res.download()](/expressjs.com/{{ page.lang }}/4x/api.html#res.download)   | Gibt eine Eingabeaufforderung zum Herunterladen einer Datei aus.
+| [res.end()](/expressjs.com/{{ page.lang }}/4x/api.html#res.end)        | Beendet den Prozess "Antwort".
+| [res.json()](/expressjs.com/{{ page.lang }}/4x/api.html#res.json)       | Sendet eine JSON-Antwort.
+| [res.jsonp()](/expressjs.com/{{ page.lang }}/4x/api.html#res.jsonp)      | Sendet eine JSON-Antwort mit JSONP-Unterstützung.
+| [res.redirect()](/expressjs.com/{{ page.lang }}/4x/api.html#res.redirect)   | Leitet eine Anforderung um.
+| [res.render()](/expressjs.com/{{ page.lang }}/4x/api.html#res.render)     | Gibt eine Anzeigevorlage aus.
+| [res.send()](/expressjs.com/{{ page.lang }}/4x/api.html#res.send)       | Sendet eine Antwort mit unterschiedlichen Typen.
+| [res.sendFile](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendFile)     | Sendet eine Datei als Oktett-Stream.
+| [res.sendStatus()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendStatus) | Legt den Antwortstatuscode fest und sendet dessen Zeichenfolgedarstellung als Antworthauptteil.
 
 <h2 id="app-route">app.route()</h2>
 
-Sie können mithilfe von `app.route()` verkettbare Routenhandler für einen Weiterleitungspfad erstellen. Da der Pfad an einer einzelnen Position angegeben wird, ist das Erstellen modularer Weiterleitungen hilfreich, da Redundanzen und Schreibfehler reduziert werden. Weitere Informationen zu Weiterleitungen finden Sie in der Dokumentation zu [Router()](/{{ page.lang }}/4x/api.html#router).
+Sie können mithilfe von `app.route()` verkettbare Routenhandler für einen Weiterleitungspfad erstellen. Da der Pfad an einer einzelnen Position angegeben wird, ist das Erstellen modularer Weiterleitungen hilfreich, da Redundanzen und Schreibfehler reduziert werden. Weitere Informationen zu Weiterleitungen finden Sie in der Dokumentation zu [Router()](/expressjs.com/{{ page.lang }}/4x/api.html#router).
 
 Dies ist ein Beispiel für verkettete Routenhandler, die mit der Funktion `app.route()` definiert werden.
 

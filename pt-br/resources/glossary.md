@@ -14,7 +14,7 @@ lang: pt-br
 Em geral, um ou mais programas que são designados a executar
 operações com um propósito específico.  No contexto do Express, um
 programa que usa a API do Express executando na plataforma.  Pode
-também se referir a um [objeto app](/{{ page.lang }}/api.html#express).
+também se referir a um [objeto app](/expressjs.com/{{ page.lang }}/api.html#express).
 
 ### API
 
@@ -78,7 +78,7 @@ rota.
 
 ### roteador
 
-Consulte [roteador](/{{ page.lang }}/4x/api.html#router) na referência da API.
+Consulte [roteador](/expressjs.com/{{ page.lang }}/4x/api.html#router) na referência da API.
 
 ### solicitação
 

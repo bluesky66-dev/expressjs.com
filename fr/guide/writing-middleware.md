@@ -9,7 +9,7 @@ lang: fr
 
 <h2>Présentation</h2>
 
-Les fonctions de *middleware* sont des fonctions qui peuvent accéder à l'[objet Request](/{{ page.lang }}/4x/api.html#req)  (`req`), l'[objet response](/{{ page.lang }}/4x/api.html#res) (`res`) et à la fonction middleware suivant dans le cycle demande-réponse de l'application. La fonction middleware suivant est couramment désignée par une variable nommée `next`.
+Les fonctions de *middleware* sont des fonctions qui peuvent accéder à l'[objet Request](/expressjs.com/{{ page.lang }}/4x/api.html#req)  (`req`), l'[objet response](/expressjs.com/{{ page.lang }}/4x/api.html#res) (`res`) et à la fonction middleware suivant dans le cycle demande-réponse de l'application. La fonction middleware suivant est couramment désignée par une variable nommée `next`.
 
 Les fonctions middleware effectuent les tâches suivantes :
 
@@ -24,7 +24,7 @@ L'exemple suivant montre les éléments d'un appel de fonction middleware:
 
 <table style="padding: 0; border: 0; width: 960px; margin-bottom: 10px;">
 <tr><td style="margin: 0; padding: 0px; border: 0; width: 410px;">
-<img src="/images/express-mw.png" style="margin: 0px; padding: 0px; width: 410px; height: 308px;" />
+<img src="/expressjs.com/images/express-mw.png" style="margin: 0px; padding: 0px; width: 410px; height: 308px;" />
 </td>
 <td style="margin: 0; padding: 0 0 0 5px; border: 0; width: 550px;">
 <div class="callout" id="callout1">Méthode HTTP à laquelle la fonction middleware s'applique.</div>
@@ -167,4 +167,4 @@ Si vous effectuez une demande à la racine de l'application, cette dernière aff
 
 Puisque vous avez accès à l'objet Request, à l'objet Response, à la fonction middleware suivant dans la pile et à l'API Node.js complète, le champ des possibles avec les fonctions middleware est infini.
 
-Pour plus d'informations sur les middleware Express, voir [Utilisation de middleware Express](/{{ page.lang }}/guide/using-middleware.html).
+Pour plus d'informations sur les middleware Express, voir [Utilisation de middleware Express](/expressjs.com/{{ page.lang }}/guide/using-middleware.html).

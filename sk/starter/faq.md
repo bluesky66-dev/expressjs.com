@@ -80,7 +80,7 @@ app.use(function(err, req, res, next) {
 </code>
 </pre>
 
-Viac informácií sa dozviete v kapitole [Error handling](/{{ page.lang }}/guide/error-handling.html).
+Viac informácií sa dozviete v kapitole [Error handling](/expressjs.com/{{ page.lang }}/guide/error-handling.html).
 
 ## Ako dokážem rendrovať čisté HTML?
 

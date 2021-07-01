@@ -63,7 +63,7 @@ app.use(function(err, req, res, next) {
 </code>
 </pre>
 
-詳細については、[エラー処理](/{{ page.lang }}/guide/error-handling.html)を参照してください。
+詳細については、[エラー処理](/expressjs.com/{{ page.lang }}/guide/error-handling.html)を参照してください。
 
 ## どのようにしてプレーン HTML をレンダリングするのですか?
 

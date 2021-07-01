@@ -31,9 +31,9 @@ __"프로덕션 (production)"__ 이라는 용어는 소프트웨어 라이프사
 <a name="dont-use-deprecated-or-vulnerable-versions-of-express"></a>
 ## 더 이상 사용되지 않거나 취약성이 있는 버전의 Express를 사용 중지
 
-Express 2.x 및 3.x에 대한 유지보수는 더 이상 이루어지지 않습니다. 이러한 버전에서의 보안 및 성능 문제는 수정되지 않습니다. 이러한 버전은 사용하지 마십시오!  아직 버전 4로 이전하지 않은 경우에는 [마이그레이션 안내서](/{{ page.lang }}/guide/migrating-4.html)를 따르십시오.
+Express 2.x 및 3.x에 대한 유지보수는 더 이상 이루어지지 않습니다. 이러한 버전에서의 보안 및 성능 문제는 수정되지 않습니다. 이러한 버전은 사용하지 마십시오!  아직 버전 4로 이전하지 않은 경우에는 [마이그레이션 안내서](/expressjs.com/{{ page.lang }}/guide/migrating-4.html)를 따르십시오.
 
-또한 [보안 업데이트 페이지](/{{ page.lang }}/advanced/security-updates.html)의 목록에 포함된 취약성 있는 Express 버전을 사용하고 있지 않은지 확인하십시오. 취약성 있는 Express 버전을 사용하고 있는 경우에는 안정적인 릴리스 중 하나로 업데이트해야 하며, 가능하면 최신 버전으로 업데이트하는 것이 좋습니다.
+또한 [보안 업데이트 페이지](/expressjs.com/{{ page.lang }}/advanced/security-updates.html)의 목록에 포함된 취약성 있는 Express 버전을 사용하고 있지 않은지 확인하십시오. 취약성 있는 Express 버전을 사용하고 있는 경우에는 안정적인 릴리스 중 하나로 업데이트해야 하며, 가능하면 최신 버전으로 업데이트하는 것이 좋습니다.
 
 
 <a name="use-tls"></a>

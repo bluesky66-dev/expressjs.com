@@ -30,7 +30,7 @@ Verwenden Sie unter Windows den entsprechenden Befehl.
 </code>
 </pre>
 
-Die Ausführung dieses Befehls für die durch [express generator](/{{ page.lang }}/starter/generator.html) generierte Standardanwendung resultiert in folgender Ausgabe:
+Die Ausführung dieses Befehls für die durch [express generator](/expressjs.com/{{ page.lang }}/starter/generator.html) generierte Standardanwendung resultiert in folgender Ausgabe:
 
 <pre>
 <code class="language-sh" translate="no">

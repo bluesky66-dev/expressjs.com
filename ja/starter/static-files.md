@@ -44,7 +44,7 @@ app.use(express.static('files'));
 
 Express は、`express.static` ミドルウェア関数に静的ディレクトリーが設定された順序でファイルを検索します。
 
-`express.static` 関数によって提供されるファイルの仮想パスのプレフィックス (パスは実際にはファイル・システムに存在しません) を作成するには、次に示すように、静的ディレクトリーの[マウント・パスを指定](/{{ page.lang }}/4x/api.html#app.use)します。
+`express.static` 関数によって提供されるファイルの仮想パスのプレフィックス (パスは実際にはファイル・システムに存在しません) を作成するには、次に示すように、静的ディレクトリーの[マウント・パスを指定](/expressjs.com/{{ page.lang }}/4x/api.html#app.use)します。
 
 <pre>
 <code class="language-javascript" translate="no">

@@ -8,7 +8,7 @@ lang: ko
 # 라우팅
 
 *라우팅*은 애플리케이션 엔드 포인트(URI)의 정의, 그리고 URI가 클라이언트 요청에 응답하는 방식을 말합니다.
-라우팅에 대한 소개는 [기본 라우팅](/{{ page.lang }}/starter/basic-routing.html)을 참조하십시오.
+라우팅에 대한 소개는 [기본 라우팅](/expressjs.com/{{ page.lang }}/starter/basic-routing.html)을 참조하십시오.
 
 다음 코드는 매우 기본적인 라우트의 예입니다.
 
@@ -179,7 +179,7 @@ app.get(/.*fly$/, function(req, res) {
 
 <h2 id="route-handlers">라우트 핸들러</h2>
 
-[미들웨어](/{{ page.lang }}/guide/using-middleware.html)와 비슷하게 작동하는 여러 콜백 함수를 제공하여 요청을 처리할 수 있습니다. 유일한 차이점은 이러한 콜백은 `next('route')`를 호출하여 나머지 라우트 콜백을 우회할 수도 있다는 점입니다. 이러한 메커니즘을 이용하면 라우트에 대한 사전 조건을 지정한 후, 현재의 라우트를 계속할 이유가 없는 경우에는 제어를 후속 라우트에 전달할 수 있습니다.
+[미들웨어](/expressjs.com/{{ page.lang }}/guide/using-middleware.html)와 비슷하게 작동하는 여러 콜백 함수를 제공하여 요청을 처리할 수 있습니다. 유일한 차이점은 이러한 콜백은 `next('route')`를 호출하여 나머지 라우트 콜백을 우회할 수도 있다는 점입니다. 이러한 메커니즘을 이용하면 라우트에 대한 사전 조건을 지정한 후, 현재의 라우트를 계속할 이유가 없는 경우에는 제어를 후속 라우트에 전달할 수 있습니다.
 
 다음 예에 나타난 것과 같이, 라우트 핸들러는 함수나 함수 배열의 형태 또는 둘을 조합한 형태일 수 있습니다.
 
@@ -257,20 +257,20 @@ app.get('/example/d', [cb0, cb1], function (req, res, next) {
 
 | 메소드               | 설명
 |----------------------|--------------------------------------
-| [res.download()](/{{ page.lang }}/4x/api.html#res.download)   | 파일이 다운로드되도록 프롬프트합니다.
-| [res.end()](/{{ page.lang }}/4x/api.html#res.end)        | 응답 프로세스를 종료합니다.
-| [res.json()](/{{ page.lang }}/4x/api.html#res.json)       | JSON 응답을 전송합니다.
-| [res.jsonp()](/{{ page.lang }}/4x/api.html#res.jsonp)      | JSONP 지원을 통해 JSON 응답을 전송합니다.
-| [res.redirect()](/{{ page.lang }}/4x/api.html#res.redirect)   | 요청의 경로를 재지정합니다.
-| [res.render()](/{{ page.lang }}/4x/api.html#res.render)     | 보기 템플리트를 렌더링합니다.
-| [res.send()](/{{ page.lang }}/4x/api.html#res.send)       | 다양한 유형의 응답을 전송합니다.
-| [res.sendFile](/{{ page.lang }}/4x/api.html#res.sendFile)     | 파일을 옥텟 스트림의 형태로 전송합니다.
-| [res.sendStatus()](/{{ page.lang }}/4x/api.html#res.sendStatus) | 응답 상태 코드를 설정한 후 해당 코드를 문자열로 표현한 내용을 응답 본문으로서 전송합니다.
+| [res.download()](/expressjs.com/{{ page.lang }}/4x/api.html#res.download)   | 파일이 다운로드되도록 프롬프트합니다.
+| [res.end()](/expressjs.com/{{ page.lang }}/4x/api.html#res.end)        | 응답 프로세스를 종료합니다.
+| [res.json()](/expressjs.com/{{ page.lang }}/4x/api.html#res.json)       | JSON 응답을 전송합니다.
+| [res.jsonp()](/expressjs.com/{{ page.lang }}/4x/api.html#res.jsonp)      | JSONP 지원을 통해 JSON 응답을 전송합니다.
+| [res.redirect()](/expressjs.com/{{ page.lang }}/4x/api.html#res.redirect)   | 요청의 경로를 재지정합니다.
+| [res.render()](/expressjs.com/{{ page.lang }}/4x/api.html#res.render)     | 보기 템플리트를 렌더링합니다.
+| [res.send()](/expressjs.com/{{ page.lang }}/4x/api.html#res.send)       | 다양한 유형의 응답을 전송합니다.
+| [res.sendFile](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendFile)     | 파일을 옥텟 스트림의 형태로 전송합니다.
+| [res.sendStatus()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendStatus) | 응답 상태 코드를 설정한 후 해당 코드를 문자열로 표현한 내용을 응답 본문으로서 전송합니다.
 
 <h2 id="app-route">app.route()</h2>
 
 `app.route()`를 이용하면 라우트 경로에 대하여 체인 가능한 라우트 핸들러를 작성할 수 있습니다.
-경로는 한 곳에 지정되어 있으므로, 모듈식 라우트를 작성하면 중복성과 오타가 감소하여 도움이 됩니다. 라우트에 대한 자세한 정보는 [Router() 문서](/{{ page.lang }}/4x/api.html#router)를 참조하십시오.
+경로는 한 곳에 지정되어 있으므로, 모듈식 라우트를 작성하면 중복성과 오타가 감소하여 도움이 됩니다. 라우트에 대한 자세한 정보는 [Router() 문서](/expressjs.com/{{ page.lang }}/4x/api.html#router)를 참조하십시오.
 
 `app.route()`를 사용하여 정의된 체인 라우트 핸들러의 예는 다음과 같습니다.
 

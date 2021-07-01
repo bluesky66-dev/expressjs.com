@@ -43,7 +43,7 @@ app.use(express.static('files'));
 
 Express sucht in der Reihenfolge nach den Dateien, in der sie die Verzeichnisse mit den statischen Assets über die Middlewarefunktion `express.static` festgelegt haben.
 
-Wenn Sie ein Präfix für einen virtuellen Pfad (in dem der Pfad nicht wirklich im Dateisystem existiert) für Dateien festlegen wollen, die über die Funktion `express.static` bereitgestellt werden, [müssen Sie einen Mountpfad](/{{ page.lang }}/4x/api.html#app.use) für das Verzeichnis mit den statischen Assets wie unten gezeigt angeben:
+Wenn Sie ein Präfix für einen virtuellen Pfad (in dem der Pfad nicht wirklich im Dateisystem existiert) für Dateien festlegen wollen, die über die Funktion `express.static` bereitgestellt werden, [müssen Sie einen Mountpfad](/expressjs.com/{{ page.lang }}/4x/api.html#app.use) für das Verzeichnis mit den statischen Assets wie unten gezeigt angeben:
 
 <pre>
 <code class="language-javascript" translate="no">

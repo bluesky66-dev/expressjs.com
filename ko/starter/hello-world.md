@@ -8,10 +8,10 @@ lang: ko
 # Hello world 예제
 
 <div class="doc-box doc-info" markdown="1">
-기본적으로 이 앱은 여러분이 작성할 수 있는 가장 간단한 Express 앱일 것입니다. 이 앱은 하나의 파일로 된 앱이며 [Express 생성기](/{{ page.lang }}/starter/generator.html)를 통해 얻게 되는 앱과는 같지 *않습니다*. (이 예제와 달리 Express 생성기를 통해 얻게 되는 앱은 다양한 목적을 위한 여러 JavaScript 파일, Jade 템플리트 및 하위 디렉토리를 포함하는 전체 앱에 대한 스캐폴딩을 작성합니다.)
+기본적으로 이 앱은 여러분이 작성할 수 있는 가장 간단한 Express 앱일 것입니다. 이 앱은 하나의 파일로 된 앱이며 [Express 생성기](/expressjs.com/{{ page.lang }}/starter/generator.html)를 통해 얻게 되는 앱과는 같지 *않습니다*. (이 예제와 달리 Express 생성기를 통해 얻게 되는 앱은 다양한 목적을 위한 여러 JavaScript 파일, Jade 템플리트 및 하위 디렉토리를 포함하는 전체 앱에 대한 스캐폴딩을 작성합니다.)
 </div>
 
-먼저, `myapp`이라는 이름의 디렉토리를 작성한 후 이 디렉토리로 이동하여 `npm init`를 실행하십시오. 이후 [설치 안내서](/{{ page.lang }}/starter/installing.html)에 따라 `express`를 종속 항목으로서 설치하십시오.
+먼저, `myapp`이라는 이름의 디렉토리를 작성한 후 이 디렉토리로 이동하여 `npm init`를 실행하십시오. 이후 [설치 안내서](/expressjs.com/{{ page.lang }}/starter/installing.html)에 따라 `express`를 종속 항목으로서 설치하십시오.
 
 `myapp` 디렉토리에 `app.js`라는 이름의 파일을 작성한 후 다음과 같은 코드를 추가하십시오.
 

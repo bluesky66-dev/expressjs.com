@@ -119,7 +119,7 @@ silenciosamente ignorá-lo e usar o nome do parâmetro sem prefixá-lo
 com os dois pontos.
 
 Isso não deve afetar o seu código se você seguiu a documentação
-do Express 4 do [app.param](/{{ page.lang }}/4x/api.html#app.param), já que ela não
+do Express 4 do [app.param](/expressjs.com/{{ page.lang }}/4x/api.html#app.param), já que ela não
 menciona os dois pontos no início.
 
 <h4 id="req.param">req.param(name)</h4>

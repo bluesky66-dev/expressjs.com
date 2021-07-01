@@ -9,7 +9,7 @@ lang: it
 
 ### applicazione
 
-Solitamente, uno o più programmi progettati per gestire operazioni per uno scopo specifico.  In ambito di Express, un programma che utilizza API Express in esecuzione su una piattaforma Node.js.  Potrebbe inoltre fare riferimento a [app object](/{{ page.lang }}/api.html#express).
+Solitamente, uno o più programmi progettati per gestire operazioni per uno scopo specifico.  In ambito di Express, un programma che utilizza API Express in esecuzione su una piattaforma Node.js.  Potrebbe inoltre fare riferimento a [app object](/expressjs.com/{{ page.lang }}/api.html#express).
 
 ### API
 
@@ -53,4 +53,4 @@ Parte di un URL che identifica una risorsa.  Ad esempio, in `http://foo.com/prod
 
 ### router
 
-Consultare [router](/{{ page.lang }}/4x/api.html#router) nei riferimenti API.
+Consultare [router](/expressjs.com/{{ page.lang }}/4x/api.html#router) nei riferimenti API.

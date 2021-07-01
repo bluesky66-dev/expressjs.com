@@ -9,7 +9,7 @@ lang: ja
 
 Express は、それ自体では最小限の機能を備えたルーティングとミドルウェアの Web フレームワークです。Express アプリケーションは基本的に一連のミドルウェア関数呼び出しです。
 
-*ミドルウェア* 関数は、[requestオブジェクト](/{{ page.lang }}/4x/api.html#req) (`req`)、[responseオブジェクト](/{{ page.lang }}/4x/api.html#res) (`res`)、およびアプリケーションのリクエストレスポンスサイクルにおける次のミドルウェア関数に対するアクセス権限を持つ関数です。次のミドルウェア関数は一般的に、`next` という変数で表されます。
+*ミドルウェア* 関数は、[requestオブジェクト](/expressjs.com/{{ page.lang }}/4x/api.html#req) (`req`)、[responseオブジェクト](/expressjs.com/{{ page.lang }}/4x/api.html#res) (`res`)、およびアプリケーションのリクエストレスポンスサイクルにおける次のミドルウェア関数に対するアクセス権限を持つ関数です。次のミドルウェア関数は一般的に、`next` という変数で表されます。
 
 ミドルウェア関数は以下のタスクを実行できます。
 
@@ -33,7 +33,7 @@ Express アプリケーションは、以下のタイプのミドルウェアを
 
 <h2 id='middleware.application'>アプリケーション・レベルのミドルウェア</h2>
 
-`app.use()` 関数と `app.METHOD()` 関数を使用して、アプリケーション・レベルのミドルウェアを [appオブジェクト](/{{ page.lang }}/4x/api.html#app) のインスタンスにバインドします。ここで、`METHOD` は、ミドルウェア関数が小文字で処理するリクエスト (GET、PUT、POST など) の HTTP メソッドです。
+`app.use()` 関数と `app.METHOD()` 関数を使用して、アプリケーション・レベルのミドルウェアを [appオブジェクト](/expressjs.com/{{ page.lang }}/4x/api.html#app) のインスタンスにバインドします。ここで、`METHOD` は、ミドルウェア関数が小文字で処理するリクエスト (GET、PUT、POST など) の HTTP メソッドです。
 
 次の例は、マウント・パスを指定しないミドルウェア関数を示しています。この関数は、アプリケーションがリクエストを受け取るたびに実行されます。
 
@@ -208,7 +208,7 @@ app.use(function (err, req, res, next) {
 })
 ```
 
-エラー処理ミドルウェアについて詳しくは、[エラー処理](/{{ page.lang }}/guide/error-handling.html)を参照してください。
+エラー処理ミドルウェアについて詳しくは、[エラー処理](/expressjs.com/{{ page.lang }}/guide/error-handling.html)を参照してください。
 
 <h2 id='middleware.built-in'>標準装備のミドルウェア</h2>
 

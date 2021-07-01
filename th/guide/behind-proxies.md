@@ -6,7 +6,7 @@ lang: th
 ---
 # Express behind proxies
 
-When running an Express app behind a proxy, set (by using [app.set()](/{{ page.lang }}/4x/api.html#app.set)) the application variable `trust proxy` to one of the values listed in the following table.
+When running an Express app behind a proxy, set (by using [app.set()](/expressjs.com/{{ page.lang }}/4x/api.html#app.set)) the application variable `trust proxy` to one of the values listed in the following table.
 
 <div class="doc-box doc-info" markdown="1">
 Although the app will not fail to run if the application variable `trust proxy` is not set, it will incorrectly register the proxy's IP address as the client IP address unless `trust proxy` is configured.
@@ -69,11 +69,11 @@ app.set('trust proxy', function (ip) {
 Enabling `trust proxy` will have the following impact:
 
 <ul>
-  <li markdown="1">The value of [req.hostname](/{{ page.lang }}/api.html#req.hostname) is derived from the value set in the `X-Forwarded-Host` header, which can be set by the client or by the proxy.
+  <li markdown="1">The value of [req.hostname](/expressjs.com/{{ page.lang }}/api.html#req.hostname) is derived from the value set in the `X-Forwarded-Host` header, which can be set by the client or by the proxy.
   </li>
-  <li markdown="1">`X-Forwarded-Proto` can be set by the reverse proxy to tell the app whether it is `https` or  `http` or even an invalid name. This value is reflected by [req.protocol](/{{ page.lang }}/api.html#req.protocol).
+  <li markdown="1">`X-Forwarded-Proto` can be set by the reverse proxy to tell the app whether it is `https` or  `http` or even an invalid name. This value is reflected by [req.protocol](/expressjs.com/{{ page.lang }}/api.html#req.protocol).
   </li>
-  <li markdown="1">The [req.ip](/{{ page.lang }}/api.html#req.ip) and [req.ips](/{{ page.lang }}/api.html#req.ips) values are populated with the list of addresses from `X-Forwarded-For`.
+  <li markdown="1">The [req.ip](/expressjs.com/{{ page.lang }}/api.html#req.ip) and [req.ips](/expressjs.com/{{ page.lang }}/api.html#req.ips) values are populated with the list of addresses from `X-Forwarded-For`.
   </li>
 </ul>
 

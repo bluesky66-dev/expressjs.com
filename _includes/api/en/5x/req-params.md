@@ -1,6 +1,6 @@
 <h3 id='req.params'>req.params</h3>
 
-This property is an object containing properties mapped to the [named route "parameters"](/{{ page.lang }}/guide/routing.html#route-parameters). For example, if you have the route `/user/:name`, then the "name" property is available as `req.params.name`. This object defaults to `{}`.
+This property is an object containing properties mapped to the [named route "parameters"](/expressjs.com/{{ page.lang }}/guide/routing.html#route-parameters). For example, if you have the route `/user/:name`, then the "name" property is available as `req.params.name`. This object defaults to `{}`.
 
 ```js
 // GET /user/tj
@@ -16,7 +16,7 @@ console.dir(req.params[0])
 // => "javascripts/jquery.js"
 ```
 
-If you need to make changes to a key in `req.params`, use the [app.param](/{{ page.lang }}/5x/api.html#app.param) handler. Changes are applicable only to [parameters](/{{ page.lang }}/guide/routing.html#route-parameters) already defined in the route path.
+If you need to make changes to a key in `req.params`, use the [app.param](/expressjs.com/{{ page.lang }}/5x/api.html#app.param) handler. Changes are applicable only to [parameters](/expressjs.com/{{ page.lang }}/guide/routing.html#route-parameters) already defined in the route path.
 
 Any changes made to the `req.params` object in a middleware or route handler will be reset.
 

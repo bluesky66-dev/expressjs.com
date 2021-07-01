@@ -127,7 +127,7 @@ automatiquement et utilise le paramètre de nom sans le préfixer d'un
 signe deux-points.
 
 Cela n'affectera normalement pas votre code si vous lisez la documentation Express 4
-d'[app.param](/{{ page.lang }}/4x/api.html#app.param) car cela ne mentionne pas le signe deux-points de tête.
+d'[app.param](/expressjs.com/{{ page.lang }}/4x/api.html#app.param) car cela ne mentionne pas le signe deux-points de tête.
 
 <h4 id="req.param">req.param(name)</h4>
 

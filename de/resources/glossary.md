@@ -17,7 +17,7 @@ Eine HTTP-Antwort. Ein Server gibt eine HTTP-Antwortnachricht an den Client zur�
 
 ### Anwendung
 
-Im Allgemeinen besteht eine Anwendung aus einem oder mehreren Programmen, 체ber die Operationen f체r bestimmte Zwecke ausgef체hrt werden. Im Zusammenhang mit Express ist eine Anwendung ein Programm, das die auf der Node.js-Plattform laufende Express-API nutzt. Wird auch als [Anwendungsobjekt](/{{ page.lang }}/api.html#express) bezeichnet.
+Im Allgemeinen besteht eine Anwendung aus einem oder mehreren Programmen, 체ber die Operationen f체r bestimmte Zwecke ausgef체hrt werden. Im Zusammenhang mit Express ist eine Anwendung ein Programm, das die auf der Node.js-Plattform laufende Express-API nutzt. Wird auch als [Anwendungsobjekt](/expressjs.com/{{ page.lang }}/api.html#express) bezeichnet.
 
 ### API
 
@@ -49,7 +49,7 @@ Bei Verwendung als Adjektiv muss dieser Begriff mit Bindestrichen gekoppelt werd
 
 ### Router
 
-Siehe [Router](/{{ page.lang }}/4x/api.html#router) in der API-Referenz.
+Siehe [Router](/expressjs.com/{{ page.lang }}/4x/api.html#router) in der API-Referenz.
 
 ### Weiterleitung (Route)
 

@@ -9,7 +9,7 @@ lang: it
 
 <h2>Panoramica</h2>
 
-Le funzioni *middleware* sono funzioni con accesso all'[oggetto richiesta](/{{ page.lang }}/4x/api.html#req)  (`req`), all'[oggetto risposta](/{{ page.lang }}/4x/api.html#res) (`res`) e alla successiva funzione middleware nel ciclo richiesta-risposta dell'applicazione. La successiva funzione middleware viene comunemente denotata da una variabile denominata `next`.
+Le funzioni *middleware* sono funzioni con accesso all'[oggetto richiesta](/expressjs.com/{{ page.lang }}/4x/api.html#req)  (`req`), all'[oggetto risposta](/expressjs.com/{{ page.lang }}/4x/api.html#res) (`res`) e alla successiva funzione middleware nel ciclo richiesta-risposta dell'applicazione. La successiva funzione middleware viene comunemente denotata da una variabile denominata `next`.
 
 Le funzioni middleware possono eseguire le attività elencate di seguito:
 
@@ -24,7 +24,7 @@ I seguenti esempi mostrano gli elementi di una chiamata alla funzione middleware
 
 <table style="padding: 0; border: 0; width: 960px; margin-bottom: 10px;">
 <tr><td style="margin: 0; padding: 0px; border: 0; width: 410px;">
-<img src="/images/express-mw.png" style="margin: 0px; padding: 0px; width: 410px; height: 308px;" />
+<img src="/expressjs.com/images/express-mw.png" style="margin: 0px; padding: 0px; width: 410px; height: 308px;" />
 </td>
 <td style="margin: 0; padding: 0 0 0 5px; border: 0; width: 550px;">
 <div class="callout" id="callout1">Metodo HTTP per cui si applica la funzione middleware.</div>
@@ -168,4 +168,4 @@ Quando si effettua una richiesta al root dell'applicazione, l'applicazione mostr
 
 Poiché si dispone dell'accesso all'oggetto richiesta, l'oggetto risposta, la successiva funzione middleware nello stack e l'API Node.js completo, le possibilità con le funzioni middleware sono infinite.
 
-Per ulteriori informazioni sul middleware Express, consultare: [Utilizzo del middleware Express](/{{ page.lang }}/guide/using-middleware.html).
+Per ulteriori informazioni sul middleware Express, consultare: [Utilizzo del middleware Express](/expressjs.com/{{ page.lang }}/guide/using-middleware.html).

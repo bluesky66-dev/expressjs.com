@@ -9,7 +9,7 @@ lang: it
 
 Express è un framework Web di routing e middleware, con funzionalità sua propria minima: un'applicazione Express è essenzialmente a serie di chiamate a funzioni middleware.
 
-Le funzioni *middleware* sono funzioni con accesso all'[oggetto richiesta](/{{ page.lang }}/4x/api.html#req)  (`req`), all'[oggetto risposta](/{{ page.lang }}/4x/api.html#res) (`res`) e alla successiva funzione middleware nel ciclo richiesta-risposta dell'applicazione. La successiva funzione middleware viene comunemente denotata da una variabile denominata `next`.
+Le funzioni *middleware* sono funzioni con accesso all'[oggetto richiesta](/expressjs.com/{{ page.lang }}/4x/api.html#req)  (`req`), all'[oggetto risposta](/expressjs.com/{{ page.lang }}/4x/api.html#res) (`res`) e alla successiva funzione middleware nel ciclo richiesta-risposta dell'applicazione. La successiva funzione middleware viene comunemente denotata da una variabile denominata `next`.
 
 Le funzioni middleware possono eseguire le attività elencate di seguito:
 
@@ -33,7 +33,7 @@ Un'applicazione Express può utilizzare i seguenti tipi di middleware:
 
 <h2 id='middleware.application'>Middleware a livello dell'applicazione</h2>
 
-Associare il middleware al livello dell'applicazione ad un'istanza dell'[oggetto app](/{{ page.lang }}/4x/api.html#app) utilizzando le funzioni `app.use()` e `app.METHOD()`, dove `METHOD` corrisponde al metodo HTTP della richiesta che la funzione middleware gestisce (ad esempio GET, PUT o POST) in lettere minuscole.
+Associare il middleware al livello dell'applicazione ad un'istanza dell'[oggetto app](/expressjs.com/{{ page.lang }}/4x/api.html#app) utilizzando le funzioni `app.use()` e `app.METHOD()`, dove `METHOD` corrisponde al metodo HTTP della richiesta che la funzione middleware gestisce (ad esempio GET, PUT o POST) in lettere minuscole.
 
 Questo esempio presenta una funzione middleware senza percorso di montaggio. La funzione viene eseguita ogni volta che l'app riceve una richiesta.
 
@@ -201,7 +201,7 @@ app.use(function(err, req, res, next) {
 </code>
 </pre>
 
-Per dettagli sul middleware di gestione degli errori, consultare la sezione: [Gestione degli errori](/{{ page.lang }}/guide/error-handling.html).
+Per dettagli sul middleware di gestione degli errori, consultare la sezione: [Gestione degli errori](/expressjs.com/{{ page.lang }}/guide/error-handling.html).
 
 <h2 id='middleware.built-in'>Middleware integrato</h2>
 

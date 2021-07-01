@@ -109,4 +109,4 @@ Oluşturulan uygulamanın dizini aşağıdaki yapıda olacaktır:
 Burada oluşturulan dizin yapısı, Express uygulamasını yapılandırabileceğiniz birçok seçenekten sadece birisidir. İhtiyacınıza en uygun şekilde bu yapıyı kullanabilir ya da düzenleyebilirsiniz.
 </div>
 
-###  [Önceki: Merhaba Dünya ](/{{ page.lang }}/starter/hello-world.html)&nbsp;&nbsp;&nbsp;&nbsp;[Sonraki: Basit Yol Atama](/{{ page.lang }}/starter/basic-routing.html)
+###  [Önceki: Merhaba Dünya ](/expressjs.com/{{ page.lang }}/starter/hello-world.html)&nbsp;&nbsp;&nbsp;&nbsp;[Sonraki: Basit Yol Atama](/expressjs.com/{{ page.lang }}/starter/basic-routing.html)

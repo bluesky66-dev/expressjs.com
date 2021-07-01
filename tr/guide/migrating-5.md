@@ -83,7 +83,7 @@ The following method names have been pluralized. In Express 4, using the old met
 
 A leading colon character (:) in the name for the `app.param(name, fn)` function is a remnant of Express 3, and for the sake of backwards compatibility, Express 4 supported it with a deprecation notice. Express 5 will silently ignore it and use the name parameter without prefixing it with a colon.
 
-This should not affect your code if you follow the Express 4 documentation of [app.param](/{{ page.lang }}/4x/api.html#app.param), as it makes no mention of the leading colon.
+This should not affect your code if you follow the Express 4 documentation of [app.param](/expressjs.com/{{ page.lang }}/4x/api.html#app.param), as it makes no mention of the leading colon.
 
 <h4 id="req.param">req.param(name)</h4>
 

@@ -30,7 +30,7 @@ Kde:
 - `HANDLER` je funkcia, ktorá sa vykoná, ak je route spárovaný.
 
 <div class="doc-box doc-notice" markdown="1">
-Tento tutoriál predpokladá, že existuje inštancia `express` aplikácie s názvom `app` a server je spustený. Ak nie ste oboznámení s vytváraním a spuštaním aplikácií, začnite [Hello world prikladom](/{{ page.lang }}/starter/hello-world.html).
+Tento tutoriál predpokladá, že existuje inštancia `express` aplikácie s názvom `app` a server je spustený. Ak nie ste oboznámení s vytváraním a spuštaním aplikácií, začnite [Hello world prikladom](/expressjs.com/{{ page.lang }}/starter/hello-world.html).
 </div>
 
 Nasledujúce priklady ilustrujú definovanie jednoduchých route-ov.
@@ -75,4 +75,4 @@ app.delete('/user', function (req, res) {
 </code>
 </pre>
 
-Viac informácií ohľadom routing-u nájdete v [routing príručke](/{{ page.lang }}/guide/routing.html).
+Viac informácií ohľadom routing-u nájdete v [routing príručke](/expressjs.com/{{ page.lang }}/guide/routing.html).

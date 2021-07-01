@@ -9,7 +9,7 @@ lang: zh-tw
 
 <h2>概觀</h2>
 
-*中介軟體*函數是一些有權存取[要求物件](/{{ page.lang }}/4x/api.html#req) (`req`)、[回應物件](/{{ page.lang }}/4x/api.html#res) (`res`) 和應用程式要求/回應循環中之下一個中介軟體函數的函數。下一個中介軟體函數通常以名為 `next` 的變數表示。
+*中介軟體*函數是一些有權存取[要求物件](/expressjs.com/{{ page.lang }}/4x/api.html#req) (`req`)、[回應物件](/expressjs.com/{{ page.lang }}/4x/api.html#res) (`res`) 和應用程式要求/回應循環中之下一個中介軟體函數的函數。下一個中介軟體函數通常以名為 `next` 的變數表示。
 
 中介軟體函數可以執行下列作業：
 
@@ -24,7 +24,7 @@ lang: zh-tw
 
 <table id="mw-fig">
 <tr><td id="mw-fig-imgcell">
-<img src="/images/express-mw.png" id="mw-fig-img" />
+<img src="/expressjs.com/images/express-mw.png" id="mw-fig-img" />
 </td>
 <td class="mw-fig-callouts">
 <div class="callout" id="callout1">要套用中介軟體函數的 HTTP 方法。</div>
@@ -142,4 +142,4 @@ app.listen(3000);
 
 由於您有權存取要求物件、回應物件、堆疊中的下一個中介軟體函數，以及整個 Node.js API，因此，中介軟體函數的可能性無止盡。
 
-如需 Express 中介軟體的相關資訊，請參閱：[使用 Express 中介軟體](/{{ page.lang }}/guide/using-middleware.html)。
+如需 Express 中介軟體的相關資訊，請參閱：[使用 Express 中介軟體](/expressjs.com/{{ page.lang }}/guide/using-middleware.html)。

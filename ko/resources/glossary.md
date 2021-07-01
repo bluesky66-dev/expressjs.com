@@ -9,7 +9,7 @@ lang: ko
 
 ### 라우터(router)
 
-API 참조의 [라우터](/{{ page.lang }}/4x/api.html#router)를 참조하십시오.
+API 참조의 [라우터](/expressjs.com/{{ page.lang }}/4x/api.html#router)를 참조하십시오.
 
 ### 라우트(route)
 
@@ -25,7 +25,7 @@ API 참조의 [라우터](/{{ page.lang }}/4x/api.html#router)를 참조하십�
 
 ### 애플리케이션(application)
 
-일반적으로, 특정한 목적의 연산을 수행하도록 설계된 하나 이상의 프로그램입니다.  Express의 컨텍스트에서는, Node.js 플랫폼에서 실행되며 Express API를 사용하는 프로그램을 말합니다.  또한 [앱 오브젝트](/{{ page.lang }}/api.html#express)를 지칭할 수도 있습니다.
+일반적으로, 특정한 목적의 연산을 수행하도록 설계된 하나 이상의 프로그램입니다.  Express의 컨텍스트에서는, Node.js 플랫폼에서 실행되며 Express API를 사용하는 프로그램을 말합니다.  또한 [앱 오브젝트](/expressjs.com/{{ page.lang }}/api.html#express)를 지칭할 수도 있습니다.
 
 ### 오픈 소스(open-source, open source)
 

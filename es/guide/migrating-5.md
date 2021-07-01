@@ -85,7 +85,7 @@ Los siguientes nombres de métodos se han pluralizado. En Express 4, el uso de l
 
 El carácter de dos puntos (:) delanteros en el nombre de la función `app.param(name, fn)` es un remanente de Express 3 y, a efectos de retrocompatibilidad, Express 4 le daba soporte con un aviso de obsolescencia. Express 5 lo ignorará de forma silenciosa y utilizará el parámetro de nombre sin añadir el prefijo de dos puntos.
 
-Esto no afectará al código si sigue la documentación de Express 4 de [app.param](/{{ page.lang }}/4x/api.html#app.param), ya que no hace ninguna referencia a los dos puntos delanteros.
+Esto no afectará al código si sigue la documentación de Express 4 de [app.param](/expressjs.com/{{ page.lang }}/4x/api.html#app.param), ya que no hace ninguna referencia a los dos puntos delanteros.
 
 <h4 id="req.param">req.param(name)</h4>
 

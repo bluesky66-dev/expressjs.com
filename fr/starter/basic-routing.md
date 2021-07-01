@@ -28,7 +28,7 @@ Où :
 
 <div class="doc-box doc-notice" markdown="1">
 Ce tutoriel suppose qu'une instance d'`express` appelée `app` soit créée et que le serveur soit en cours d'exécution.
-Si vous ne savez pas créer et démarrer une application, reportez-vous à l'[exemple Hello world](/{{ page.lang }}/starter/hello-world.html).
+Si vous ne savez pas créer et démarrer une application, reportez-vous à l'[exemple Hello world](/expressjs.com/{{ page.lang }}/starter/hello-world.html).
 </div>
 
 Les exemples suivants illustrent la définition de routes simples.
@@ -73,4 +73,4 @@ app.delete('/user', function (req, res) {
 </code>
 </pre>
 
-Pour plus de détails sur le routage, reportez-vous au [guide de routage](/{{ page.lang }}/guide/routing.html).
+Pour plus de détails sur le routage, reportez-vous au [guide de routage](/expressjs.com/{{ page.lang }}/guide/routing.html).

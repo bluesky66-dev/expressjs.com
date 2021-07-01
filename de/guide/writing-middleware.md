@@ -9,7 +9,7 @@ lang: de
 
 <h2>Überblick</h2>
 
-*Middlewarefunktionen* sind Funktionen, die Zugriff auf das [Anforderungsobjekt](/{{ page.lang }}/4x/api.html#req) (`req`), das [Antwortobjekt](/{{ page.lang }}/4x/api.html#res) (`res`) und die nächste Middlewarefunktion im Anforderung/Antwort-Zyklus der Anwendung haben. Die nächste Middlewarefunktion wird im Allgemeinen durch die Variable `next` bezeichnet.
+*Middlewarefunktionen* sind Funktionen, die Zugriff auf das [Anforderungsobjekt](/expressjs.com/{{ page.lang }}/4x/api.html#req) (`req`), das [Antwortobjekt](/expressjs.com/{{ page.lang }}/4x/api.html#res) (`res`) und die nächste Middlewarefunktion im Anforderung/Antwort-Zyklus der Anwendung haben. Die nächste Middlewarefunktion wird im Allgemeinen durch die Variable `next` bezeichnet.
 
 Über Middlewarefunktionen lassen sich die folgenden Tasks ausführen:
 
@@ -24,7 +24,7 @@ Das folgende Beispiel zeigt die Elemente eines Middlewarefunktionsaufrufs:
 
 <table style="padding: 0; border: 0; width: 960px; margin-bottom: 10px;">
 <tr><td style="margin: 0; padding: 0px; border: 0; width: 410px;">
-<img src="/images/express-mw.png" style="margin: 0px; padding: 0px; width: 410px; height: 308px;" />
+<img src="/expressjs.com/images/express-mw.png" style="margin: 0px; padding: 0px; width: 410px; height: 308px;" />
 </td>
 <td style="margin: 0; padding: 0 0 0 5px; border: 0; width: 550px;">
 <div class="callout" id="callout1">HTTP-Methode, für die die Middlewarefunktion angewendet wird.</div>
@@ -141,4 +141,4 @@ Wenn Sie eine Anforderung zum Stammverzeichnis der Anwendung einleiten, zeigt di
 
 Da Sie Zugriff auf das Anforderungsobjekt, das Antwortobjekt, die nächste Middlewarefunktion im Stack und die gesamte Node.js-API haben, sind die Möglichkeiten, die Sie mit Middlewarefunktionen haben, nahezu unendlich.
 
-Weitere Informationen zur Verwendung von Middleware in Express siehe [ Express-Middleware verwenden](/{{ page.lang }}/guide/using-middleware.html).
+Weitere Informationen zur Verwendung von Middleware in Express siehe [ Express-Middleware verwenden](/expressjs.com/{{ page.lang }}/guide/using-middleware.html).

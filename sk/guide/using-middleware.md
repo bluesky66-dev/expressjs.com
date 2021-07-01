@@ -37,7 +37,7 @@ Môžete taktiež načítať skupinu middleware funkcií dohromady, čím vytvor
 
 <h2 id='middleware.application'>Application-level middleware</h2>
 
-Pripojte application-level middleware k inštancii [app objektu](/{{ page.lang }}/4x/api.html#app) použitím `app.use()` a `app.METHOD()` funkcií, kde `METHOD` je typicky HTTP metóda requestu, ktorý mddleware funkcia handluje (ako napr. GET, PUT, či POST) zapísaná v lowercase formáte.
+Pripojte application-level middleware k inštancii [app objektu](/expressjs.com/{{ page.lang }}/4x/api.html#app) použitím `app.use()` a `app.METHOD()` funkcií, kde `METHOD` je typicky HTTP metóda requestu, ktorý mddleware funkcia handluje (ako napr. GET, PUT, či POST) zapísaná v lowercase formáte.
 
 Nasledujúci príklad ukazuje middleware funkciu, ktorá nie je pripojená na žiaden path. Funkcia bude vykonaná vždy, keď aplikácia obdrží request.
 
@@ -203,7 +203,7 @@ app.use(function(err, req, res, next) {
 </code>
 </pre>
 
-Pre viac informácií ohľadom error-handling middlewarov si pozrite sekciu: [Error handling](/{{ page.lang }}/guide/error-handling.html).
+Pre viac informácií ohľadom error-handling middlewarov si pozrite sekciu: [Error handling](/expressjs.com/{{ page.lang }}/guide/error-handling.html).
 
 <h2 id='middleware.built-in'>Built-in middleware</h2>
 

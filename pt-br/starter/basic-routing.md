@@ -33,7 +33,7 @@ Onde:
 Este tutorial assume que uma instância de `express`
 chamada `app` está criada e o servidor está em
 execução. Caso não tenha familiaridade com a criação e inicialização
-de um aplicativo, consulte o [exemplo Hello world](/{{ page.lang }}/starter/hello-world.html).
+de um aplicativo, consulte o [exemplo Hello world](/expressjs.com/{{ page.lang }}/starter/hello-world.html).
 </div>
 
 Os seguintes exemplos ilustram a definição de rotas simples.
@@ -78,4 +78,4 @@ app.delete('/user', function (req, res) {
 </code>
 </pre>
 
-Para obter mais detalhes  sobre roteamento, consulte o [guia de roteamento](/{{ page.lang }}/guide/routing.html).
+Para obter mais detalhes  sobre roteamento, consulte o [guia de roteamento](/expressjs.com/{{ page.lang }}/guide/routing.html).

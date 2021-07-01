@@ -29,9 +29,9 @@ Las mejores prácticas de seguridad para aplicaciones Express en producción inc
 
 ## No utilizar versiones en desuso o vulnerables de Express
 
-Express 2.x y 3.x ya no se mantienen. Los problemas de seguridad y rendimiento en estas versiones no se solucionarán. No las utilice.  Si no ha cambiado todavía a la versión 4, siga la [guía de migración](/{{ page.lang }}/guide/migrating-4.html).
+Express 2.x y 3.x ya no se mantienen. Los problemas de seguridad y rendimiento en estas versiones no se solucionarán. No las utilice.  Si no ha cambiado todavía a la versión 4, siga la [guía de migración](/expressjs.com/{{ page.lang }}/guide/migrating-4.html).
 
-Asimismo, asegúrese de que no está utilizando ninguna de las versiones vulnerables de Express que se listan en la [página Actualizaciones de seguridad](/{{ page.lang }}/advanced/security-updates.html). Si las utiliza, actualícese a uno de los releases estables, preferiblemente el más reciente.
+Asimismo, asegúrese de que no está utilizando ninguna de las versiones vulnerables de Express que se listan en la [página Actualizaciones de seguridad](/expressjs.com/{{ page.lang }}/advanced/security-updates.html). Si las utiliza, actualícese a uno de los releases estables, preferiblemente el más reciente.
 
 ## Utilizar TLS
 

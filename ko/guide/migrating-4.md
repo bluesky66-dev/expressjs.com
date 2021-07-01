@@ -126,7 +126,7 @@ app.use('/book/:id', function(req, res, next) {
 
 새롭게 추가된 `app.route()` 메소드를 이용하면 라우트 경로에 대하여 체인 가능한
 라우트 핸들러를 작성할 수 있습니다. 경로는 한 곳에 지정되어 있으므로, 모듈식 라우트를 작성하면 중복성과 오타가 감소하여 도움이 됩니다. 라우트에 대한
-자세한 정보는 [`Router()` 문서](/{{ page.lang }}/4x/api.html#router)를 참조하십시오.
+자세한 정보는 [`Router()` 문서](/expressjs.com/{{ page.lang }}/4x/api.html#router)를 참조하십시오.
 
 `app.route()` 함수를 사용하여 정의된 체인 라우트 핸들러의 예는 다음과 같습니다.
 

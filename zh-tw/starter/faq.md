@@ -61,7 +61,7 @@ app.use(function(err, req, res, next) {
 </code>
 </pre>
 
-如需相關資訊，請參閱[錯誤處理](/{{ page.lang }}/guide/error-handling.html)。
+如需相關資訊，請參閱[錯誤處理](/expressjs.com/{{ page.lang }}/guide/error-handling.html)。
 
 ## 如何呈現一般 HTML？
 

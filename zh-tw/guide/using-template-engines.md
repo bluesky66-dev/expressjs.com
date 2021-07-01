@@ -58,4 +58,4 @@ app.get('/', function (req, res) {
 
 當您向首頁提出要求時，`index.pug` 檔會呈現成 HTML。
 
-如需進一步瞭解範本引擎在 Express 中的運作方式，請參閱：[開發 Express 範本引擎](/{{ page.lang }}/advanced/developing-template-engines.html)。
+如需進一步瞭解範本引擎在 Express 中的運作方式，請參閱：[開發 Express 範本引擎](/expressjs.com/{{ page.lang }}/advanced/developing-template-engines.html)。

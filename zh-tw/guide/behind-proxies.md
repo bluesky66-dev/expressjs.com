@@ -7,7 +7,7 @@ lang: zh-tw
 
 # 位於 Proxy 背後的 Express
 
-當 Express 應用程式是在 Proxy 背後執行時，請使用 [app.set()](/{{ page.lang }}/4x/api.html#app.set)，將 `trust proxy` 應用程式變數設為下表列出的其中一值。
+當 Express 應用程式是在 Proxy 背後執行時，請使用 [app.set()](/expressjs.com/{{ page.lang }}/4x/api.html#app.set)，將 `trust proxy` 應用程式變數設為下表列出的其中一值。
 
 <div class="doc-box doc-info" markdown="1">
 雖然未設定 `trust proxy` 應用程式變數時，應用程式並不會無法執行，但除非配置 `trust proxy`，否則，它會將 Proxy 的 IP 位址登錄成錯誤的用戶端 IP 位址。
@@ -69,11 +69,11 @@ app.set('trust proxy', ['loopback', 'linklocal', 'uniquelocal']) // specify mult
 如果設定 `false` `trust proxy` 以外的值，會造成三項重要的變更：
 
 <ul>
-  <li markdown="1">[req.hostname](/{{ page.lang }}/api.html#req.hostname) 值會衍生自 `X-Forwarded-Host` 標頭中所設定的值，且該值可能由用戶端或 Proxy 所設定。
+  <li markdown="1">[req.hostname](/expressjs.com/{{ page.lang }}/api.html#req.hostname) 值會衍生自 `X-Forwarded-Host` 標頭中所設定的值，且該值可能由用戶端或 Proxy 所設定。
   </li>
-  <li markdown="1">反向 Proxy 可能設定 `X-Forwarded-Proto`，以告知應用程式它是 `https` 或 `http` 或甚至是無效的名稱。[req.protocol](/{{ page.lang }}/api.html#req.protocol) 會反映此值。
+  <li markdown="1">反向 Proxy 可能設定 `X-Forwarded-Proto`，以告知應用程式它是 `https` 或 `http` 或甚至是無效的名稱。[req.protocol](/expressjs.com/{{ page.lang }}/api.html#req.protocol) 會反映此值。
   </li>
-  <li markdown="1">[req.ip](/{{ page.lang }}/api.html#req.ip) 和 [req.ips](/{{ page.lang }}/api.html#req.ips) 值中會移入 `X-Forwarded-For` 中的位址清單。
+  <li markdown="1">[req.ip](/expressjs.com/{{ page.lang }}/api.html#req.ip) 和 [req.ips](/expressjs.com/{{ page.lang }}/api.html#req.ips) 值中會移入 `X-Forwarded-For` 中的位址清單。
   </li>
 </ul>
 

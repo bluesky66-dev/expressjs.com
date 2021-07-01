@@ -9,7 +9,7 @@ lang: zh-cn
 
 <h2>概述</h2>
 
-*中间件*函数能够访问[请求对象](/{{ page.lang }}/4x/api.html#req) (`req`)、[响应对象](/{{ page.lang }}/4x/api.html#res) (`res`) 以及应用程序的请求/响应循环中的下一个中间件函数。下一个中间件函数通常由名为 `next` 的变量来表示。
+*中间件*函数能够访问[请求对象](/expressjs.com/{{ page.lang }}/4x/api.html#req) (`req`)、[响应对象](/expressjs.com/{{ page.lang }}/4x/api.html#res) (`res`) 以及应用程序的请求/响应循环中的下一个中间件函数。下一个中间件函数通常由名为 `next` 的变量来表示。
 
 中间件函数可以执行以下任务：
 
@@ -24,7 +24,7 @@ lang: zh-cn
 
 <table id="mw-fig"> 
 <tr><td id="mw-fig-imgcell">
-<img src="/images/express-mw.png" id="mw-fig-img" />
+<img src="/expressjs.com/images/express-mw.png" id="mw-fig-img" />
 </td>
 <td class="mw-fig-callouts">
 <div class="callout" id="callout1">中间件函数适用的 HTTP 方法。</div>
@@ -144,4 +144,4 @@ app.listen(3000);
 
 因为您拥有请求对象、响应对象、堆栈中的下一个中间件函数以及整个 Node.js API 的访问权，所以中间件函数的可能性是无穷的。
 
-有关 Express 中间件的更多信息，请参阅：[使用 Express 中间件](/{{ page.lang }}/guide/using-middleware.html)。
+有关 Express 中间件的更多信息，请参阅：[使用 Express 中间件](/expressjs.com/{{ page.lang }}/guide/using-middleware.html)。

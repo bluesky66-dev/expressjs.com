@@ -54,7 +54,7 @@ app.use(compression());
 
 ### 使用中介軟體來提供靜態檔案
 
-在開發中，您可以使用 [res.sendFile()](/{{ page.lang }}/4x/api.html#res.sendFile) 來提供靜態檔案。但是在正式作業中卻不能這樣做，因為此函數得讀取檔案系統，才能取得每一個檔案要求，如此會遇到明顯的延遲，並影響應用程式的整體效能。請注意，`res.sendFile()` *並非*透過更具效率的 [sendfile](http://linux.die.net/man/2/sendfile) 系統呼叫來實作。
+在開發中，您可以使用 [res.sendFile()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendFile) 來提供靜態檔案。但是在正式作業中卻不能這樣做，因為此函數得讀取檔案系統，才能取得每一個檔案要求，如此會遇到明顯的延遲，並影響應用程式的整體效能。請注意，`res.sendFile()` *並非*透過更具效率的 [sendfile](http://linux.die.net/man/2/sendfile) 系統呼叫來實作。
 
 請改用 [serve-static](https://www.npmjs.com/package/serve-static) 中介軟體（或同等項目），此中介軟體能有效提供 Express 應用程式的檔案。
 
@@ -260,7 +260,7 @@ Node 應用程式一旦遇到未捕捉到的異常狀況，就會當機。首要
 * [PM2](https://github.com/Unitech/pm2)
 * [Forever](https://www.npmjs.com/package/forever)
 
-有關這三種程序管理程式的特性比較，請參閱 [http://strong-pm.io/compare/](http://strong-pm.io/compare/)。如需這三種的詳細介紹，請參閱 [Express 應用程式的程序管理程式](/{{ page.lang }}/advanced/pm.html)。
+有關這三種程序管理程式的特性比較，請參閱 [http://strong-pm.io/compare/](http://strong-pm.io/compare/)。如需這三種的詳細介紹，請參閱 [Express 應用程式的程序管理程式](/expressjs.com/{{ page.lang }}/advanced/pm.html)。
 
 即使您的應用程式不時發生當機，這些程序管理程式不論哪一個都足以讓您的應用程式維持作用中。
 

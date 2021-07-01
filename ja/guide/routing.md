@@ -8,11 +8,11 @@ lang: ja
 # ルーティング
 
 *ルーティング* とは、アプリケーション・エンドポイント (URI) と、クライアントリクエストに対するそれらのレスポンスの定義のことです。
-ルーティングの概要については、[基本的なルーティング](/{{ page.lang }}/starter/basic-routing.html)を参照してください。
+ルーティングの概要については、[基本的なルーティング](/expressjs.com/{{ page.lang }}/starter/basic-routing.html)を参照してください。
 
 ルーティングはHTTPメソッドに対応するExpressの`app`オブジェクトのメソッドを使用して定義します。たとえば、GETリクエストを処理する`app.get()`やPOSTリクエストを処理する`app.post`があります。
-完全なリストについては、[app.METHOD](/{{ page.lang }}/4x/ api.html#app.METHODを)を参照してください。
-また、すべてのHTTPメソッドを制御するために[app.all()](/{{ page.lang }}/4x/api.html#app.all)を、ミドルウェアを指定するために[app.use()](/{{ page.lang }}/4x/api.html#app.use)をコールバック関数として使用することができます(詳細については、[Using middleware](/{{ page.lang }}/guide/using-middleware.html)を参照してください)。
+完全なリストについては、[app.METHOD](/expressjs.com/{{ page.lang }}/4x/ api.html#app.METHODを)を参照してください。
+また、すべてのHTTPメソッドを制御するために[app.all()](/expressjs.com/{{ page.lang }}/4x/api.html#app.all)を、ミドルウェアを指定するために[app.use()](/expressjs.com/{{ page.lang }}/4x/api.html#app.use)をコールバック関数として使用することができます(詳細については、[Using middleware](/expressjs.com/{{ page.lang }}/guide/using-middleware.html)を参照してください)。
 
 これらのルーティングメソッドは、アプリケーションが指定されたルート（エンドポイント）とHTTPメソッドへのリクエストを受け取ったときに呼び出されるコールバック関数（ハンドラ関数とも呼ばれます）を指定します。 つまり、アプリケーションは指定されたルートとメソッドに一致するリクエストをリッスンし、一致を検出すると指定されたコールバック関数を呼び出します。
 
@@ -50,7 +50,7 @@ app.post('/', function (req, res) {
 ```
 
 Expressは、すべてのHTTPリクエストメソッドに対応するメソッド（`get`、`post`など）をサポートしています。
-完全なリストについては、[app.METHOD](/{{ page.lang }}/4x/api.html#app.METHOD)を参照して下さい。
+完全なリストについては、[app.METHOD](/expressjs.com/{{ page.lang }}/4x/api.html#app.METHOD)を参照して下さい。
 
 _すべての_ HTTPリクエストメソッドのパスにミドルウェア関数をロードするために使用される特別なルーティングメソッド、`app.all()`があります。 たとえば、GET、POST、PUT、DELETE、または[httpモジュール](https://nodejs.org/api/http.html#http_http_methods)でサポートされているその他のHTTPリクエストメソッドを使用するかどうかにかかわらず、"/secret"ルートへのリクエストに対して次のハンドラが実行されます。
 
@@ -209,7 +209,7 @@ Express 4.xでは、<a href="https://github.com/expressjs/express/issues/2495">�
 
 <h2 id="route-handlers">ルート・ハンドラー</h2>
 
-リクエストを処理するために、[ミドルウェア](/{{ page.lang }}/guide/using-middleware.html)のように動作する複数のコールバック関数を指定できます。唯一の例外は、これらのコールバックが `next('route')` を呼び出して、残りのルート・コールバックをバイパスすることです。このメカニズムを使用して、ルートに事前条件を適用し、現在のルートで続行する理由がない場合に後続のルートに制御を渡すことができます。
+リクエストを処理するために、[ミドルウェア](/expressjs.com/{{ page.lang }}/guide/using-middleware.html)のように動作する複数のコールバック関数を指定できます。唯一の例外は、これらのコールバックが `next('route')` を呼び出して、残りのルート・コールバックをバイパスすることです。このメカニズムを使用して、ルートに事前条件を適用し、現在のルートで続行する理由がない場合に後続のルートに制御を渡すことができます。
 
 次の例に示すように、ルート・ハンドラーの形式は、関数、関数の配列、または両方の組み合わせにすることができます。
 
@@ -279,20 +279,20 @@ app.get('/example/d', [cb0, cb1], function (req, res, next) {
 
 | メソッド               | 説明
 |----------------------|--------------------------------------
-| [res.download()](/{{ page.lang }}/4x/api.html#res.download)   | ファイルのダウンロードのプロンプトを出します。
-| [res.end()](/{{ page.lang }}/4x/api.html#res.end)        | レスポンスプロセスを終了します。
-| [res.json()](/{{ page.lang }}/4x/api.html#res.json)       | JSON レスポンスを送信します。
-| [res.jsonp()](/{{ page.lang }}/4x/api.html#res.jsonp)      | JSONP をサポートする JSON レスポンスを送信します。
-| [res.redirect()](/{{ page.lang }}/4x/api.html#res.redirect)   | リクエストをリダイレクトします。
-| [res.render()](/{{ page.lang }}/4x/api.html#res.render)     | ビュー・テンプレートをレンダリングします。
-| [res.send()](/{{ page.lang }}/4x/api.html#res.send)       | さまざまなタイプのレスポンスを送信します。
-| [res.sendFile](/{{ page.lang }}/4x/api.html#res.sendFile)     | ファイルをオクテット・ストリームとして送信します。
-| [res.sendStatus()](/{{ page.lang }}/4x/api.html#res.sendStatus) | レスポンスのステータスコードを設定して、そのストリング表現をレスポンス本文として送信します。
+| [res.download()](/expressjs.com/{{ page.lang }}/4x/api.html#res.download)   | ファイルのダウンロードのプロンプトを出します。
+| [res.end()](/expressjs.com/{{ page.lang }}/4x/api.html#res.end)        | レスポンスプロセスを終了します。
+| [res.json()](/expressjs.com/{{ page.lang }}/4x/api.html#res.json)       | JSON レスポンスを送信します。
+| [res.jsonp()](/expressjs.com/{{ page.lang }}/4x/api.html#res.jsonp)      | JSONP をサポートする JSON レスポンスを送信します。
+| [res.redirect()](/expressjs.com/{{ page.lang }}/4x/api.html#res.redirect)   | リクエストをリダイレクトします。
+| [res.render()](/expressjs.com/{{ page.lang }}/4x/api.html#res.render)     | ビュー・テンプレートをレンダリングします。
+| [res.send()](/expressjs.com/{{ page.lang }}/4x/api.html#res.send)       | さまざまなタイプのレスポンスを送信します。
+| [res.sendFile](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendFile)     | ファイルをオクテット・ストリームとして送信します。
+| [res.sendStatus()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendStatus) | レスポンスのステータスコードを設定して、そのストリング表現をレスポンス本文として送信します。
 
 <h2 id="app-route">app.route()</h2>
 
 `app.route()` を使用して、ルート・パスの連結可能なルート・ハンドラーを作成できます。
-パスは単一の場所で指定されるため、モジュール式のルートを作成すると、便利であるほか、冗長性とタイプミスを減らすことができます。ルートについて詳しくは、[Router() 資料](/{{ page.lang }}/4x/api.html#router)を参照してください。
+パスは単一の場所で指定されるため、モジュール式のルートを作成すると、便利であるほか、冗長性とタイプミスを減らすことができます。ルートについて詳しくは、[Router() 資料](/expressjs.com/{{ page.lang }}/4x/api.html#router)を参照してください。
 
 次に、`app.route()` を使用して定義された、チェーニングされたルート・ハンドラーの例を示します。
 

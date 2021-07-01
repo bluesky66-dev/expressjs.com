@@ -119,7 +119,7 @@ Spôsob, akým definujete route sa nezmenil, ale samotný routing systém má dv
 
 <h4 id="app-route"><code>app.route()</code> metóda</h4>
 
-Nová metóda `app.route()` vám umožňuje vytvárať zreťaziteľné route handlery pre daný route path (cestu). Pretože je path (cesta) špecifikovaný na jednom mieste, tvorba takýchto modulárnych routes je užitočná, kedže znižuje redundanciu a možné preklepy. Pre viac informácií ohľadom route sa pozrite na [`Router()` dokumentáciu](/{{ page.lang }}/4x/api.html#router).
+Nová metóda `app.route()` vám umožňuje vytvárať zreťaziteľné route handlery pre daný route path (cestu). Pretože je path (cesta) špecifikovaný na jednom mieste, tvorba takýchto modulárnych routes je užitočná, kedže znižuje redundanciu a možné preklepy. Pre viac informácií ohľadom route sa pozrite na [`Router()` dokumentáciu](/expressjs.com/{{ page.lang }}/4x/api.html#router).
 
 Tu je príklad zreťazených route handlerov definovaných pomocou `app.route()` funkcie.
 

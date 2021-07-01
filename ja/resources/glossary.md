@@ -9,7 +9,7 @@ lang: ja
 
 ### アプリケーション
 
-一般に、特定の目的で操作を実行するよう設計された 1 つ以上のプログラム。Express のコンテキストでは、Node.js プラットフォームで稼働する Express API を使用するプログラム。[アプリケーション・オブジェクト](/{{ page.lang }}/api.html#express)と呼ばれることもある。
+一般に、特定の目的で操作を実行するよう設計された 1 つ以上のプログラム。Express のコンテキストでは、Node.js プラットフォームで稼働する Express API を使用するプログラム。[アプリケーション・オブジェクト](/expressjs.com/{{ page.lang }}/api.html#express)と呼ばれることもある。
 
 ### API
 
@@ -53,4 +53,4 @@ HTTP レスポンス。サーバーは、HTTP レスポンスメッセージを�
 
 ### ルーター
 
-API リファレンスで[ルーター](/{{ page.lang }}/4x/api.html#router)を参照。
+API リファレンスで[ルーター](/expressjs.com/{{ page.lang }}/4x/api.html#router)を参照。

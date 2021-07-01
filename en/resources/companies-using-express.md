@@ -10,72 +10,72 @@ redirect_from: "/resources/companies-using-express.html"
 
 <div style="text-align:center;">
     <a target="_new" class="imagelink" href="http://www.accenture.com/">
-      <img alt="accenture" class="memberlogo" src="/images/companies/accenture-logo.png" />
+      <img alt="accenture" class="memberlogo" src="/expressjs.com/images/companies/accenture-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="https://dentisphere.com/">
-      <img alt="Dentisphere" class="memberlogo" src="/images/companies/denti-sphere-logo.png" />
+      <img alt="Dentisphere" class="memberlogo" src="/expressjs.com/images/companies/denti-sphere-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="http://www.exove.com/">
-      <img alt="Exove" class="memberlogo" src="/images/companies/exove-logo.png" />
+      <img alt="Exove" class="memberlogo" src="/expressjs.com/images/companies/exove-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="http://www.foxsports.com.au/">
-      <img alt="Fox Sports Australia" class="memberlogo" src="/images/companies/fox-sports-logo.png" />
+      <img alt="Fox Sports Australia" class="memberlogo" src="/expressjs.com/images/companies/fox-sports-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="http://ibm.com">
-      <img alt="IBM" class="memberlogo" src="/images/companies/ibm-logo.png" />
+      <img alt="IBM" class="memberlogo" src="/expressjs.com/images/companies/ibm-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="https://www.icicletech.com">
-      <img alt="Icicle Technologies" class="memberlogo" src="/images/companies/icicle-logo.png" />
+      <img alt="Icicle Technologies" class="memberlogo" src="/expressjs.com/images/companies/icicle-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="http://mulesoft.com">
-      <img alt="Mulesoft" class="memberlogo" src="/images/companies/mulesoft-logo.png" />
+      <img alt="Mulesoft" class="memberlogo" src="/expressjs.com/images/companies/mulesoft-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="http://www.myntra.com/">
-      <img alt="Myntra" class="memberlogo" src="/images/companies/myntra-logo.png" />
+      <img alt="Myntra" class="memberlogo" src="/expressjs.com/images/companies/myntra-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="https://nodebb.org/">
-      <img alt="NodeBB" class="memberlogo" src="/images/companies/nodeBB-logo.png" />
+      <img alt="NodeBB" class="memberlogo" src="/expressjs.com/images/companies/nodeBB-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="http://www.quizup.com/">
-      <img alt="QuizUp" class="memberlogo" src="/images/companies/quizup-logo.png" />
+      <img alt="QuizUp" class="memberlogo" src="/expressjs.com/images/companies/quizup-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="http://ripjar.com">
-      <img alt="Ripjar" class="memberlogo" src="/images/companies/ripjar-logo.png" />
+      <img alt="Ripjar" class="memberlogo" src="/expressjs.com/images/companies/ripjar-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="http://risingstack.com">
-      <img alt="Rising Stack" class="memberlogo" src="/images/companies/risingstack-logo.png" />
+      <img alt="Rising Stack" class="memberlogo" src="/expressjs.com/images/companies/risingstack-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="http://www.sparkpost.com/">
-      <img alt="SparkPost" class="memberlogo" src="/images/companies/sparkpost-logo.png" />
+      <img alt="SparkPost" class="memberlogo" src="/expressjs.com/images/companies/sparkpost-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="http://uber.com">
-      <img alt="Uber" class="memberlogo" src="/images/companies/uber-logo.png" />
+      <img alt="Uber" class="memberlogo" src="/expressjs.com/images/companies/uber-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="https://www.yandex.ru/">
-      <img alt="Yandex" class="memberlogo" src="/images/companies/yandex-logo.png" />
+      <img alt="Yandex" class="memberlogo" src="/expressjs.com/images/companies/yandex-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="http://www.agrippa.no/en">
-      <img alt="Agrippa Solutions AS" class="memberlogo" src="/images/companies/OrgASLogo.png" />
+      <img alt="Agrippa Solutions AS" class="memberlogo" src="/expressjs.com/images/companies/OrgASLogo.png" />
     </a>
     <a target="_new" class="imagelink" href="https://www.circlehd.com">
-      <img alt="CircleHD" class="memberlogo" src="/images/companies/circlehd-logo.png" />
+      <img alt="CircleHD" class="memberlogo" src="/expressjs.com/images/companies/circlehd-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="https://www.teachoo.com">
-      <img alt="CircleHD" class="memberlogo" src="/images/companies/teachoo-logo.png" />
+      <img alt="CircleHD" class="memberlogo" src="/expressjs.com/images/companies/teachoo-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="https://www.taskade.com">
-      <img alt="Taskade" class="memberlogo" src="/images/companies/taskade-logo.png" />
+      <img alt="Taskade" class="memberlogo" src="/expressjs.com/images/companies/taskade-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="https://hasura.io">
-      <img alt="Hasura" class="memberlogo" src="/images/companies/hasura-logo.png" />
+      <img alt="Hasura" class="memberlogo" src="/expressjs.com/images/companies/hasura-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="https://ilovecoding.org">
-      <img alt="iLoveCoding" class="memberlogo" src="/images/companies/ilovecoding-logo.png" />
+      <img alt="iLoveCoding" class="memberlogo" src="/expressjs.com/images/companies/ilovecoding-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="https://www.kuali.co">
-      <img alt="kuali" class="memberlogo" src="/images/companies/kuali-logo.png" />
+      <img alt="kuali" class="memberlogo" src="/expressjs.com/images/companies/kuali-logo.png" />
     </a>
     <a target="_new" class="imagelink" href="https://wormhole.app">
-      <img alt="Wormhole" class="memberlogo" src="/images/companies/wormhole-logo.png" />
+      <img alt="Wormhole" class="memberlogo" src="/expressjs.com/images/companies/wormhole-logo.png" />
     </a>
 </div>

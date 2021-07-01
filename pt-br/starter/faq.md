@@ -89,7 +89,7 @@ app.use(function(err, req, res, next) {
 </code>
 </pre>
 
-Para obter mais informações, consulte [Manipulação de erros](/{{ page.lang }}/guide/error-handling.html).
+Para obter mais informações, consulte [Manipulação de erros](/expressjs.com/{{ page.lang }}/guide/error-handling.html).
 
 ## Como renderizar um HTML simples?
 

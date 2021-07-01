@@ -24,9 +24,9 @@ Tento článok popisuje niektoré osvedčené postupy z pohľadu bezpečnosti Ex
 
 ## Nepoužívajte deprecated a vulnerable verzie Express-u
 
-Express 2.x a 3.x už nie sú viacej udržované. Security a performance problémy v týchto verziách už nik neopravuje. Preto ich nepoužívajte!  Ak ste vaše Express aplikácie ešte nezmigrovali na verziu 4, postupujte podľa príručky [Prechod na Express 4](/{{ page.lang }}/guide/migrating-4.html).
+Express 2.x a 3.x už nie sú viacej udržované. Security a performance problémy v týchto verziách už nik neopravuje. Preto ich nepoužívajte!  Ak ste vaše Express aplikácie ešte nezmigrovali na verziu 4, postupujte podľa príručky [Prechod na Express 4](/expressjs.com/{{ page.lang }}/guide/migrating-4.html).
 
-Taktiež sa uistite, že nepoužívate žiadnu z vulnerable Express verzií nachádzajúcu sa na stránke [Security - aktualizácie](/{{ page.lang }}/advanced/security-updates.html). Ak áno, updatnite vašu aplikáciu na niektorú zo stabilných verzií, ideálne na najnovšiu.
+Taktiež sa uistite, že nepoužívate žiadnu z vulnerable Express verzií nachádzajúcu sa na stránke [Security - aktualizácie](/expressjs.com/{{ page.lang }}/advanced/security-updates.html). Ak áno, updatnite vašu aplikáciu na niektorú zo stabilných verzií, ideálne na najnovšiu.
 
 ## Používajte TLS
 

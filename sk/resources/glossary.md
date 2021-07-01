@@ -15,7 +15,7 @@ lang: sk
 
 ### aplikácia
 
-Vo všeobecnosti je to jeden, či viacej programov navrhnutých k vykonávaniu operácií za špecifickým účelom. V kontexte Express-u je to program, používajúci Express API fungujúceho na Node.js platforme. Pozrite sa na [app object](/{{ page.lang }}/api.html#express).
+Vo všeobecnosti je to jeden, či viacej programov navrhnutých k vykonávaniu operácií za špecifickým účelom. V kontexte Express-u je to program, používajúci Express API fungujúceho na Node.js platforme. Pozrite sa na [app object](/expressjs.com/{{ page.lang }}/api.html#express).
 
 ### API
 
@@ -59,4 +59,4 @@ HTTP response. Server vracia klientovi HTTP response message. Response obsahuje 
 
 ### router
 
-Pozrite sa na definíciu [router](/{{ page.lang }}/api.html#router) v API dokumentácii.
+Pozrite sa na definíciu [router](/expressjs.com/{{ page.lang }}/api.html#router) v API dokumentácii.

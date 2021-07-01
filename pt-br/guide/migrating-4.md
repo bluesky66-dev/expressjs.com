@@ -134,7 +134,7 @@ criar manipuladores de rotas modulares montáveis
 O novo método `app.route()` permite que sejam
 criados manipuladores de rotas encadeáveis para um caminho de rota. Como o caminho é especificado em uma localização única, criar rotas
 modulares é útil, já que reduz redundâncias e erros tipográficos. Para
-obter mais informações sobre rotas, consulte a [`documentação do Router()` ](/{{ page.lang }}/4x/api.html#router).
+obter mais informações sobre rotas, consulte a [`documentação do Router()` ](/expressjs.com/{{ page.lang }}/4x/api.html#router).
 
 Aqui está um exemplo de manipuladores de rotas encadeáveis que
 são definidos usando a função `app.route()`.

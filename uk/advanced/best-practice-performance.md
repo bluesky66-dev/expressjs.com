@@ -51,7 +51,7 @@ If you are using Node.js 4.0+ or io.js 2.1.0+, you can use the `--trace-sync-io`
 
 ### Use middleware to serve static files
 
-In development, you can use [res.sendFile()](/{{ page.lang }}/4x/api.html#res.sendFile) to serve static files. But don't do this in production, because this function has to read from the file system for every file request, so it will encounter significant latency and affect the overall performance of the app. Note that `res.sendFile()` is _not_ implemented with the [sendfile](http://linux.die.net/man/2/sendfile) system call, which would make it far more efficient.
+In development, you can use [res.sendFile()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendFile) to serve static files. But don't do this in production, because this function has to read from the file system for every file request, so it will encounter significant latency and affect the overall performance of the app. Note that `res.sendFile()` is _not_ implemented with the [sendfile](http://linux.die.net/man/2/sendfile) system call, which would make it far more efficient.
 
 Instead, use [serve-static](https://www.npmjs.com/package/serve-static) middleware (or something equivalent), that is optimized for serving files for Express apps.
 
@@ -242,7 +242,7 @@ The most popular process managers for Node are as follows:
 * [PM2](https://github.com/Unitech/pm2)
 * [Forever](https://www.npmjs.com/package/forever)
 
-For a feature-by-feature comparison of the three process managers, see [http://strong-pm.io/compare/](http://strong-pm.io/compare/). For a more detailed introduction to all three, see [Process managers for Express apps](/{{ page.lang }}/advanced/pm.html).
+For a feature-by-feature comparison of the three process managers, see [http://strong-pm.io/compare/](http://strong-pm.io/compare/). For a more detailed introduction to all three, see [Process managers for Express apps](/expressjs.com/{{ page.lang }}/advanced/pm.html).
 
 Using any of these process managers will suffice to keep your application up, even if it does crash from time to time.
 

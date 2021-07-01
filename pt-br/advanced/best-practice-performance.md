@@ -61,7 +61,7 @@ semanal para o io.js 2.1.0](https://nodejs.org/en/blog/weekly-updates/weekly-upd
 
 ### Use o middleware para entregar arquivos estáticos
 
-No desenvolvimento, é possível usar a [res.sendFile()](/{{ page.lang }}/4x/api.html#res.sendFile) para entregar arquivos estáticos. Mas
+No desenvolvimento, é possível usar a [res.sendFile()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendFile) para entregar arquivos estáticos. Mas
 não use isto na produção, pois esta função precisa ser lida a partir
 do sistema de arquivos para cada solicitação de arquivo, e portanto
 encontraria latência e afetaria o desempenho geral do aplicativo. Observe que a `res.sendFile()` *não* é implementada com a chamada de sistema [sendfile](http://linux.die.net/man/2/sendfile) o que a tornaria muito mais eficiente.
@@ -348,7 +348,7 @@ seguintes:
 Para uma comparação recurso por recurso dos três gerenciadores
 de processos, consulte [http://strong-pm.io/compare/](http://strong-pm.io/compare/). Para
 obter uma introdução mais detalhada para todos os três, consulte [Gerenciadores de Processos para aplicativos do
-Express](/{{ page.lang }}/advanced/pm.html).
+Express](/expressjs.com/{{ page.lang }}/advanced/pm.html).
 
 Usando qualquer um desses gerenciadores de processos será o
 suficiente para manter seu aplicativo funcionando, mesmo se ele cair

@@ -25,7 +25,7 @@ Windows では、対応するコマンドを使用します。
 > set DEBUG=express:* & node index.js
 ```
 
-[express ジェネレーター](/{{ page.lang }}/starter/generator.html) で生成されるデフォルトのアプリケーションでこのコマンドを実行すると、以下の出力が表示されます。
+[express ジェネレーター](/expressjs.com/{{ page.lang }}/starter/generator.html) で生成されるデフォルトのアプリケーションでこのコマンドを実行すると、以下の出力が表示されます。
 
 ```sh
 $ DEBUG=express:* node ./bin/www

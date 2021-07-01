@@ -9,11 +9,11 @@ lang : fr
 
 <div class="doc-box doc-info" markdown="1">
 Il s'agit de l'application Express la plus simple que vous puissiez créer. Cette application ne contient qu'un seul fichier, c'est-à-dire *tout l'inverse* de ce que vous obtiendriez avec le
-[générateur Express](/{{ page.lang }}/starter/generator.html), qui crée l'échafaudage d'une application entière, avec des fichiers JavaScript, des modèles <a href="pugjs.org" target="_blank" title="Documentation Pug">Pug</a> et des sous-répertoires pour divers motifs.
+[générateur Express](/expressjs.com/{{ page.lang }}/starter/generator.html), qui crée l'échafaudage d'une application entière, avec des fichiers JavaScript, des modèles <a href="pugjs.org" target="_blank" title="Documentation Pug">Pug</a> et des sous-répertoires pour divers motifs.
 </div>
 
 Premièrement, créez un répertoire appelé `myapp`, rendez-vous dedans et exécutez la commande `npm init`.
-Ensuite, installez `express` en tant que dépendance en suivant les instructions du [guide d'installation](/{{ page.lang }}/starter/installing.html).
+Ensuite, installez `express` en tant que dépendance en suivant les instructions du [guide d'installation](/expressjs.com/{{ page.lang }}/starter/installing.html).
 
 Dans le répertoire `myapp`, créez un fichier appelé `app.js` et ajoutez le code suivant :
 

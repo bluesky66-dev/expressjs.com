@@ -63,7 +63,7 @@ app.use(function(err, req, res, next) {
 </code>
 </pre>
 
-有关更多信息，请参阅[错误处理](/{{ page.lang }}/guide/error-handling.html)。
+有关更多信息，请参阅[错误处理](/expressjs.com/{{ page.lang }}/guide/error-handling.html)。
 
 ## 如何呈现纯 HTML？
 

@@ -8,9 +8,9 @@ lang: tr
 # Yönlendirme
 
 _Routing_ uygulama bitiş noktalarının tanımını (URI'ler) ve istemci isteklerine nasıl yanıt verdiklerini ifade eder.
-Yönlendirme'ye giriş için, [Temel yönlendirme] sayfasına bakınız.(/{{ page.lang }}/starter/basic-routing.html).
+Yönlendirme'ye giriş için, [Temel yönlendirme] sayfasına bakınız.(/expressjs.com/{{ page.lang }}/starter/basic-routing.html).
 
-HTTP metod isimlerine karşılık gelen Express `app` objesinin metodlarını kullanarak yönlendirmeleri tanımlayabilirsiniz; örneğin, GET isteklerini işlemek için `app.get()` ve POST isteklerini işlemek için de `app.post()` kullanmak gibi. Tam liste için bakınız [app.METHOD](/{{ page.lang }}/4x/api.html#app.METHOD). Bütün HTTP metodlarını işlemek için [app.all()](/{{ page.lang }}/4x/api.html#app.all), ve geri çağırma fonksiyonu olarak da ara yazılım tanımlamak için [app.use()](/{{ page.lang }}/4x/api.html#app.use) kullanabilirsiniz (Daha fazla detay için bakınız [Ara yazılım kullanmak](/{{ page.lang }}/guide/using-middleware.html)).
+HTTP metod isimlerine karşılık gelen Express `app` objesinin metodlarını kullanarak yönlendirmeleri tanımlayabilirsiniz; örneğin, GET isteklerini işlemek için `app.get()` ve POST isteklerini işlemek için de `app.post()` kullanmak gibi. Tam liste için bakınız [app.METHOD](/expressjs.com/{{ page.lang }}/4x/api.html#app.METHOD). Bütün HTTP metodlarını işlemek için [app.all()](/expressjs.com/{{ page.lang }}/4x/api.html#app.all), ve geri çağırma fonksiyonu olarak da ara yazılım tanımlamak için [app.use()](/expressjs.com/{{ page.lang }}/4x/api.html#app.use) kullanabilirsiniz (Daha fazla detay için bakınız [Ara yazılım kullanmak](/expressjs.com/{{ page.lang }}/guide/using-middleware.html)).
 
 Bu yönlendirme metodları, uygulamanın belirtilen bir rotaya (bitiş noktası) ve HTTP metoduna aldığı isteklerde çağrılan bir geri çağırma fonksiyonu belirtirler (bazen "işleyici fonksiyonlar" olarak isimlendirilirler). Başka bir deyişle, uygulama, belirtilen rota(lar) ve metod(lar) ile eşleşen istekleri "dinler", ve bir eşleşme algıladığında, ilgili geri çağırma fonksiyonunu çağırır.
 
@@ -212,7 +212,7 @@ Express 4.x'te, <a href="https://github.com/expressjs/express/issues/2495">düze
 
 <h2 id="route-handlers">Rota işleyicileri</h2>
 
-Bir isteği işlemek için, [ara-katman](/{{ page.lang }}/guide/using-middleware.html) gibi davranan birden fazla geri çağırma fonksiyonu sağlayabilirsiniz. Bunun tek istisnası, bu geri çağırmalar, arda kalan rota metodlarını atlatmak için `next('route')` metodunu çağırabilir. Bir rotaya ön koşullar uygulamak için bu mekanizmayı kullanabilirsiniz, ve sonra geçerli rotaya devam etmek için bir neden yoksa kontrolü sonraki rotalara aktarabilirsiniz.
+Bir isteği işlemek için, [ara-katman](/expressjs.com/{{ page.lang }}/guide/using-middleware.html) gibi davranan birden fazla geri çağırma fonksiyonu sağlayabilirsiniz. Bunun tek istisnası, bu geri çağırmalar, arda kalan rota metodlarını atlatmak için `next('route')` metodunu çağırabilir. Bir rotaya ön koşullar uygulamak için bu mekanizmayı kullanabilirsiniz, ve sonra geçerli rotaya devam etmek için bir neden yoksa kontrolü sonraki rotalara aktarabilirsiniz.
 
 
 Rota işleyicileri, aşağıdaki örneklerde gösterildiği gibi bir fonksiyon, fonksiyonlar dizisi veya her ikisinin birleşimi biçiminde olabilir.
@@ -282,20 +282,20 @@ Aşağıdaki tabloda yanıt nesnesindeki (`res`) metodlar istemciye yanıt gönd
 
 | Metod                | Açıklama
 |----------------------|--------------------------------------
-| [res.download()](/{{ page.lang }}/4x/api.html#res.download)   | Bir dosyanın indirilmesini iste.
-| [res.end()](/{{ page.lang }}/4x/api.html#res.end)        | Yanıt sürecini sonlandır.
-| [res.json()](/{{ page.lang }}/4x/api.html#res.json)       | JSON yanıtı gönder.
-| [res.jsonp()](/{{ page.lang }}/4x/api.html#res.jsonp)      | JSONP destekli bir JSON yanıtı gönder
-| [res.redirect()](/{{ page.lang }}/4x/api.html#res.redirect)   | Bir isteği yeniden yönlendir.
-| [res.render()](/{{ page.lang }}/4x/api.html#res.render)     | Bir görünüm şablonu görüntüle.
-| [res.send()](/{{ page.lang }}/4x/api.html#res.send)       | Çeşitli tiplerde yanıt gönder.
-| [res.sendFile()](/{{ page.lang }}/4x/api.html#res.sendFile)     | Dosyayı sekizli akış olarak gönder.
-| [res.sendStatus()](/{{ page.lang }}/4x/api.html#res.sendStatus) | Yanıt durum kodunu ayarla ve karakter dize temsilini yanıt gövdesi olarak gönder.
+| [res.download()](/expressjs.com/{{ page.lang }}/4x/api.html#res.download)   | Bir dosyanın indirilmesini iste.
+| [res.end()](/expressjs.com/{{ page.lang }}/4x/api.html#res.end)        | Yanıt sürecini sonlandır.
+| [res.json()](/expressjs.com/{{ page.lang }}/4x/api.html#res.json)       | JSON yanıtı gönder.
+| [res.jsonp()](/expressjs.com/{{ page.lang }}/4x/api.html#res.jsonp)      | JSONP destekli bir JSON yanıtı gönder
+| [res.redirect()](/expressjs.com/{{ page.lang }}/4x/api.html#res.redirect)   | Bir isteği yeniden yönlendir.
+| [res.render()](/expressjs.com/{{ page.lang }}/4x/api.html#res.render)     | Bir görünüm şablonu görüntüle.
+| [res.send()](/expressjs.com/{{ page.lang }}/4x/api.html#res.send)       | Çeşitli tiplerde yanıt gönder.
+| [res.sendFile()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendFile)     | Dosyayı sekizli akış olarak gönder.
+| [res.sendStatus()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendStatus) | Yanıt durum kodunu ayarla ve karakter dize temsilini yanıt gövdesi olarak gönder.
 
 <h2 id="app-route">app.route()</h2>
 
 Bir rota yolu için `app.route()` kullanarak zincirlenebilir rota işleyicileri oluşturabilirsiniz.
-Yol tek bir konumda belirtildiğinden, fazlalık ve yazım hatalarını azaltmak için modüler rotalar oluşturmak yararlıdır. Rotalar hakkında daha fazla bilgi için, bakınız: [Router() dökümantasyonu](/{{ page.lang }}/4x/api.html#router).
+Yol tek bir konumda belirtildiğinden, fazlalık ve yazım hatalarını azaltmak için modüler rotalar oluşturmak yararlıdır. Rotalar hakkında daha fazla bilgi için, bakınız: [Router() dökümantasyonu](/expressjs.com/{{ page.lang }}/4x/api.html#router).
 
 Burada `app.route()` kullanılarak tanımlanan zincirleme rota işleyicilerine bir örnek verilmiştir.
 

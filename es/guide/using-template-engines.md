@@ -58,4 +58,4 @@ app.get('/', function (req, res) {
 
 Cuando realice una solicitud a la página de inicio, el archivo `index.pug` se representará como HTML.
 
-Para obtener más información sobre cómo funcionan los motores de plantilla en Express, consulte: ["Desarrollo de motores de plantilla para Express"](/{{ page.lang }}/advanced/developing-template-engines.html).
+Para obtener más información sobre cómo funcionan los motores de plantilla en Express, consulte: ["Desarrollo de motores de plantilla para Express"](/expressjs.com/{{ page.lang }}/advanced/developing-template-engines.html).

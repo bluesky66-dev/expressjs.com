@@ -8,7 +8,7 @@ lang: tr
 # Merhaba Dünya Örneği
 
 <div class="doc-box doc-info" markdown="1">
-Aşağıda verilmiş olan, Express ile oluşturabileceğiniz en basit uygulamadır. Bu, birçok JavaScript dosyası, Jade şablonları ve çeşitli alt dizinler içeren [Express generator](/{{ page.lang }}/starter/generator.html) ile oluşturacağınız projelerin aksine tek dosyadan oluşan bir projedir.
+Aşağıda verilmiş olan, Express ile oluşturabileceğiniz en basit uygulamadır. Bu, birçok JavaScript dosyası, Jade şablonları ve çeşitli alt dizinler içeren [Express generator](/expressjs.com/{{ page.lang }}/starter/generator.html) ile oluşturacağınız projelerin aksine tek dosyadan oluşan bir projedir.
 </div>
 
 <script src="https://embed.runkit.com" data-element-id="hello-example" data-mode="endpoint" async defer></script>
@@ -37,7 +37,7 @@ RunKit bir üçüncü parti uygulamasıdır ve Express projesi ile bir bağı yo
 
 ### Bilgisayarınızda Çalıştırmak
 
-İlk olarak `myapp` adında bir dizin oluşturun, o dizine geçin ve `npm init` komutunu çalıştırın. Sonra `express`i [bu sayfada](/{{ page.lang }}/starter/installing.html) gösterildiği gibi bir bağımlılık olarak kurun.
+İlk olarak `myapp` adında bir dizin oluşturun, o dizine geçin ve `npm init` komutunu çalıştırın. Sonra `express`i [bu sayfada](/expressjs.com/{{ page.lang }}/starter/installing.html) gösterildiği gibi bir bağımlılık olarak kurun.
 
 `myapp` dizininde `app.js` adında bir dosya oluşturun ve yukarıdaki kodu bu dosyaya kopyalayın.
 
@@ -54,5 +54,5 @@ $ node app.js
 
 Sonucu görmek için sunucunuzda `http://localhost:3000/` adresini ziyaret edin.
 
-###  [Önceki: Kurulum ](/{{ page.lang }}/starter/installing.html)&nbsp;&nbsp;&nbsp;&nbsp;[Sonraki: Express Oluşturucu ](/{{ page.lang }}/starter/generator.html)
+###  [Önceki: Kurulum ](/expressjs.com/{{ page.lang }}/starter/installing.html)&nbsp;&nbsp;&nbsp;&nbsp;[Sonraki: Express Oluşturucu ](/expressjs.com/{{ page.lang }}/starter/generator.html)
 

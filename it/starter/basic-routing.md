@@ -26,7 +26,7 @@ Dove:
 - `HANDLER` è la funzione eseguita quando si trova una corrispondenza per la route.
 
 <div class="doc-box doc-notice" markdown="1">
-Questo tutorial presume che un'istanza di `express` denominata `app` sia stata creata e che il server sia in esecuzione. Se non si è in grado di creare un'applicazione e avviarla, consultare la sezione [Esempio di Hello world](/{{ page.lang }}/starter/hello-world.html).
+Questo tutorial presume che un'istanza di `express` denominata `app` sia stata creata e che il server sia in esecuzione. Se non si è in grado di creare un'applicazione e avviarla, consultare la sezione [Esempio di Hello world](/expressjs.com/{{ page.lang }}/starter/hello-world.html).
 </div>
 
 I seguenti esempi mostrano come definire route semplici.
@@ -71,4 +71,4 @@ app.delete('/user', function (req, res) {
 </code>
 </pre>
 
-Per ulteriori dettagli sul routing, consultare il [Manuale routing](/{{ page.lang }}/guide/routing.html).
+Per ulteriori dettagli sul routing, consultare il [Manuale routing](/expressjs.com/{{ page.lang }}/guide/routing.html).

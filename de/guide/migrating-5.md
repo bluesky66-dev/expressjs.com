@@ -84,7 +84,7 @@ Die folgenden Methodennamen wurden pluralisiert. In Express 4 wurde bei Verwendu
 
 Ein führendes Doppelpunktzeichen (:) im Namen für die Funktion `app.param(name, fn)` ist ein Überbleibsel aus Express 3. Aus Gründen der Abwärtskompatibilität wurde dieser Name in Express 4 mit einem Hinweis zu veralteten Versionen weiter unterstützt. In Express 5 wird dieser Name stillschwiegend ignoriert und der Namensparameter ohne einen vorangestellten Doppelpunkt verwendet.
 
-Dies dürfte keine Auswirkungen auf Ihren Code haben, wenn Sie die Express 4-Dokumentation zu [app.param](/{{ page.lang }}/4x/api.html#app.param) befolgen, da dort der führende Doppelpunkt nicht erwähnt wird.
+Dies dürfte keine Auswirkungen auf Ihren Code haben, wenn Sie die Express 4-Dokumentation zu [app.param](/expressjs.com/{{ page.lang }}/4x/api.html#app.param) befolgen, da dort der führende Doppelpunkt nicht erwähnt wird.
 
 <h4 id="req.param">req.param(name)</h4>
 

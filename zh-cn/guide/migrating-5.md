@@ -85,7 +85,7 @@ Express 5 不再支持 `app.del()` 函数。如果使用此函数，将抛出错
 
 `app.param(name, fn)` 函数名称中的前置冒号字符 (:) 是 Express 3 的遗留问题，为了向后兼容性，Express 4 提供支持但会显示不推荐使用的提醒。而 Express 5 则静默忽略它，使用不带前置冒号的名称参数。
 
-如果您遵循 [app.param](/{{ page.lang }}/4x/api.html#app.param) 的 Express 4 文档进行开发，那么不会影响代码，因为文档中没有提及前置冒号。
+如果您遵循 [app.param](/expressjs.com/{{ page.lang }}/4x/api.html#app.param) 的 Express 4 文档进行开发，那么不会影响代码，因为文档中没有提及前置冒号。
 
 <h4 id="req.param">req.param(name)</h4>
 

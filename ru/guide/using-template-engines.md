@@ -58,4 +58,4 @@ app.get('/', function (req, res) {
 
 При выполнении запроса к домашней странице файл `index.pug` будет отображаться как HTML.
 
-Для получения дополнительной информации о работе шаблонизаторов в Express обратитесь к разделу ["Разработка шаблонизаторов для Express"](/{{ page.lang }}/advanced/developing-template-engines.html).
+Для получения дополнительной информации о работе шаблонизаторов в Express обратитесь к разделу ["Разработка шаблонизаторов для Express"](/expressjs.com/{{ page.lang }}/advanced/developing-template-engines.html).

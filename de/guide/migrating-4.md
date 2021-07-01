@@ -112,7 +112,7 @@ Die Art und Weise, wie Weiterleitungen (Routen) definiert werden, bleibt unverä
 
 <h4 id="app-route">Die Methode <code>app.route()</code></h4>
 
-Die neue Methode `app.route()` hilft beim Erstellen verkettbarer Routenhandler für einen Weiterleitungspfad. Da der Pfad an einer einzelnen Position angegeben wird, ist das Erstellen modularer Weiterleitungen hilfreich, da Redundanzen und Schreibfehler reduziert werden. Weitere Informationen zu Weiterleitungen finden Sie in der Dokumentation zu [`Router()`](/{{ page.lang }}/4x/api.html#router).
+Die neue Methode `app.route()` hilft beim Erstellen verkettbarer Routenhandler für einen Weiterleitungspfad. Da der Pfad an einer einzelnen Position angegeben wird, ist das Erstellen modularer Weiterleitungen hilfreich, da Redundanzen und Schreibfehler reduziert werden. Weitere Informationen zu Weiterleitungen finden Sie in der Dokumentation zu [`Router()`](/expressjs.com/{{ page.lang }}/4x/api.html#router).
 
 Dies ist ein Beispiel für verkettete Routenhandler, die mit der Funktion `app.route()` definiert werden.
 

@@ -11,7 +11,7 @@ lang: sk
 # Routing
 
 _Routing_ definuje tzv. koncové body aplikácie (URI) a spôsob, akým odpovedajú na requesty klientov.
-Základné informácie o routing-u sa dozviete v sekcii [Základný routing](/{{ page.lang }}/starter/basic-routing.html).
+Základné informácie o routing-u sa dozviete v sekcii [Základný routing](/expressjs.com/{{ page.lang }}/starter/basic-routing.html).
 
 Tu je príklad, ako zadefinovať základný routing.
 
@@ -181,7 +181,7 @@ app.get(/.*fly$/, function(req, res) {
 
 <h2 id="route-handlers">Route handler</h2>
 
-Pre spracovanie requestu je možné zadefinovať viacero callback funkcií správajúcich sa ako [middleware](/{{ page.lang }}/guide/using-middleware.html). Jedinou výnimkou je, že tieto callback-y môžu samé vyvolať `next('route')` a tak vynechať zostávajúce definície callback-ov. Tento mechanizmus môžete použiť k stanoveniu podmienok spracovania a následne potom "odovzdať" riadenie ďalším route definíciám v prípade, že nie je dôvod ho ďalej spracovávať v aktuálnej route definícii.
+Pre spracovanie requestu je možné zadefinovať viacero callback funkcií správajúcich sa ako [middleware](/expressjs.com/{{ page.lang }}/guide/using-middleware.html). Jedinou výnimkou je, že tieto callback-y môžu samé vyvolať `next('route')` a tak vynechať zostávajúce definície callback-ov. Tento mechanizmus môžete použiť k stanoveniu podmienok spracovania a následne potom "odovzdať" riadenie ďalším route definíciám v prípade, že nie je dôvod ho ďalej spracovávať v aktuálnej route definícii.
 
 Route handler môže byť definovaný ako funkcia, pole funkcií či kombinácia oboch, ako na nasledujúcich príkladoch.
 
@@ -259,20 +259,20 @@ Metódy response objektu (`res`) v nasledujúcej tabuľke dokážu odoslať odpo
 
 | Method               | Description
 |----------------------|--------------------------------------
-| [res.download()](/{{ page.lang }}/4x/api.html#res.download)   | Ponúkne súbor na stianutie.
-| [res.end()](/{{ page.lang }}/4x/api.html#res.end)        | Ukončí proces odpovede.
-| [res.json()](/{{ page.lang }}/4x/api.html#res.json)       | Odošle odpoveď ako JSON.
-| [res.jsonp()](/{{ page.lang }}/4x/api.html#res.jsonp)      | Odošle JSON odpoveď s podporou JSONP.
-| [res.redirect()](/{{ page.lang }}/4x/api.html#res.redirect)   | Presmeruje request.
-| [res.render()](/{{ page.lang }}/4x/api.html#res.render)     | Vyrendruje view template.
-| [res.send()](/{{ page.lang }}/4x/api.html#res.send)       | Odošle odpoveď rôzneho typu.
-| [res.sendFile()](/{{ page.lang }}/4x/api.html#res.sendFile)     | Odošle súbor ako octet stream.
-| [res.sendStatus()](/{{ page.lang }}/4x/api.html#res.sendStatus) | Nastaví status kód odpovede a odošle jej textovú reprezentáciu ako telo odpovede.
+| [res.download()](/expressjs.com/{{ page.lang }}/4x/api.html#res.download)   | Ponúkne súbor na stianutie.
+| [res.end()](/expressjs.com/{{ page.lang }}/4x/api.html#res.end)        | Ukončí proces odpovede.
+| [res.json()](/expressjs.com/{{ page.lang }}/4x/api.html#res.json)       | Odošle odpoveď ako JSON.
+| [res.jsonp()](/expressjs.com/{{ page.lang }}/4x/api.html#res.jsonp)      | Odošle JSON odpoveď s podporou JSONP.
+| [res.redirect()](/expressjs.com/{{ page.lang }}/4x/api.html#res.redirect)   | Presmeruje request.
+| [res.render()](/expressjs.com/{{ page.lang }}/4x/api.html#res.render)     | Vyrendruje view template.
+| [res.send()](/expressjs.com/{{ page.lang }}/4x/api.html#res.send)       | Odošle odpoveď rôzneho typu.
+| [res.sendFile()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendFile)     | Odošle súbor ako octet stream.
+| [res.sendStatus()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendStatus) | Nastaví status kód odpovede a odošle jej textovú reprezentáciu ako telo odpovede.
 
 <h2 id="app-route">app.route()</h2>
 
 Pomocou `app.route()` dokážete vytvoriť zreťaziteľné route handlery pre konkrétnu route cestu.
-Pretože je route cesta špecifikovaná na jednom mieste, tvorba takýchto routes je užitočná a znižuje redundanciu a preklepy. Pre viac informácií o použití route pozrite: [Router() dokumentáciu](/{{ page.lang }}/4x/api.html#router).
+Pretože je route cesta špecifikovaná na jednom mieste, tvorba takýchto routes je užitočná a znižuje redundanciu a preklepy. Pre viac informácií o použití route pozrite: [Router() dokumentáciu](/expressjs.com/{{ page.lang }}/4x/api.html#router).
 
 Tu je príklad zreťazenia route handlerov definovaných pomocou `app.route()`.
 

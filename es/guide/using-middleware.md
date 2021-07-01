@@ -9,7 +9,7 @@ lang: es
 
 Express es una infraestructura web de direccionamiento y middleware que tiene una funcionalidad mínima propia: una aplicación Express es fundamentalmente una serie de llamadas a funciones de middleware.
 
-Las funciones de *middleware* son funciones que tienen acceso al [objeto de solicitud](/{{ page.lang }}/4x/api.html#req) (`req`), al [objeto de respuesta](/{{ page.lang }}/4x/api.html#res) (`res`) y a la siguiente función de middleware en el ciclo de solicitud/respuestas de la aplicación. La siguiente función de middleware se denota normalmente con una variable denominada `next`.
+Las funciones de *middleware* son funciones que tienen acceso al [objeto de solicitud](/expressjs.com/{{ page.lang }}/4x/api.html#req) (`req`), al [objeto de respuesta](/expressjs.com/{{ page.lang }}/4x/api.html#res) (`res`) y a la siguiente función de middleware en el ciclo de solicitud/respuestas de la aplicación. La siguiente función de middleware se denota normalmente con una variable denominada `next`.
 
 Las funciones de middleware pueden realizar las siguientes tareas:
 
@@ -33,7 +33,7 @@ También puede cargar una serie de funciones de middleware a la vez, lo que crea
 
 <h2 id='middleware.application'>Middleware de nivel de aplicación</h2>
 
-Enlace el middleware de nivel de aplicación a una instancia del [objeto de aplicación](/{{ page.lang }}/4x/api.html#app) utilizando las funciones `app.use()` y `app.METHOD()`, donde `METHOD` es el método HTTP de la solicitud que maneja la función de middleware (por ejemplo, GET, PUT o POST) en minúsculas.
+Enlace el middleware de nivel de aplicación a una instancia del [objeto de aplicación](/expressjs.com/{{ page.lang }}/4x/api.html#app) utilizando las funciones `app.use()` y `app.METHOD()`, donde `METHOD` es el método HTTP de la solicitud que maneja la función de middleware (por ejemplo, GET, PUT o POST) en minúsculas.
 
 Este ejemplo muestra una función de middleware sin ninguna vía de acceso de montaje. La función se ejecuta cada vez que la aplicación recibe una solicitud.
 
@@ -200,7 +200,7 @@ app.use(function(err, req, res, next) {
 </code>
 </pre>
 
-Para obtener detalles sobre el middleware de manejo de errores, consulte: [Manejo de errores](/{{ page.lang }}/guide/error-handling.html).
+Para obtener detalles sobre el middleware de manejo de errores, consulte: [Manejo de errores](/expressjs.com/{{ page.lang }}/guide/error-handling.html).
 
 <h2 id='middleware.built-in'>Middleware incorporado</h2>
 

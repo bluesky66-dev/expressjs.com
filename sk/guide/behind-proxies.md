@@ -11,7 +11,7 @@ lang: sk
 
 # Express za proxy
 
-Ak chcete, aby vaša Express aplikácia bežala za proxy, nastavte (pomocou [app.set()](/{{ page.lang }}/4x/api.html#app.set)) aplikačnú premennú `trust proxy` na jednu z hodnôt z nasledujúcej tabuľky.
+Ak chcete, aby vaša Express aplikácia bežala za proxy, nastavte (pomocou [app.set()](/expressjs.com/{{ page.lang }}/4x/api.html#app.set)) aplikačnú premennú `trust proxy` na jednu z hodnôt z nasledujúcej tabuľky.
 
 <div class="doc-box doc-info" markdown="1">
 Aplikácia bude bežať i v prípade, ak aplikačná premenná `trust proxy` nie je nastavená. Aplikácia však nesprávne zaregistruje IP adresu proxy, ako klientskú IP adresu dokým `trust proxy` nebude nastavené.
@@ -73,11 +73,11 @@ Vlastná implementácia dôveryhodnosti. Použite to iba v prípade, ak viete č
 Nastavením inej ako `false` hodnoty `trust proxy` implikuje tieto tri dôležité zmeny:
 
 <ul>
-  <li markdown="1">Hodnota [req.hostname](/{{ page.lang }}/api.html#req.hostname) je odvodená od hodnoty nastavenej v `X-Forwarded-Host` hlavičke, ktorá môže byť nastavená klientom alebo proxy.
+  <li markdown="1">Hodnota [req.hostname](/expressjs.com/{{ page.lang }}/api.html#req.hostname) je odvodená od hodnoty nastavenej v `X-Forwarded-Host` hlavičke, ktorá môže byť nastavená klientom alebo proxy.
   </li>
-  <li markdown="1">Hlavička `X-Forwarded-Proto` môže byť nastavená z reverse proxy aby oznámila aplikácii, či je `https` alebo  `http` prípadne nevalidná hodnota. Táto hodnota reflektuje [req.protocol](/{{ page.lang }}/api.html#req.protocol).
+  <li markdown="1">Hlavička `X-Forwarded-Proto` môže byť nastavená z reverse proxy aby oznámila aplikácii, či je `https` alebo  `http` prípadne nevalidná hodnota. Táto hodnota reflektuje [req.protocol](/expressjs.com/{{ page.lang }}/api.html#req.protocol).
   </li>
-  <li markdown="1">Hodnoty [req.ip](/{{ page.lang }}/api.html#req.ip) a [req.ips](/{{ page.lang }}/api.html#req.ips) sú naplnené zoznamom adries z `X-Forwarded-For`.
+  <li markdown="1">Hodnoty [req.ip](/expressjs.com/{{ page.lang }}/api.html#req.ip) a [req.ips](/expressjs.com/{{ page.lang }}/api.html#req.ips) sú naplnené zoznamom adries z `X-Forwarded-For`.
   </li>
 </ul>
 

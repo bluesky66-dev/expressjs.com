@@ -8,10 +8,10 @@ lang: it
 # Esempio di Hello world
 
 <div class="doc-box doc-info" markdown="1">
-In sostanza, questa sarà l'applicazione Express più semplice che è possibile creare. È un'applicazione a singolo file &mdash; e *non* quello che si ottiene se si utilizza il [Programma di creazione Express](/{{ page.lang }}/starter/generator.html), il quale crea le fondamenta per un'applicazione completa con molti file JavaScript, template Jade e sotto directory per diversi scopi.
+In sostanza, questa sarà l'applicazione Express più semplice che è possibile creare. È un'applicazione a singolo file &mdash; e *non* quello che si ottiene se si utilizza il [Programma di creazione Express](/expressjs.com/{{ page.lang }}/starter/generator.html), il quale crea le fondamenta per un'applicazione completa con molti file JavaScript, template Jade e sotto directory per diversi scopi.
 </div>
 
-Per prima cosa creare una directory denominata `myapp`, passare a quest'ultima ed eseguire `npm init`. Quindi installare `express` come dipendenza, come descritto nella [Guida all'installazione](/{{ page.lang }}/starter/installing.html).
+Per prima cosa creare una directory denominata `myapp`, passare a quest'ultima ed eseguire `npm init`. Quindi installare `express` come dipendenza, come descritto nella [Guida all'installazione](/expressjs.com/{{ page.lang }}/starter/installing.html).
 
 Nella directory `myapp`, creare un file denominato `app.js` e aggiungere il seguente codice:
 

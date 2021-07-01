@@ -49,7 +49,7 @@ Express statik dosyalara `express.static` ile tanımladığınız sırayla bakar
 <div class="doc-box doc-info" markdown="1">NOT: En iyi sonuç için, statik dosyaları sunarken performansı artırmak için [reverse proxy](/{{page.lang}}/advanced/ önbelleği kullanın.
 </div>
 
-`express.static` ile sunulan dosyalar için sanal bir yol (statik dizinin aslında gerçekte bulunmadığı) yaratmak için, statik dizine aşağıdaki gibi bir [path tanımlayın](/{{ page.lang }}/4x/api.html#app.use).
+`express.static` ile sunulan dosyalar için sanal bir yol (statik dizinin aslında gerçekte bulunmadığı) yaratmak için, statik dizine aşağıdaki gibi bir [path tanımlayın](/expressjs.com/{{ page.lang }}/4x/api.html#app.use).
 
 
 ```js
@@ -74,4 +74,4 @@ app.use('/static', express.static(path.join(__dirname, 'public')))
 
 `serve-static` hakkında daha fazla bilgi almak için, [serve-static](/resources/middleware/serve-static.html) sayfasına göz atın.
 
-### [Önceki: Basit Yol Atama ](/{{ page.lang }}/starter/basic-routing.html)&nbsp;&nbsp;&nbsp;&nbsp;[Sonraki: Sıkça Sorulan Sorular ](/{{ page.lang }}/starter/faq.html)
+### [Önceki: Basit Yol Atama ](/expressjs.com/{{ page.lang }}/starter/basic-routing.html)&nbsp;&nbsp;&nbsp;&nbsp;[Sonraki: Sıkça Sorulan Sorular ](/expressjs.com/{{ page.lang }}/starter/faq.html)

@@ -8,7 +8,7 @@ lang: zh-cn
 # 路由
 
 *路由*表示应用程序端点 (URI) 的定义以及端点响应客户机请求的方式。
-有关路由的简介，请参阅[基本路由](/{{ page.lang }}/starter/basic-routing.html)。
+有关路由的简介，请参阅[基本路由](/expressjs.com/{{ page.lang }}/starter/basic-routing.html)。
 
 以下代码是非常基本的路由示例。
 
@@ -177,7 +177,7 @@ app.get(/.*fly$/, function(req, res) {
 
 <h2 id="route-handlers">路由处理程序</h2>
 
-您可以提供多个回调函数，以类似于[中间件](/{{ page.lang }}/guide/using-middleware.html)的行为方式来处理请求。唯一例外是这些回调函数可能调用 `next('route')` 来绕过剩余的路由回调。您可以使用此机制对路由施加先决条件，在没有理由继续执行当前路由的情况下，可将控制权传递给后续路由。
+您可以提供多个回调函数，以类似于[中间件](/expressjs.com/{{ page.lang }}/guide/using-middleware.html)的行为方式来处理请求。唯一例外是这些回调函数可能调用 `next('route')` 来绕过剩余的路由回调。您可以使用此机制对路由施加先决条件，在没有理由继续执行当前路由的情况下，可将控制权传递给后续路由。
 
 路由处理程序的形式可以是一个函数、一组函数或者两者的结合，如以下示例中所示。
 
@@ -255,20 +255,20 @@ app.get('/example/d', [cb0, cb1], function (req, res, next) {
 
 |   方法               | 描述
 |----------------------|--------------------------------------
-| [res.download()](/{{ page.lang }}/4x/api.html#res.download)     | 提示将要下载文件。
-| [res.end()](/{{ page.lang }}/4x/api.html#res.end)               | 结束响应进程。
-| [res.json()](/{{ page.lang }}/4x/api.html#res.json)             | 发送 JSON 响应。
-| [res.jsonp()](/{{ page.lang }}/4x/api.html#res.jsonp)           | 在 JSONP 的支持下发送 JSON 响应。
-| [res.redirect()](/{{ page.lang }}/4x/api.html#res.redirect)     | 重定向请求。
-| [res.render()](/{{ page.lang }}/4x/api.html#res.render)         | 呈现视图模板。
-| [res.send()](/{{ page.lang }}/4x/api.html#res.send)             | 发送各种类型的响应。
-| [res.sendFile()](/{{ page.lang }}/4x/api.html#res.sendFile)       | 以八位元流形式发送文件。
-| [res.sendStatus()](/{{ page.lang }}/4x/api.html#res.sendStatus) | 设置响应状态码并以响应主体形式发送其字符串表示。
+| [res.download()](/expressjs.com/{{ page.lang }}/4x/api.html#res.download)     | 提示将要下载文件。
+| [res.end()](/expressjs.com/{{ page.lang }}/4x/api.html#res.end)               | 结束响应进程。
+| [res.json()](/expressjs.com/{{ page.lang }}/4x/api.html#res.json)             | 发送 JSON 响应。
+| [res.jsonp()](/expressjs.com/{{ page.lang }}/4x/api.html#res.jsonp)           | 在 JSONP 的支持下发送 JSON 响应。
+| [res.redirect()](/expressjs.com/{{ page.lang }}/4x/api.html#res.redirect)     | 重定向请求。
+| [res.render()](/expressjs.com/{{ page.lang }}/4x/api.html#res.render)         | 呈现视图模板。
+| [res.send()](/expressjs.com/{{ page.lang }}/4x/api.html#res.send)             | 发送各种类型的响应。
+| [res.sendFile()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendFile)       | 以八位元流形式发送文件。
+| [res.sendStatus()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendStatus) | 设置响应状态码并以响应主体形式发送其字符串表示。
 
 <h2 id="app-route">app.route()</h2>
 
 您可以使用 `app.route()` 为路由路径创建可链接的路由处理程序。
-因为在单一位置指定路径，所以可以减少冗余和输入错误。有关路由的更多信息，请参阅 [Router() 文档](/{{ page.lang }}/4x/api.html#router)。
+因为在单一位置指定路径，所以可以减少冗余和输入错误。有关路由的更多信息，请参阅 [Router() 文档](/expressjs.com/{{ page.lang }}/4x/api.html#router)。
 
 以下是使用 `app.route()` 定义的链式路由处理程序的示例。
 

@@ -9,7 +9,7 @@ lang: ja
 
 _テンプレートエンジン_ を使用すると、アプリケーションで静的なテンプレートファイルを使用できます。実行時に、テンプレートエンジンはテンプレートファイルの変数を実際の値に置き換え、テンプレートをクライアントに送信するHTMLファイルに変換します。このアプローチにより、HTMLページの設計が容易になります。
 
-Expressで動作する一般的なテンプレートエンジンには、[Pug](https://pugjs.org/api/getting-started.html)、[Mustache](https://www.npmjs.com/package/mustache)、[EJS](https://www.npmjs.com/package/ejs)があります。[Expressアプリケーションジェネレータ](/{{ page.lang }}/starter/generator.html)は[Jade](https://www.npmjs.com/package/jade)をデフォルトとして使用しますが、いくつかの他のものもサポートしています。
+Expressで動作する一般的なテンプレートエンジンには、[Pug](https://pugjs.org/api/getting-started.html)、[Mustache](https://www.npmjs.com/package/mustache)、[EJS](https://www.npmjs.com/package/ejs)があります。[Expressアプリケーションジェネレータ](/expressjs.com/{{ page.lang }}/starter/generator.html)は[Jade](https://www.npmjs.com/package/jade)をデフォルトとして使用しますが、いくつかの他のものもサポートしています。
 
 Expressで使用できるテンプレートエンジンのリストについては、[テンプレートエンジン (Express wiki)](https://github.com/expressjs/express/wiki#template-engines)を参照してください。また、[JavaScript テンプレートエンジンの比較: Jade, Mustache, Dust など](https://strongloop.com/strongblog/compare-javascript-templates-jade-mustache-dust/)も参照してください。
 
@@ -19,7 +19,7 @@ Expressで使用できるテンプレートエンジンのリストについて�
 
 </div>
 
-テンプレートファイルをレンダリングするには、次の[アプリケーション設定プロパティ](/{{ page.lang }}/4x/api.html#app.set)を設定し、ジェネレータで作成されたデフォルトアプリの`app.js`にセットします。
+テンプレートファイルをレンダリングするには、次の[アプリケーション設定プロパティ](/expressjs.com/{{ page.lang }}/4x/api.html#app.set)を設定し、ジェネレータで作成されたデフォルトアプリの`app.js`にセットします。
 
 * `views`はテンプレートファイルが置かれているディレクトリ。例：`app.set('views', './views')`。これは、デフォルトではアプリケーションのルートディレクトリ内の`views`ディレクトリになります
 * `view engine`は使用するテンプレートエンジン。たとえば、Pugテンプレートエンジンを使用するには、`app.set('view engine', 'pug')`を使用します
@@ -65,4 +65,4 @@ app.get('/', function (req, res) {
 
 注：view engine のキャッシュは、テンプレートの出力内容をキャッシュしません。基本となるテンプレート自体だけです。このビューは、キャッシュがオンの場合でも、すべてのリクエストで再レンダリングされます。
 
-Express でのテンプレート・エンジンの動作について詳しくは、[Express 用のテンプレート・エンジンの開発](/{{ page.lang }}/advanced/developing-template-engines.html)を参照してください。
+Express でのテンプレート・エンジンの動作について詳しくは、[Express 用のテンプレート・エンジンの開発](/expressjs.com/{{ page.lang }}/advanced/developing-template-engines.html)を参照してください。

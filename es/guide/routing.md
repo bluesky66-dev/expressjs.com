@@ -8,7 +8,7 @@ lang: es
 # Direccionamiento
 
 *Direccionamiento* hace referencia a la definición de puntos finales de aplicación (URI) y cómo responden a las solicitudes de cliente.
-Para ver una introducción al direccionamiento, consulte [Direccionamiento básico](/{{ page.lang }}/starter/basic-routing.html).
+Para ver una introducción al direccionamiento, consulte [Direccionamiento básico](/expressjs.com/{{ page.lang }}/starter/basic-routing.html).
 
 El siguiente código es un ejemplo de una ruta muy básica.
 
@@ -177,7 +177,7 @@ app.get(/.*fly$/, function(req, res) {
 
 <h2 id="route-handlers">Manejadores de rutas</h2>
 
-Puede proporcionar varias funciones de devolución de llamada que se comportan como [middleware](/{{ page.lang }}/guide/using-middleware.html) para manejar una solicitud. La única excepción es que estas devoluciones de llamada pueden invocar `next('route')` para omitir el resto de las devoluciones de llamada de ruta. Puede utilizar este mecanismo para imponer condiciones previas en una ruta y, a continuación, pasar el control a las rutas posteriores si no hay motivo para continuar con la ruta actual.
+Puede proporcionar varias funciones de devolución de llamada que se comportan como [middleware](/expressjs.com/{{ page.lang }}/guide/using-middleware.html) para manejar una solicitud. La única excepción es que estas devoluciones de llamada pueden invocar `next('route')` para omitir el resto de las devoluciones de llamada de ruta. Puede utilizar este mecanismo para imponer condiciones previas en una ruta y, a continuación, pasar el control a las rutas posteriores si no hay motivo para continuar con la ruta actual.
 
 Los manejadores de rutas pueden tener la forma de una función, una matriz de funciones o combinaciones de ambas, como se muestra en los siguientes ejemplos.
 
@@ -255,20 +255,20 @@ Los métodos en el objeto de respuesta (`res`) de la tabla siguiente pueden envi
 
 | Método               | Descripción
 |----------------------|--------------------------------------
-| [res.download()](/{{ page.lang }}/4x/api.html#res.download)   | Solicita un archivo para descargarlo.
-| [res.end()](/{{ page.lang }}/4x/api.html#res.end)        | Finaliza el proceso de respuesta.
-| [res.json()](/{{ page.lang }}/4x/api.html#res.json)       | Envía una respuesta JSON.
-| [res.jsonp()](/{{ page.lang }}/4x/api.html#res.jsonp)      | Envía una respuesta JSON con soporte JSONP.
-| [res.redirect()](/{{ page.lang }}/4x/api.html#res.redirect)   | Redirecciona una solicitud.
-| [res.render()](/{{ page.lang }}/4x/api.html#res.render)     | Representa una plantilla de vista.
-| [res.send()](/{{ page.lang }}/4x/api.html#res.send)       | Envía una respuesta de varios tipos.
-| [res.sendFile()](/{{ page.lang }}/4x/api.html#res.sendFile)     | Envía un archivo como una secuencia de octetos.
-| [res.sendStatus()](/{{ page.lang }}/4x/api.html#res.sendStatus) | Establece el código de estado de la respuesta y envía su representación de serie como el cuerpo de respuesta.
+| [res.download()](/expressjs.com/{{ page.lang }}/4x/api.html#res.download)   | Solicita un archivo para descargarlo.
+| [res.end()](/expressjs.com/{{ page.lang }}/4x/api.html#res.end)        | Finaliza el proceso de respuesta.
+| [res.json()](/expressjs.com/{{ page.lang }}/4x/api.html#res.json)       | Envía una respuesta JSON.
+| [res.jsonp()](/expressjs.com/{{ page.lang }}/4x/api.html#res.jsonp)      | Envía una respuesta JSON con soporte JSONP.
+| [res.redirect()](/expressjs.com/{{ page.lang }}/4x/api.html#res.redirect)   | Redirecciona una solicitud.
+| [res.render()](/expressjs.com/{{ page.lang }}/4x/api.html#res.render)     | Representa una plantilla de vista.
+| [res.send()](/expressjs.com/{{ page.lang }}/4x/api.html#res.send)       | Envía una respuesta de varios tipos.
+| [res.sendFile()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendFile)     | Envía un archivo como una secuencia de octetos.
+| [res.sendStatus()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendStatus) | Establece el código de estado de la respuesta y envía su representación de serie como el cuerpo de respuesta.
 
 <h2 id="app-route">app.route()</h2>
 
 Puede crear manejadores de rutas encadenables para una vía de acceso de ruta utilizando `app.route()`.
-Como la vía de acceso se especifica en una única ubicación, la creación de rutas modulares es muy útil, al igual que la reducción de redundancia y errores tipográficos. Para obtener más información sobre las rutas, consulte: [Documentación de Router()](/{{ page.lang }}/4x/api.html#router).
+Como la vía de acceso se especifica en una única ubicación, la creación de rutas modulares es muy útil, al igual que la reducción de redundancia y errores tipográficos. Para obtener más información sobre las rutas, consulte: [Documentación de Router()](/expressjs.com/{{ page.lang }}/4x/api.html#router).
 
 A continuación, se muestra un ejemplo de manejadores de rutas encadenados que se definen utilizando `app.route()`.
 

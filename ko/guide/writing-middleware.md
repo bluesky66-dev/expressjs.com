@@ -9,7 +9,7 @@ lang: ko
 
 <h2>개요</h2>
 
-*미들웨어* 함수는 [요청 오브젝트](/{{ page.lang }}/4x/api.html#req)(`req`), [응답 오브젝트](/{{ page.lang }}/4x/api.html#res) (`res`), 그리고 애플리케이션의 요청-응답 주기 중 그 다음의 미들웨어 함수 대한 액세스 권한을 갖는 함수입니다. 그 다음의 미들웨어 함수는 일반적으로 `next`라는 이름의 변수로 표시됩니다.
+*미들웨어* 함수는 [요청 오브젝트](/expressjs.com/{{ page.lang }}/4x/api.html#req)(`req`), [응답 오브젝트](/expressjs.com/{{ page.lang }}/4x/api.html#res) (`res`), 그리고 애플리케이션의 요청-응답 주기 중 그 다음의 미들웨어 함수 대한 액세스 권한을 갖는 함수입니다. 그 다음의 미들웨어 함수는 일반적으로 `next`라는 이름의 변수로 표시됩니다.
 
 미들웨어 함수는 다음과 같은 태스크를 수행할 수 있습니다.
 
@@ -24,7 +24,7 @@ lang: ko
 
 <table id="mw-fig">
 <tr><td id="mw-fig-imgcell">
-<img src="/images/express-mw.png" id="mw-fig-img" />
+<img src="/expressjs.com/images/express-mw.png" id="mw-fig-img" />
 </td>
 <td class="mw-fig-callouts">
 <div class="callout" id="callout1">미들웨어 함수가 적용되는 HTTP 메소드.</div>
@@ -144,4 +144,4 @@ app.listen(3000);
 
 사용자는 요청 오브젝트, 응답 오브젝트, 스택 내의 그 다음 미들웨어 함수, 그리고 모든 Node.js API에 대한 액세스 권한을 가지고 있으므로, 미들웨어 함수에 대한 가능성은 끝이 없습니다.
 
-Express 미들웨어에 대한 자세한 정보는 [Express 미들웨어 사용](/{{ page.lang }}/guide/using-middleware.html)을 참조하십시오.
+Express 미들웨어에 대한 자세한 정보는 [Express 미들웨어 사용](/expressjs.com/{{ page.lang }}/guide/using-middleware.html)을 참조하십시오.

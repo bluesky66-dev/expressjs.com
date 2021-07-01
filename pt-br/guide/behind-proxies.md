@@ -8,7 +8,7 @@ lang: pt-br
 # Express atrás de proxies
 
 Ao executar um aplicativo do Express atrás de um proxy,
-configure (usando [app.set()](/{{ page.lang }}/4x/api.html#app.set)) a variável do
+configure (usando [app.set()](/expressjs.com/{{ page.lang }}/4x/api.html#app.set)) a variável do
 aplicativo `trust proxy` para um dos valores
 listados na seguinte tabela.
 
@@ -89,7 +89,7 @@ Configurando um valor não-`false` para o
 proxy` resulta em três mudanças importantes:
 
 <ul>
-  <li markdown="1">O valor de [req.hostname](/{{ page.lang }}/api.html#req.hostname) é
+  <li markdown="1">O valor de [req.hostname](/expressjs.com/{{ page.lang }}/api.html#req.hostname) é
 derivado do valor configurado no cabeçalho
 `X-Forwarded-Host`, que pode ser configurado pelo
 cliente ou pelo proxy.
@@ -97,10 +97,10 @@ cliente ou pelo proxy.
   <li markdown="1">`X-Forwarded-Proto` pode ser
 configurado pelo proxy reverso para dizer ao aplicativo se ele é
 `https` ou `http` ou até um nome
-inválido. Este valor é refletido pelo [req.protocol](/{{ page.lang }}/api.html#req.protocol).
+inválido. Este valor é refletido pelo [req.protocol](/expressjs.com/{{ page.lang }}/api.html#req.protocol).
   </li>
-  <li markdown="1">Os valores [req.ip](/{{ page.lang }}/api.html#req.ip) e
-[req.ips](/{{ page.lang }}/api.html#req.ips) são populados com a lista de
+  <li markdown="1">Os valores [req.ip](/expressjs.com/{{ page.lang }}/api.html#req.ip) e
+[req.ips](/expressjs.com/{{ page.lang }}/api.html#req.ips) são populados com a lista de
 endereços do `X-Forwarded-For`.
   </li>
 </ul>

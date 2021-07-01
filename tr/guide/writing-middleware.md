@@ -9,7 +9,7 @@ redirect_from: "/guide/writing-middleware.html"
 
 <h2>Genel bakış</h2>
 
-_Ara yazılım_ fonksiyonları uygulamanın istek-yanıt döngüsünde (`req`) [istek objesi](/{{ page.lang }}/4x/api.html#req), (`res`) [yanıt objesi](/{{ page.lang }}/4x/api.html#res), ve `next` metoduna sahip fonksiyonlardır. Express yönlendiricisinde bir fonksiyon olan `next`çağrıldığında şimdiki ara yazılımın ardından gelen ara yazılımı çalıştırır.
+_Ara yazılım_ fonksiyonları uygulamanın istek-yanıt döngüsünde (`req`) [istek objesi](/expressjs.com/{{ page.lang }}/4x/api.html#req), (`res`) [yanıt objesi](/expressjs.com/{{ page.lang }}/4x/api.html#res), ve `next` metoduna sahip fonksiyonlardır. Express yönlendiricisinde bir fonksiyon olan `next`çağrıldığında şimdiki ara yazılımın ardından gelen ara yazılımı çalıştırır.
 
 Ara yazılım fonksiyonları aşağıdaki görevleri yerine getirebilir:
 
@@ -24,7 +24,7 @@ Aşağıdaki şekil bir ara yazılım fonksiyon çağrısının öğelerini gös
 
 <table id="mw-fig">
 <tr><td id="mw-fig-imgcell">
-<img src="/images/express-mw.png" id="mw-fig-img" />
+<img src="/expressjs.com/images/express-mw.png" id="mw-fig-img" />
 </td>
 <td class="mw-fig-callouts">
 <div class="callout" id="callout1">Ara yazılım fonsiyonunu uyglandığı HTTP metodu.</div>
@@ -35,9 +35,9 @@ Aşağıdaki şekil bir ara yazılım fonksiyon çağrısının öğelerini gös
 
 <div class="callout" id="callout4">Ara yazılım için geri çağırma argümanı, ortak anlayışa göre "next" olarak adlandırıldı.</div>
 
-<div class="callout" id="callout5">Ara yazılım fonksiyonuna HTTP <a href="/{{ page.lang }}/4x/api.html#res">yanıtı</a> argümanı, ortak anlayışa göre "res" olarak adlandırıldı.</div>
+<div class="callout" id="callout5">Ara yazılım fonksiyonuna HTTP <a href="/expressjs.com/{{ page.lang }}/4x/api.html#res">yanıtı</a> argümanı, ortak anlayışa göre "res" olarak adlandırıldı.</div>
 
-<div class="callout" id="callout6">Ara yazılım fonksiyonuna HTTP <a href="/{{ page.lang }}/4x/api.html#req">isteği</a> argümanı, ortak anlayışa göre "req" olarak adlandırıldı.</div>
+<div class="callout" id="callout6">Ara yazılım fonksiyonuna HTTP <a href="/expressjs.com/{{ page.lang }}/4x/api.html#req">isteği</a> argümanı, ortak anlayışa göre "req" olarak adlandırıldı.</div>
 </td></tr>
 </table>
 
@@ -184,7 +184,7 @@ app.listen(3000)
 
 İstek objesine, yanıt objesine, yığındaki bir sonraki ara yazılım fonksiyonuna, ve bütün Node.js API'sine erişme imkanına sahip olduğunuzdan, ara yazılım fonksiyonlarının imkanları sınırsızdır.
 
-Express ara yazılımı ile ilgili daha fazla bilgi için, bakınız: [Express ara yazılımı kullanmak](/{{ page.lang }}/guide/using-middleware.html).
+Express ara yazılımı ile ilgili daha fazla bilgi için, bakınız: [Express ara yazılımı kullanmak](/expressjs.com/{{ page.lang }}/guide/using-middleware.html).
 
 <h2>Yapılandırılabilir ara yazılım</h2>
 

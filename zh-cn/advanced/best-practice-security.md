@@ -17,9 +17,9 @@ lang: zh-cn
 
 ## 请勿使用不推荐或者存在漏洞的 Express 版本
 
-Express 2.x 和 3.x 不再得到维护。不会纠正这些版本中的安全问题和性能问题。请勿使用这些版本！如果您尚未迁移到 V4，请按照[迁移指南](/{{ page.lang }}/guide/migrating-4.html)进行迁移。
+Express 2.x 和 3.x 不再得到维护。不会纠正这些版本中的安全问题和性能问题。请勿使用这些版本！如果您尚未迁移到 V4，请按照[迁移指南](/expressjs.com/{{ page.lang }}/guide/migrating-4.html)进行迁移。
 
-还请确保您未使用[安全性更新页面](/{{ page.lang }}/advanced/security-updates.html)中列出的任何存在漏洞的 Express 版本。如果在使用，请更新到某个稳定发行版，首选为最新版本。
+还请确保您未使用[安全性更新页面](/expressjs.com/{{ page.lang }}/advanced/security-updates.html)中列出的任何存在漏洞的 Express 版本。如果在使用，请更新到某个稳定发行版，首选为最新版本。
 
 ## 使用 TLS
 

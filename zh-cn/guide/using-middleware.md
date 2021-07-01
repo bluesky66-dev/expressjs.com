@@ -9,7 +9,7 @@ lang: zh-cn
 
 Express 是一个路由和中间件 Web 框架，其自身只具有最低程度的功能：Express 应用程序基本上是一系列中间件函数调用。
 
-*中间件*函数能够访问[请求对象](/{{ page.lang }}/4x/api.html#req) (`req`)、[响应对象](/{{ page.lang }}/4x/api.html#res) (`res`) 以及应用程序的请求/响应循环中的下一个中间件函数。下一个中间件函数通常由名为 `next` 的变量来表示。
+*中间件*函数能够访问[请求对象](/expressjs.com/{{ page.lang }}/4x/api.html#req) (`req`)、[响应对象](/expressjs.com/{{ page.lang }}/4x/api.html#res) (`res`) 以及应用程序的请求/响应循环中的下一个中间件函数。下一个中间件函数通常由名为 `next` 的变量来表示。
 
 中间件函数可以执行以下任务：
 
@@ -33,7 +33,7 @@ Express 应用程序可以使用以下类型的中间件：
 
 <h2 id='middleware.application'>应用层中间件</h2>
 
-使用 `app.use()` 和 `app.METHOD()` 函数将应用层中间件绑定到[应用程序对象](/{{ page.lang }}/4x/api.html#app)的实例，其中 `METHOD` 是中间件函数处理的请求的小写 HTTP 方法（例如 GET、PUT 或 POST）。
+使用 `app.use()` 和 `app.METHOD()` 函数将应用层中间件绑定到[应用程序对象](/expressjs.com/{{ page.lang }}/4x/api.html#app)的实例，其中 `METHOD` 是中间件函数处理的请求的小写 HTTP 方法（例如 GET、PUT 或 POST）。
 
 此示例显示没有安装路径的中间件函数。应用程序每次收到请求时执行该函数。
 
@@ -199,7 +199,7 @@ app.use(function(err, req, res, next) {
 </code>
 </pre>
 
-有关错误处理中间件的详细信息，请参阅：[错误处理](/{{ page.lang }}/guide/error-handling.html)。
+有关错误处理中间件的详细信息，请参阅：[错误处理](/expressjs.com/{{ page.lang }}/guide/error-handling.html)。
 
 <h2 id='middleware.built-in'>内置中间件</h2>
 

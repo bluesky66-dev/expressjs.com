@@ -71,7 +71,7 @@ app.use(function(err, req, res, next) {
 });
 </code></pre>
 
-Більш детально, можна проглянути розділ [обробка помилок](/{{ page.lang }}/guide/error-handling.html).
+Більш детально, можна проглянути розділ [обробка помилок](/expressjs.com/{{ page.lang }}/guide/error-handling.html).
 
 ## Як можна відмальовувати простий код HTML?
 

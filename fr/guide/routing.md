@@ -8,7 +8,7 @@ lang: fr
 # Routage
 
 *Routage* fait référence à la définition de points finaux d'application (URI) et à la façon dont ils répondent aux demandes client.
-Pour une introduction au routage, voir [Basic routing](/{{ page.lang }}/starter/basic-routing.html).
+Pour une introduction au routage, voir [Basic routing](/expressjs.com/{{ page.lang }}/starter/basic-routing.html).
 
 Le code suivant est un exemple de routage très basique.
 
@@ -178,7 +178,7 @@ app.get(/.*fly$/, function(req, res) {
 
 <h2 id="route-handlers">Gestionnaires de routage</h2>
 
-Vous pouvez fournir plusieurs fonctions de rappel qui se comportent comme des [middleware](/{{ page.lang }}/guide/using-middleware.html) pour gérer une demande. La seule exception est que ces fonctions de rappel peuvent faire appel à `next('route')` pour ignorer les rappels de route restants. Vous pouvez utiliser ce mécanisme pour imposer des conditions préalables sur une route, puis passer aux routes suivantes si aucune raison n'est fournie pour traiter la route actuelle.
+Vous pouvez fournir plusieurs fonctions de rappel qui se comportent comme des [middleware](/expressjs.com/{{ page.lang }}/guide/using-middleware.html) pour gérer une demande. La seule exception est que ces fonctions de rappel peuvent faire appel à `next('route')` pour ignorer les rappels de route restants. Vous pouvez utiliser ce mécanisme pour imposer des conditions préalables sur une route, puis passer aux routes suivantes si aucune raison n'est fournie pour traiter la route actuelle.
 
 Les gestionnaires de route se trouvent sous la forme d'une fonction, d'un tableau de fonctions ou d'une combinaison des deux, tel qu'indiqué dans les exemples suivants.
 
@@ -256,20 +256,20 @@ Les méthodes de l'objet de réponse (`res`) décrites dans le tableau suivant p
 
 | Méthode               | Description
 |----------------------|--------------------------------------
-| [res.download()](/{{ page.lang }}/4x/api.html#res.download)   | Vous invite à télécharger un fichier.
-| [res.end()](/{{ page.lang }}/4x/api.html#res.end)        | Met fin au processus de réponse.
-| [res.json()](/{{ page.lang }}/4x/api.html#res.json)       | Envoie une réponse JSON.
-| [res.jsonp()](/{{ page.lang }}/4x/api.html#res.jsonp)      | Envoie une réponse JSON avec une prise en charge JSONP.
-| [res.redirect()](/{{ page.lang }}/4x/api.html#res.redirect)   | Redirige une demande.
-| [res.render()](/{{ page.lang }}/4x/api.html#res.render)     | Génère un modèle de vue.
-| [res.send()](/{{ page.lang }}/4x/api.html#res.send)        | Envoie une réponse de divers types.
-| [res.sendFile()](/{{ page.lang }}/4x/api.html#res.sendFile)     | Envoie une réponse sous forme de flux d'octets.
-| [res.sendStatus()](/{{ page.lang }}/4x/api.html#res.sendStatus) | Définit le code de statut de réponse et envoie sa représentation sous forme de chaîne comme corps de réponse.
+| [res.download()](/expressjs.com/{{ page.lang }}/4x/api.html#res.download)   | Vous invite à télécharger un fichier.
+| [res.end()](/expressjs.com/{{ page.lang }}/4x/api.html#res.end)        | Met fin au processus de réponse.
+| [res.json()](/expressjs.com/{{ page.lang }}/4x/api.html#res.json)       | Envoie une réponse JSON.
+| [res.jsonp()](/expressjs.com/{{ page.lang }}/4x/api.html#res.jsonp)      | Envoie une réponse JSON avec une prise en charge JSONP.
+| [res.redirect()](/expressjs.com/{{ page.lang }}/4x/api.html#res.redirect)   | Redirige une demande.
+| [res.render()](/expressjs.com/{{ page.lang }}/4x/api.html#res.render)     | Génère un modèle de vue.
+| [res.send()](/expressjs.com/{{ page.lang }}/4x/api.html#res.send)        | Envoie une réponse de divers types.
+| [res.sendFile()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendFile)     | Envoie une réponse sous forme de flux d'octets.
+| [res.sendStatus()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendStatus) | Définit le code de statut de réponse et envoie sa représentation sous forme de chaîne comme corps de réponse.
 
 <h2 id="app-route">app.route()</h2>
 
 Vous pouvez créer des gestionnaires de routage sous forme de chaîne pour un chemin de routage en utilisant `app.route()`.
-Etant donné que le chemin est spécifié à une seul emplacement, la création de routes modulaires est utile car elle réduit la redondance et les erreurs. Pour plus d'informations sur les routes, voir la [documentation Router()](/{{ page.lang }}/4x/api.html#router).
+Etant donné que le chemin est spécifié à une seul emplacement, la création de routes modulaires est utile car elle réduit la redondance et les erreurs. Pour plus d'informations sur les routes, voir la [documentation Router()](/expressjs.com/{{ page.lang }}/4x/api.html#router).
 
 Voici quelques exemples de gestionnaires de chemin de chaînage définis à l'aide de `app.route()`.
 

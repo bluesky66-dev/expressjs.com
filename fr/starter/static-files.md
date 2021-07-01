@@ -60,7 +60,7 @@ Pour créer un préfixe de chemin d'accès virtuel (dans lequel le
 chemin d'accès n'existe pas vraiment dans le système de fichiers)
 pour les fichiers qui sont servis par la fonction
 `express.static`, [indiquez un
-chemin de montage](/{{ page.lang }}/4x/api.html#app.use) pour le répertoire statique, comme démontré
+chemin de montage](/expressjs.com/{{ page.lang }}/4x/api.html#app.use) pour le répertoire statique, comme démontré
 ci-dessous :
 
 <pre>

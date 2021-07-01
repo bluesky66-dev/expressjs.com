@@ -8,7 +8,7 @@ lang: it
 # Routing
 
 *Routing* fa riferimento alla definizione di endpoint dell'applicazione (URI) e alla loro modalità di risposta alle richieste del client.
-Per un'introduzione al concetto di routing, consultare la sezione [Routing di base](/{{ page.lang }}/starter/basic-routing.html).
+Per un'introduzione al concetto di routing, consultare la sezione [Routing di base](/expressjs.com/{{ page.lang }}/starter/basic-routing.html).
 
 Il codice seguente è un esempio di una route veramente di base.
 
@@ -178,7 +178,7 @@ app.get(/.*fly$/, function(req, res) {
 
 <h2 id="route-handlers">Handler di route</h2>
 
-È possibile fornire molteplici funzioni di callback che si comportino come [middleware](/{{ page.lang }}/guide/using-middleware.html) per gestire una richiesta. La sola eccezione è rappresentata dal fatto che queste callback potrebbero richiamare `next('route')` per ignorare le callback di route restanti. È possibile utilizzare questo meccanismo per imporre pre-condizioni su una route, quindi, passare il controllo a route successive, nel caso non ci siano motivi per proseguire con la route corrente.
+È possibile fornire molteplici funzioni di callback che si comportino come [middleware](/expressjs.com/{{ page.lang }}/guide/using-middleware.html) per gestire una richiesta. La sola eccezione è rappresentata dal fatto che queste callback potrebbero richiamare `next('route')` per ignorare le callback di route restanti. È possibile utilizzare questo meccanismo per imporre pre-condizioni su una route, quindi, passare il controllo a route successive, nel caso non ci siano motivi per proseguire con la route corrente.
 
 Gli handler di route possono avere il formato di una funzione, di un array di funzioni o di combinazioni di entrambi, come illustrato nei seguenti esempi.
 
@@ -256,20 +256,20 @@ I metodi sull'oggetto risposta (`res`) nella seguente tabella possono inviare un
 
 | Metodo               | Descrizione
 |----------------------|--------------------------------------
-| [res.download()](/{{ page.lang }}/4x/api.html#res.download)   | Richiedere un file da scaricare.
-| [res.end()](/{{ page.lang }}/4x/api.html#res.end)        | Terminare il processo di risposta.
-| [res.json()](/{{ page.lang }}/4x/api.html#res.json)       | Inviare una risposta JSON.
-| [res.jsonp()](/{{ page.lang }}/4x/api.html#res.jsonp)      | Inviare una risposta JSON con supporto JSONP.
-| [res.redirect()](/{{ page.lang }}/4x/api.html#res.redirect)   | Reindirizzare una richiesta.
-| [res.render()](/{{ page.lang }}/4x/api.html#res.render)     | Eseguire il rendering di un template di vista.
-| [res.send()](/{{ page.lang }}/4x/api.html#res.send)       | Inviare una risposta di vari tipi.
-| [res.sendFile](/{{ page.lang }}/4x/api.html#res.sendFile)     | Inviare un file come un flusso di ottetti.
-| [res.sendStatus()](/{{ page.lang }}/4x/api.html#res.sendStatus) | Impostare il codice di stato della risposta e inviare la relativa rappresentazione di stringa come corpo della risposta.
+| [res.download()](/expressjs.com/{{ page.lang }}/4x/api.html#res.download)   | Richiedere un file da scaricare.
+| [res.end()](/expressjs.com/{{ page.lang }}/4x/api.html#res.end)        | Terminare il processo di risposta.
+| [res.json()](/expressjs.com/{{ page.lang }}/4x/api.html#res.json)       | Inviare una risposta JSON.
+| [res.jsonp()](/expressjs.com/{{ page.lang }}/4x/api.html#res.jsonp)      | Inviare una risposta JSON con supporto JSONP.
+| [res.redirect()](/expressjs.com/{{ page.lang }}/4x/api.html#res.redirect)   | Reindirizzare una richiesta.
+| [res.render()](/expressjs.com/{{ page.lang }}/4x/api.html#res.render)     | Eseguire il rendering di un template di vista.
+| [res.send()](/expressjs.com/{{ page.lang }}/4x/api.html#res.send)       | Inviare una risposta di vari tipi.
+| [res.sendFile](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendFile)     | Inviare un file come un flusso di ottetti.
+| [res.sendStatus()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendStatus) | Impostare il codice di stato della risposta e inviare la relativa rappresentazione di stringa come corpo della risposta.
 
 <h2 id="app-route">app.route()</h2>
 
 È possibile creare handler di route concatenabili per un percorso di route, utilizzando `app.route()`.
-Poiché il percorso è specificato in una singola ubicazione, la creazione di route modulari è utile, come lo è la riduzione della ridondanza e degli errori tipografici. Per ulteriori informazioni sulle route, consultare: [Documentazione su Router()](/{{ page.lang }}/4x/api.html#router).
+Poiché il percorso è specificato in una singola ubicazione, la creazione di route modulari è utile, come lo è la riduzione della ridondanza e degli errori tipografici. Per ulteriori informazioni sulle route, consultare: [Documentazione su Router()](/expressjs.com/{{ page.lang }}/4x/api.html#router).
 
 Ecco un esempio di handler di route concatenati, definiti utilizzando `app.route()`.
 

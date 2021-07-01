@@ -53,7 +53,7 @@ Si vous utilisez Node.js 4.0+ ou io.js 2.1.0+, vous pouvez utiliser l'option de 
 
 ### Utiliser le middleware pour exploiter les fichiers statiques
 
-En développement, vous pouvez utiliser [res.sendFile()](/{{ page.lang }}/4x/api.html#res.sendFile) pour exploiter les fichiers statiques. Ne l'utilisez toutefois pas en production, car cette fonction doit lire le système de fichiers pour chaque demande de fichier ; elle se heurterait à des temps d'attente importants qui affecteraient les performances globales de l'application. Notez que `res.sendFile()` n'est *pas* implémentée avec l'appel système [sendfile](http://linux.die.net/man/2/sendfile), qui la rendrait beaucoup plus efficace.
+En développement, vous pouvez utiliser [res.sendFile()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendFile) pour exploiter les fichiers statiques. Ne l'utilisez toutefois pas en production, car cette fonction doit lire le système de fichiers pour chaque demande de fichier ; elle se heurterait à des temps d'attente importants qui affecteraient les performances globales de l'application. Notez que `res.sendFile()` n'est *pas* implémentée avec l'appel système [sendfile](http://linux.die.net/man/2/sendfile), qui la rendrait beaucoup plus efficace.
 
 Utilisez plutôt le middleware [serve-static](https://www.npmjs.com/package/serve-static) (ou tout middleware équivalent), qui est optimisé pour l'utilisation des fichiers dans les applications Express.
 
@@ -254,7 +254,7 @@ Les gestionnaires de processus les plus populaires pour Node sont les suivants :
 * [PM2](https://github.com/Unitech/pm2)
 * [Forever](https://www.npmjs.com/package/forever)
 
-Pour obtenir une comparaison détaillée de ces trois gestionnaires de processus, voir [http://strong-pm.io/compare/](http://strong-pm.io/compare/). Pour obtenir une présentation détaillée, voir [Gestionnaires de processus pour les applications Express](/{{ page.lang }}/advanced/pm.html).
+Pour obtenir une comparaison détaillée de ces trois gestionnaires de processus, voir [http://strong-pm.io/compare/](http://strong-pm.io/compare/). Pour obtenir une présentation détaillée, voir [Gestionnaires de processus pour les applications Express](/expressjs.com/{{ page.lang }}/advanced/pm.html).
 
 L'utilisation de l'un de ces trois gestionnaires de processus suffira à garder votre application active, même si elle plantera de temps en temps.
 

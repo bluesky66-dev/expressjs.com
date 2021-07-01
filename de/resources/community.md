@@ -30,6 +30,6 @@ Wenn Sie Ihrer Meinung nach einen Fehler festgestellt haben oder lediglich ein F
 
 ## Andere Anbieter
 
-Unsere lebhafte Community hat zu einer Vielzahl von Erweiterungen, [Middlewaremodulen](/{{ page.lang }}/resources/middleware.html) und Frameworks der höheren Ebene geführt. Diese können Sie im
+Unsere lebhafte Community hat zu einer Vielzahl von Erweiterungen, [Middlewaremodulen](/expressjs.com/{{ page.lang }}/resources/middleware.html) und Frameworks der höheren Ebene geführt. Diese können Sie im
 [Wiki](https://github.com/expressjs/express/wiki) genauer begutachten.
 

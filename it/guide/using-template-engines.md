@@ -58,4 +58,4 @@ app.get('/', function (req, res) {
 
 Quando si fa una richiesta alla home page, verrà eseguito il rendering del file `index.pug` come HTML.
 
-Per ulteriori informazioni su come funzionano i motori di template in Express, consultare la sezione: ["Sviluppo dei motori di template per Express"](/{{ page.lang }}/advanced/developing-template-engines.html).
+Per ulteriori informazioni su come funzionano i motori di template in Express, consultare la sezione: ["Sviluppo dei motori di template per Express"](/expressjs.com/{{ page.lang }}/advanced/developing-template-engines.html).

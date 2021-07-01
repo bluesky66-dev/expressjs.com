@@ -53,7 +53,7 @@ Wenn Sie Node.js 4.0 und höher oder io.js 2.1.0 und höher verwenden, können S
 
 ### Für statische Dateien Middleware verwenden
 
-Bei der Entwicklung können Sie [res.sendFile()](/{{ page.lang }}/4x/api.html#res.sendFile) für statische Dateien verwenden. Dies gilt jedoch nicht für die Produktionsumgebung, da diese Funktion bei jeder Dateianforderung aus dem Dateisystem lesen muss. Dadurch kommt es zu deutlichen Latenzen, die sich negativ auf die Gesamtleistung der Anwendung auswirken. Beachten Sie, dass `res.sendFile()` *nicht* mit dem Systemaufruf [sendfile](http://linux.die.net/man/2/sendfile) implementiert wird, wodurch dieser deutlich effizienter wäre.
+Bei der Entwicklung können Sie [res.sendFile()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendFile) für statische Dateien verwenden. Dies gilt jedoch nicht für die Produktionsumgebung, da diese Funktion bei jeder Dateianforderung aus dem Dateisystem lesen muss. Dadurch kommt es zu deutlichen Latenzen, die sich negativ auf die Gesamtleistung der Anwendung auswirken. Beachten Sie, dass `res.sendFile()` *nicht* mit dem Systemaufruf [sendfile](http://linux.die.net/man/2/sendfile) implementiert wird, wodurch dieser deutlich effizienter wäre.
 
 Verwenden Sie stattdessen die Middleware [serve-static](https://www.npmjs.com/package/serve-static) (oder etwas Vergleichbares), die für die Bereitstellung von Dateien für Express-Anwendungen optimiert ist.
 
@@ -253,7 +253,7 @@ Die gängigsten Prozessmanager für Node sind:
 * [PM2](https://github.com/Unitech/pm2)
 * [Forever](https://www.npmjs.com/package/forever)
 
-Einen Vergleich der Features und Funktionen dieser Prozessmanager finden Sie hier: [http://strong-pm.io/compare/](http://strong-pm.io/compare/). Eine ausführliche Einführung in diese drei Prozessmanager finden Sie hier: [Prozessmanager für Express-Anwendungen](/{{ page.lang }}/advanced/pm.html).
+Einen Vergleich der Features und Funktionen dieser Prozessmanager finden Sie hier: [http://strong-pm.io/compare/](http://strong-pm.io/compare/). Eine ausführliche Einführung in diese drei Prozessmanager finden Sie hier: [Prozessmanager für Express-Anwendungen](/expressjs.com/{{ page.lang }}/advanced/pm.html).
 
 Die Verwendung eines dieser Prozessmanager reicht aus, um Ihre Anwendung betriebsbereit zu halten, selbst wenn sie hin und wieder abstürzt.
 

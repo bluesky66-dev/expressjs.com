@@ -79,7 +79,7 @@ app.use(function(err, req, res, next) {
 </code>
 </pre>
 
-Pour plus d'informations, voir [Traitement d'erreurs](/{{ page.lang }}/guide/error-handling.html).
+Pour plus d'informations, voir [Traitement d'erreurs](/expressjs.com/{{ page.lang }}/guide/error-handling.html).
 
 ## Comment puis-je générer un fichier HTML simple ?
 

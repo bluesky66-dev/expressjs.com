@@ -37,5 +37,5 @@ a feature request open a ticket in the [issue queue](https://github.com/expressj
 ## Third Party
 
 Our vibrant community has created a large variety of extensions,
-[middleware modules](/{{ page.lang }}/resources/middleware.html) and higher level frameworks. Check them out in the
+[middleware modules](/expressjs.com/{{ page.lang }}/resources/middleware.html) and higher level frameworks. Check them out in the
 [wiki](https://github.com/expressjs/express/wiki).

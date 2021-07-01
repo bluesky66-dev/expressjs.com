@@ -48,7 +48,7 @@ app.use(express.static('files'));
 
 Express vyhľadáva súbory v jednotlivých adresároch podľa toho, v akom poradí sú zadefinované pomocou použitia `express.static` funkcie.
 
-Ak potrebujete vytvoriť virtuálny prefix pre cestu k statickým súborom (kde taká cesta (path) v skutočnosti na súborovom systéme neexistuje) servovaným pomocou `express.static` funkcie, [špecifikujte cestu](/{{ page.lang }}/4x/api.html#app.use) k statickému obsahu nasledovne:
+Ak potrebujete vytvoriť virtuálny prefix pre cestu k statickým súborom (kde taká cesta (path) v skutočnosti na súborovom systéme neexistuje) servovaným pomocou `express.static` funkcie, [špecifikujte cestu](/expressjs.com/{{ page.lang }}/4x/api.html#app.use) k statickému obsahu nasledovne:
 
 <pre>
 <code class="language-javascript" translate="no">

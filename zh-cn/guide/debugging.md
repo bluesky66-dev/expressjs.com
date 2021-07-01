@@ -29,7 +29,7 @@ $ DEBUG=express:* node index.js
 </code>
 </pre>
 
-在 [Express 生成器](/{{ page.lang }}/starter/generator.html)所生成的缺省应用程序上运行此命令将显示以下输出：
+在 [Express 生成器](/expressjs.com/{{ page.lang }}/starter/generator.html)所生成的缺省应用程序上运行此命令将显示以下输出：
 
 <pre>
 <code class="language-sh" translate="no">

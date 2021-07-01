@@ -33,7 +33,7 @@ Windows에서는 다음과 같은 명령을 사용하십시오.
 </code>
 </pre>
 
-[Express 생성기](/{{ page.lang }}/starter/generator.html)가 생성한 기본 앱에 대해 이 명령을 실행하면 다음과 같이 인쇄됩니다.
+[Express 생성기](/expressjs.com/{{ page.lang }}/starter/generator.html)가 생성한 기본 앱에 대해 이 명령을 실행하면 다음과 같이 인쇄됩니다.
 
 <pre>
 <code class="language-sh" translate="no">

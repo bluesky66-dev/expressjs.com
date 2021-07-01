@@ -85,7 +85,7 @@ I seguenti nomi di metodi sono stati messi al plurale. In Express 4, l'utilizzo 
 
 I due punti (:) nel nome della funzione `app.param(name, fn)` è una eredità di Express 3 e per il bene della compatibilità con le versioni precedenti, Express 4 supporta questa condizione ma comunque fornendo un messaggio di avviso di deprecazione. Express 5 lo ignorerà senza avvisi e utilizzerà il parametro nome senza inserire i due punti.
 
-Questa procedura non dovrebbe influenzare il codice se si segue correttamente la documentazione di Express 4 di [app.param](/{{ page.lang }}/4x/api.html#app.param), poiché non si parla dei due punti.
+Questa procedura non dovrebbe influenzare il codice se si segue correttamente la documentazione di Express 4 di [app.param](/expressjs.com/{{ page.lang }}/4x/api.html#app.param), poiché non si parla dei due punti.
 
 <h4 id="req.param">req.param(name)</h4>
 

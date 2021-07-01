@@ -53,7 +53,7 @@ Se si sta utilizzando Node.js 4.0+ o io.js 2.1.0+, è possibile utilizzare il fl
 
 ### Utilizzare il middleware per servire file statici
 
-Nello sviluppo, è possibile utilizzare [res.sendFile()](/{{ page.lang }}/4x/api.html#res.sendFile) per servire i file statici. Ma non effettuare questa operazione in fase di produzione, poiché questa funzione deve effettuare un processo di lettura dal file system per ciascuna richiesta file, quindi si verificherà una latenza importante e si andrà a influenzare le prestazioni dell'applicazione. Notare che `res.sendFile()` *non* viene implementato con la chiamata di sistema [sendfile](http://linux.die.net/man/2/sendfile), che lo renderebbe molto più efficiente.
+Nello sviluppo, è possibile utilizzare [res.sendFile()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendFile) per servire i file statici. Ma non effettuare questa operazione in fase di produzione, poiché questa funzione deve effettuare un processo di lettura dal file system per ciascuna richiesta file, quindi si verificherà una latenza importante e si andrà a influenzare le prestazioni dell'applicazione. Notare che `res.sendFile()` *non* viene implementato con la chiamata di sistema [sendfile](http://linux.die.net/man/2/sendfile), che lo renderebbe molto più efficiente.
 
 Al contrario, utilizzare il middleware [serve-static](https://www.npmjs.com/package/serve-static) (o qualcosa di equivalente), ottimizzato per servire i file per le applicazioni Express.
 
@@ -254,7 +254,7 @@ I process manager più noti per Node sono i seguenti:
 * [PM2](https://github.com/Unitech/pm2)
 * [Forever](https://www.npmjs.com/package/forever)
 
-Per un paragone a livello di funzioni dei tre process manager, consultare l'indirizzo [http://strong-pm.io/compare/](http://strong-pm.io/compare/). Per informazioni più dettagliate su tutti e tre i process manager, consultare [Process manager per le applicazioni Express](/{{ page.lang }}/advanced/pm.html).
+Per un paragone a livello di funzioni dei tre process manager, consultare l'indirizzo [http://strong-pm.io/compare/](http://strong-pm.io/compare/). Per informazioni più dettagliate su tutti e tre i process manager, consultare [Process manager per le applicazioni Express](/expressjs.com/{{ page.lang }}/advanced/pm.html).
 
 L'utilizzo di questi process manager sarà sufficiente per far restare attiva l'applicazione, anche se dovesse capitare che si arresti in modo anomalo.
 

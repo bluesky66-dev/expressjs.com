@@ -32,7 +32,7 @@ Sous Windows, utilisez la commande correspondante.
 </code>
 </pre>
 
-L'exécution de cette commande sur l'application par défaut générée par le [générateur express](/{{ page.lang }}/starter/generator.html) imprime le résultat suivant :
+L'exécution de cette commande sur l'application par défaut générée par le [générateur express](/expressjs.com/{{ page.lang }}/starter/generator.html) imprime le résultat suivant :
 
 <pre>
 <code class="language-sh" translate="no">

@@ -29,7 +29,7 @@ En Windows, utilice el mandato correspondiente.
 </code>
 </pre>
 
-La ejecución de este mandato en la aplicación predeterminada generada por el [generador de Express](/{{ page.lang }}/starter/generator.html) imprime la siguiente salida:
+La ejecución de este mandato en la aplicación predeterminada generada por el [generador de Express](/expressjs.com/{{ page.lang }}/starter/generator.html) imprime la siguiente salida:
 
 <pre>
 <code class="language-sh" translate="no">

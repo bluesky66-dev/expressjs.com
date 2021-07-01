@@ -9,7 +9,7 @@ lang: ko
 
 Express는 자체적인 최소한의 기능을 갖춘 라우팅 및 미들웨어 웹 프레임워크이며, Express 애플리케이션은 기본적으로 일련의 미들웨어 함수 호출입니다.
 
-*미들웨어* 함수는 [요청 오브젝트](/{{ page.lang }}/4x/api.html#req)(`req`), [응답 오브젝트](/{{ page.lang }}/4x/api.html#res) (`res`), 그리고 애플리케이션의 요청-응답 주기 중 그 다음의 미들웨어 함수 대한 액세스 권한을 갖는 함수입니다. 그 다음의 미들웨어 함수는 일반적으로 `next`라는 이름의 변수로 표시됩니다.
+*미들웨어* 함수는 [요청 오브젝트](/expressjs.com/{{ page.lang }}/4x/api.html#req)(`req`), [응답 오브젝트](/expressjs.com/{{ page.lang }}/4x/api.html#res) (`res`), 그리고 애플리케이션의 요청-응답 주기 중 그 다음의 미들웨어 함수 대한 액세스 권한을 갖는 함수입니다. 그 다음의 미들웨어 함수는 일반적으로 `next`라는 이름의 변수로 표시됩니다.
 
 미들웨어 함수는 다음과 같은 태스크를 수행할 수 있습니다.
 
@@ -33,7 +33,7 @@ Express 애플리케이션은 다음과 같은 유형의 미들웨어를 사용�
 
 <h2 id='middleware.application'>애플리케이션 레벨 미들웨어</h2>
 
-`app.use()` 및 `app.METHOD()` 함수를 이용해 애플리케이션 미들웨어를 [앱 오브젝트](/{{ page.lang }}/4x/api.html#app)의 인스턴스에 바인드하십시오. 이때 `METHOD`는 미들웨어 함수가 처리하는 요청(GET, PUT 또는 POST 등)의 소문자로 된 HTTP 메소드입니다.
+`app.use()` 및 `app.METHOD()` 함수를 이용해 애플리케이션 미들웨어를 [앱 오브젝트](/expressjs.com/{{ page.lang }}/4x/api.html#app)의 인스턴스에 바인드하십시오. 이때 `METHOD`는 미들웨어 함수가 처리하는 요청(GET, PUT 또는 POST 등)의 소문자로 된 HTTP 메소드입니다.
 
 다음 예에는 마운트 경로가 없는 미들웨어 함수가 표시되어 있습니다. 이 함수는 앱이 요청을 수신할 때마다 실행됩니다.
 
@@ -201,7 +201,7 @@ app.use(function(err, req, res, next) {
 </code>
 </pre>
 
-오류 처리 미들웨어에 대한 상세 정보는 [오류 처리](/{{ page.lang }}/guide/error-handling.html)를 참조하십시오.
+오류 처리 미들웨어에 대한 상세 정보는 [오류 처리](/expressjs.com/{{ page.lang }}/guide/error-handling.html)를 참조하십시오.
 
 <h2 id='middleware.built-in'>기본 제공 미들웨어</h2>
 

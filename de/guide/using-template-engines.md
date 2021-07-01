@@ -56,4 +56,4 @@ app.get('/', function (req, res) {
 
 Wenn Sie eine Anforderung zur Homepage ausführen, wird die Datei `index.pug` im HTML-Format ausgegeben.
 
-Weitere Informationen zur Funktionsweise von Template-Engines in Express siehe ["Template-Engines für Express entwickeln"](/{{ page.lang }}/advanced/developing-template-engines.html).
+Weitere Informationen zur Funktionsweise von Template-Engines in Express siehe ["Template-Engines für Express entwickeln"](/expressjs.com/{{ page.lang }}/advanced/developing-template-engines.html).

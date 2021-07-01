@@ -59,10 +59,10 @@ app.use(function (err, req, res, next) {
 })
 ```
 
-Daha fazla bilgi için, [Hata işleme](/{{ page.lang }}/guide/error-handling.html).
+Daha fazla bilgi için, [Hata işleme](/expressjs.com/{{ page.lang }}/guide/error-handling.html).
 
 ## Yalın HTML dosyalarını nasıl işlerim?
 
 Yalın HTML için `res.render()` fonksiyonun kullanmak zorunda değilsiniz. Eğer dosyanız belirli ise, `res.sendFile()` fonksiyonunu kullanın. Eğer bir dizinden birden çok içerik sunuyorsanız, `express.static()` ara katman fonksiyonunu kullanın.
 
-###  [Önceki: Statik Dosyalar ](/{{ page.lang }}/starter/static-files.html)
+###  [Önceki: Statik Dosyalar ](/expressjs.com/{{ page.lang }}/starter/static-files.html)

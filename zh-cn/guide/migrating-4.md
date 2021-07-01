@@ -114,7 +114,7 @@ app.use('/book/:id', function(req, res, next) {
 
 <h4 id="app-route"><code>app.route()</code> 方法</h4>
 
-新的 `app.route()` 方法使您可以为路由路径创建可链接的路由处理程序。创建模块化路由很有帮助，因为在单一位置指定路径，所以可以减少冗余和输入错误。有关路由的更多信息，请参阅 [`Router()` 文档](/{{ page.lang }}/4x/api.html#router)。
+新的 `app.route()` 方法使您可以为路由路径创建可链接的路由处理程序。创建模块化路由很有帮助，因为在单一位置指定路径，所以可以减少冗余和输入错误。有关路由的更多信息，请参阅 [`Router()` 文档](/expressjs.com/{{ page.lang }}/4x/api.html#router)。
 
 以下是使用 `app.route()` 函数定义的链式路由处理程序的示例。
 

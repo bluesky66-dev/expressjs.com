@@ -9,7 +9,7 @@ lang: es
 
 <h2>Visión general</h2>
 
-Las funciones de *middleware* son funciones que tienen acceso al [objeto de solicitud](/{{ page.lang }}/4x/api.html#req) (`req`), al [objeto de respuesta](/{{ page.lang }}/4x/api.html#res) (`res`) y a la siguiente función de middleware en el ciclo de solicitud/respuestas de la aplicación. La siguiente función de middleware se denota normalmente con una variable denominada `next`.
+Las funciones de *middleware* son funciones que tienen acceso al [objeto de solicitud](/expressjs.com/{{ page.lang }}/4x/api.html#req) (`req`), al [objeto de respuesta](/expressjs.com/{{ page.lang }}/4x/api.html#res) (`res`) y a la siguiente función de middleware en el ciclo de solicitud/respuestas de la aplicación. La siguiente función de middleware se denota normalmente con una variable denominada `next`.
 
 Las funciones de middleware pueden realizar las siguientes tareas:
 
@@ -24,7 +24,7 @@ El siguiente ejemplo muestra los elementos de una llamada a función de middlewa
 
 <table id="mw-fig">
 <tr><td id="mw-fig-imgcell">
-<img src="/images/express-mw.png" id="mw-fig-img" />
+<img src="/expressjs.com/images/express-mw.png" id="mw-fig-img" />
 </td>
 <td class="mw-fig-callouts">
 <div class="callout" id="callout1">Método HTTP para el que se aplica la función de middleware.</div>
@@ -144,4 +144,4 @@ Cuando realiza una solicitud a la raíz de la aplicación, la aplicación ahora 
 
 Como tiene acceso al objeto de solicitud, el objeto de respuesta, la siguiente función de middleware de la pila y toda la API de Node.js, las posibilidades con las funciones de middleware son ilimitadas.
 
-Para obtener más información sobre el middleware de Express, consulte: [Utilización del middleware de Express](/{{ page.lang }}/guide/using-middleware.html).
+Para obtener más información sobre el middleware de Express, consulte: [Utilización del middleware de Express](/expressjs.com/{{ page.lang }}/guide/using-middleware.html).

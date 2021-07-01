@@ -44,7 +44,7 @@ app.use(express.static('files'));
 
 Express 以您使用 `express.static` 中间件函数设置静态目录的顺序来查找文件。
 
-要为 `express.static` 函数提供的文件创建虚拟路径前缀（路径并不实际存在于文件系统中），请为静态目录[指定安装路径](/{{ page.lang }}/4x/api.html#app.use)，如下所示：
+要为 `express.static` 函数提供的文件创建虚拟路径前缀（路径并不实际存在于文件系统中），请为静态目录[指定安装路径](/expressjs.com/{{ page.lang }}/4x/api.html#app.use)，如下所示：
 
 <pre>
 <code class="language-javascript" translate="no">

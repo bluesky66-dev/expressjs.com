@@ -24,7 +24,7 @@ Burada:
 - `HANDLER`, adres bu yol ile eşleştiğinde çalıştırılan fonksiyon.
 
 <div class="doc-box doc-notice" markdown="1">
-Bu konu `express` ve `app` örneklerinin bulunduğunu ve sunucunun çalıştığını varsayar. Eğer bir uygulama oluşturup çalıştırmak hakkında bir bilginiz yoksa, [Merhaba Dünya örneği](/{{ page.lang }}/starter/hello-world.html) sayfasını ziyaret edin.
+Bu konu `express` ve `app` örneklerinin bulunduğunu ve sunucunun çalıştığını varsayar. Eğer bir uygulama oluşturup çalıştırmak hakkında bir bilginiz yoksa, [Merhaba Dünya örneği](/expressjs.com/{{ page.lang }}/starter/hello-world.html) sayfasını ziyaret edin.
 </div>
 
 Aşağıdaki örnekler nasıl basit bir şekilde yol tanımlayabileceğinizi gösterir.
@@ -61,6 +61,6 @@ app.delete('/user', function (req, res) {
 })
 ```
 
-Yol atama ile ilgili daha fazla detay için, [yol atama](/{{ page.lang }}/guide/routing.html) sayfasını ziyaret edin.
+Yol atama ile ilgili daha fazla detay için, [yol atama](/expressjs.com/{{ page.lang }}/guide/routing.html) sayfasını ziyaret edin.
 
-###  [Previous: Express application generator ](/{{ page.lang }}/starter/generator.html)&nbsp;&nbsp;&nbsp;&nbsp;[Next: Serving static files in Express ](/{{ page.lang }}/starter/static-files.html)
+###  [Previous: Express application generator ](/expressjs.com/{{ page.lang }}/starter/generator.html)&nbsp;&nbsp;&nbsp;&nbsp;[Next: Serving static files in Express ](/expressjs.com/{{ page.lang }}/starter/static-files.html)

@@ -51,7 +51,7 @@ Express looks up the files in the order in which you set the static directories 
 <div class="doc-box doc-info" markdown="1">NOTE: For best results, [use a reverse proxy](/{{page.lang}}/advanced/best-practice-performance.html#use-a-reverse-proxy) cache to improve performance of serving static assets.
 </div>
 
-To create a virtual path prefix (where the path does not actually exist in the file system) for files that are served by the `express.static` function, [specify a mount path](/{{ page.lang }}/4x/api.html#app.use) for the static directory, as shown below:
+To create a virtual path prefix (where the path does not actually exist in the file system) for files that are served by the `express.static` function, [specify a mount path](/expressjs.com/{{ page.lang }}/4x/api.html#app.use) for the static directory, as shown below:
 
 ```js
 app.use('/static', express.static('public'))
@@ -75,4 +75,4 @@ app.use('/static', express.static(path.join(__dirname, 'public')))
 
 For more details about the `serve-static` function and its options, see  [serve-static](/resources/middleware/serve-static.html).
 
-### [Previous: Basic Routing ](/{{ page.lang }}/starter/basic-routing.html)&nbsp;&nbsp;&nbsp;&nbsp;[Next: More examples ](/{{ page.lang }}/starter/examples.html)
+### [Previous: Basic Routing ](/expressjs.com/{{ page.lang }}/starter/basic-routing.html)&nbsp;&nbsp;&nbsp;&nbsp;[Next: More examples ](/expressjs.com/{{ page.lang }}/starter/examples.html)

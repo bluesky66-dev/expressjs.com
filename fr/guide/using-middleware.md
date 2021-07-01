@@ -9,7 +9,7 @@ lang: fr
 
 Express est une infrastructure web middleware et de routage, qui a des fonctions propres minimes : une application Express n'est ni plus ni moins qu'une succession d'appels de fonctions middleware.
 
-Les fonctions de *middleware* sont des fonctions qui peuvent accéder à l'[objet Request](/{{ page.lang }}/4x/api.html#req)  (`req`), l'[objet response](/{{ page.lang }}/4x/api.html#res) (`res`) et à la fonction middleware suivant dans le cycle demande-réponse de l'application. La fonction middleware suivant est couramment désignée par une variable nommée `next`.
+Les fonctions de *middleware* sont des fonctions qui peuvent accéder à l'[objet Request](/expressjs.com/{{ page.lang }}/4x/api.html#req)  (`req`), l'[objet response](/expressjs.com/{{ page.lang }}/4x/api.html#res) (`res`) et à la fonction middleware suivant dans le cycle demande-réponse de l'application. La fonction middleware suivant est couramment désignée par une variable nommée `next`.
 
 Les fonctions middleware effectuent les tâches suivantes :
 
@@ -33,7 +33,7 @@ Vous pouvez également charger une série de fonctions middleware ensemble, ce q
 
 <h2 id='middleware.application'>Middleware niveau application</h2>
 
-Liez le middleware niveau application à une instance de l'objet [app object](/{{ page.lang }}/4x/api.html#app) en utilisant les fonctions `app.use()` et `app.METHOD()`, où `METHOD` est la méthode HTTP de la demande que gère la fonction middleware (par exemple GET, PUT ou POST) en minuscules.
+Liez le middleware niveau application à une instance de l'objet [app object](/expressjs.com/{{ page.lang }}/4x/api.html#app) en utilisant les fonctions `app.use()` et `app.METHOD()`, où `METHOD` est la méthode HTTP de la demande que gère la fonction middleware (par exemple GET, PUT ou POST) en minuscules.
 
 Cet exemple illustre une fonction middleware sans chemin de montage. La fonction est exécutée à chaque fois que l'application reçoit une demande.
 
@@ -201,7 +201,7 @@ app.use(function(err, req, res, next) {
 </code>
 </pre>
 
-Pour obtenir des détails sur le middleware de traitement d'erreurs, reportez-vous à : [Traitement d'erreurs](/{{ page.lang }}/guide/error-handling.html).
+Pour obtenir des détails sur le middleware de traitement d'erreurs, reportez-vous à : [Traitement d'erreurs](/expressjs.com/{{ page.lang }}/guide/error-handling.html).
 
 <h2 id='middleware.built-in'>Middleware intégré</h2>
 

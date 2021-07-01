@@ -7,7 +7,7 @@ lang: ko
 
 # 프록시 환경에서 Express 사용
 
-프록시 뒤에서 Express 앱을 실행할 때는, ([app.set()](/{{ page.lang }}/4x/api.html#app.set)을 이용하여) 애플리케이션 변수 `trust proxy`를 다음 표에 나열된 값 중 하나로 설정하십시오.
+프록시 뒤에서 Express 앱을 실행할 때는, ([app.set()](/expressjs.com/{{ page.lang }}/4x/api.html#app.set)을 이용하여) 애플리케이션 변수 `trust proxy`를 다음 표에 나열된 값 중 하나로 설정하십시오.
 
 <div class="doc-box doc-info" markdown="1">
 애플리케이션 변수 `trust proxy`가 설정되지 않아도 앱은 실행되지만, `trust proxy`가 구성되지 않으면 프록시의 IP 주소가 클라이언트 IP 주소로 잘못 등록됩니다.
@@ -69,11 +69,11 @@ IP 주소 또는 서브넷이 지정되는 경우, 해당 IP 주소 또는 서�
 `trust proxy` 값을 `false` 이외의 값으로 설정하면 다음과 같은 세 가지의 중요한 변화가 발생합니다.
 
 <ul>
-  <li markdown="1">[req.hostname](/{{ page.lang }}/api.html#req.hostname)의 값은 `X-Forwarded-Host` 헤더에 설정된 값으로부터 도출되며, 이 값은 클라이언트 또는 프록시에 의해 설정될 수 있습니다.
+  <li markdown="1">[req.hostname](/expressjs.com/{{ page.lang }}/api.html#req.hostname)의 값은 `X-Forwarded-Host` 헤더에 설정된 값으로부터 도출되며, 이 값은 클라이언트 또는 프록시에 의해 설정될 수 있습니다.
   </li>
-  <li markdown="1">`https`인지, `http`인지, 또는 잘못된 이름인지의 여부를 앱에 알리기 위하여 역방향 프록시가 `X-Forwarded-Proto`를 설정할 수 있습니다. 이 값에는 [req.protocol](/{{ page.lang }}/api.html#req.protocol)이 반영됩니다.
+  <li markdown="1">`https`인지, `http`인지, 또는 잘못된 이름인지의 여부를 앱에 알리기 위하여 역방향 프록시가 `X-Forwarded-Proto`를 설정할 수 있습니다. 이 값에는 [req.protocol](/expressjs.com/{{ page.lang }}/api.html#req.protocol)이 반영됩니다.
   </li>
-  <li markdown="1">[req.ip](/{{ page.lang }}/api.html#req.ip) 값 및 [req.ips](/{{ page.lang }}/api.html#req.ips) 값에는 `X-Forwarded-For`의 주소 목록이 입력됩니다.
+  <li markdown="1">[req.ip](/expressjs.com/{{ page.lang }}/api.html#req.ip) 값 및 [req.ips](/expressjs.com/{{ page.lang }}/api.html#req.ips) 값에는 `X-Forwarded-For`의 주소 목록이 입력됩니다.
   </li>
 </ul>
 

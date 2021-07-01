@@ -57,7 +57,7 @@ Ak používate Node.js 4.0+ alebo io.js 2.1.0+, môžete použiť prepínač `--
 
 ### Pre servovanie statických súborov používajte middleware
 
-V developmente môžete pre servovanie statických súborov používať [res.sendFile()](/{{ page.lang }}/4x/api.html#res.sendFile). V produkcii to však nepoužívajte, pretože táto funkcia musí pri každom requeste čítať dáta z file systému, čo má za následok značné oneskorenie a celkovo nepriaznivo ovlyvňuje výkonnosť aplikácie. `res.sendFile()` funkcia _nie_ je implementovaná pomocou [sendfile](http://linux.die.net/man/2/sendfile) systémového volania, ktoré by ju robilo oveľa efektívnejšou.
+V developmente môžete pre servovanie statických súborov používať [res.sendFile()](/expressjs.com/{{ page.lang }}/4x/api.html#res.sendFile). V produkcii to však nepoužívajte, pretože táto funkcia musí pri každom requeste čítať dáta z file systému, čo má za následok značné oneskorenie a celkovo nepriaznivo ovlyvňuje výkonnosť aplikácie. `res.sendFile()` funkcia _nie_ je implementovaná pomocou [sendfile](http://linux.die.net/man/2/sendfile) systémového volania, ktoré by ju robilo oveľa efektívnejšou.
 
 Namiesto toho používajte [serve-static](https://www.npmjs.com/package/serve-static) middleware (prípadne podobný ekvivalent), ktorý je optimalizovaný pre servovanie statických súborov v Express aplikáciách.
 
@@ -259,7 +259,7 @@ Spomedzi správcov procesov pre Node sú najpopulárnejši:
 * [PM2](https://github.com/Unitech/pm2)
 * [Forever](https://www.npmjs.com/package/forever)
 
-Pre detailnejšie porovnanie vlastností si pozrite [http://strong-pm.io/compare/](http://strong-pm.io/compare/). Pre detailnejšie intro si pozrite [Process managers for Express apps](/{{ page.lang }}/advanced/pm.html).
+Pre detailnejšie porovnanie vlastností si pozrite [http://strong-pm.io/compare/](http://strong-pm.io/compare/). Pre detailnejšie intro si pozrite [Process managers for Express apps](/expressjs.com/{{ page.lang }}/advanced/pm.html).
 
 Použitím hociktorého z týchto správcov procesov zabezpečíte, aby vaša aplikácia zostala "hore" i v prípade občasného pádu.
 

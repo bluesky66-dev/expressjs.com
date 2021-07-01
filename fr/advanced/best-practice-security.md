@@ -17,9 +17,9 @@ Cet article traite des meilleures pratiques en terme de sécurité pour les appl
 
 ## N'utilisez pas de versions obsolètes ou vulnérables d'Express
 
-Les versions 2.x et 3.x d'Express ne sont plus prises en charge. Les problèmes liés à la sécurité et aux performances dans ces versions ne seront pas corrigés. Ne les utilisez pas ! Si vous êtes passé à la version 4, suivez le [guide de migration](/{{ page.lang }}/guide/migrating-4.html).
+Les versions 2.x et 3.x d'Express ne sont plus prises en charge. Les problèmes liés à la sécurité et aux performances dans ces versions ne seront pas corrigés. Ne les utilisez pas ! Si vous êtes passé à la version 4, suivez le [guide de migration](/expressjs.com/{{ page.lang }}/guide/migrating-4.html).
 
-Vérifiez également que vous n'utilisez aucune des versions vulnérables d'Express répertoriées sur la [page Mises à jour de sécurité](/{{ page.lang }}/advanced/security-updates.html). Si tel est le cas, procédez à une mise à jour vers une version stable, de préférence la plus récente.
+Vérifiez également que vous n'utilisez aucune des versions vulnérables d'Express répertoriées sur la [page Mises à jour de sécurité](/expressjs.com/{{ page.lang }}/advanced/security-updates.html). Si tel est le cas, procédez à une mise à jour vers une version stable, de préférence la plus récente.
 
 ## Utilisez TLS
 

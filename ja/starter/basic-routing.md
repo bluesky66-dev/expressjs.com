@@ -26,7 +26,7 @@ app.METHOD(PATH, HANDLER)
 - `HANDLER` は、ルートが一致したときに実行される関数です。
 
 <div class="doc-box doc-notice" markdown="1">
-このチュートリアルでは、`app` という名前の `express` のインスタンスが作成されていて、サーバーが稼働中であることを想定しています。アプリケーションの作成と開始に慣れていない場合は、[Hello World の例](/{{ page.lang }}/starter/hello-world.html) を参照してください。
+このチュートリアルでは、`app` という名前の `express` のインスタンスが作成されていて、サーバーが稼働中であることを想定しています。アプリケーションの作成と開始に慣れていない場合は、[Hello World の例](/expressjs.com/{{ page.lang }}/starter/hello-world.html) を参照してください。
 </div>
 
 以下の例は、単純なルートの定義を示しています。
@@ -71,4 +71,4 @@ app.delete('/user', function (req, res) {
 </code>
 </pre>
 
-ルーティングについて詳しくは、[ルーティング・ガイド](/{{ page.lang }}/guide/routing.html)を参照してください。
+ルーティングについて詳しくは、[ルーティング・ガイド](/expressjs.com/{{ page.lang }}/guide/routing.html)を参照してください。

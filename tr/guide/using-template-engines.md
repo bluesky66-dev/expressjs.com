@@ -9,7 +9,7 @@ redirect_from: "/guide/using-template-engines.html"
 
 _Şablon motoru_, uygulamanızda statik şablon dosyaları kullanmanızı sağlar. Çalışma zamanında, şablon motoru bir şablon dosyasındaki değişkenleri alıp gerçek değerleyler değiştirir, ve şablonu bir HTML dosyasına dönüştürüp istemciye gönderir. Bu yaklaşım bir HTML sayfasını tasarlamayı kolaylaştırır.
 
-Express ile çalışan bazı popüler şablon motorları: [Pug](https://pugjs.org/api/getting-started.html), [Mustache](https://www.npmjs.com/package/mustache), ve [EJS](https://www.npmjs.com/package/ejs). [Express uygulama üreteci (generator)](/{{ page.lang }}/starter/generator.html) varsayılan olarak [Jade](https://www.npmjs.com/package/jade) kullanıyor, ancak aynı zamanda diğerlerini de destekler.
+Express ile çalışan bazı popüler şablon motorları: [Pug](https://pugjs.org/api/getting-started.html), [Mustache](https://www.npmjs.com/package/mustache), ve [EJS](https://www.npmjs.com/package/ejs). [Express uygulama üreteci (generator)](/expressjs.com/{{ page.lang }}/starter/generator.html) varsayılan olarak [Jade](https://www.npmjs.com/package/jade) kullanıyor, ancak aynı zamanda diğerlerini de destekler.
 
 Express ile kullanabileceğiniz şablon motorları listesi için bakınız [Şablon Motorları (Express wiki)](https://github.com/expressjs/express/wiki#template-engines).
 Ayrıca bakınız: [JavaScript Şablonlama Motorlarını Karşılaştırma:: Jade, Mustache, Dust ve Daha fazla](https://strongloop.com/strongblog/compare-javascript-templates-jade-mustache-dust/).
@@ -18,7 +18,7 @@ Ayrıca bakınız: [JavaScript Şablonlama Motorlarını Karşılaştırma:: Jad
 **Not**: Jade, [Pug](https://www.npmjs.com/package/pug) olarak değiştirildi. Uygulamanızda Jade kullanmaya devam edebilirsiniz, ve problem olmadan çalışacaktır. Ancak şablon motorunun en son güncellemelerini almak istiyorsanız, uygulamanızda Jade'i Pug ile değiştirmelisiniz.
 </div>
 
-Şablon dosyalarını işlemek için, aşağıdaki [uygulama ayarları özelliklerini](/{{ page.lang }}/4x/api.html#app.set) ayarlayın, üretici (generator) tarafından yaratılan varsayılan uygulamada `app.js` dosyasında ayarlayın:
+Şablon dosyalarını işlemek için, aşağıdaki [uygulama ayarları özelliklerini](/expressjs.com/{{ page.lang }}/4x/api.html#app.set) ayarlayın, üretici (generator) tarafından yaratılan varsayılan uygulamada `app.js` dosyasında ayarlayın:
 
 * `views`, şablon dosyalarının bulunduğu dizindir. Örnek: `app.set('views', './views')`.
 Bu varsayılan olarak uygulamanın kök dizindeki `views` dizinine denk gelir.
@@ -65,4 +65,4 @@ Ana sayfaya bir istek yaptığınızda, `index.pug` dosyası HTML olarak göster
 
 Not: Görünüm motoru önbelleği şablonun çıktısını önbelleğine almaz, sadece şablonun temelini alır. Önbellek açık olsa bile, görünüm her istekle beraber yeniden işlenir.
 
-Şablon motorlarının Express'te nasıl çalıştıkları ile ilgili daha fazla bilgi için bakınız: ["Express için şablon motorları geliştirme"](/{{ page.lang }}/advanced/developing-template-engines.html).
+Şablon motorlarının Express'te nasıl çalıştıkları ile ilgili daha fazla bilgi için bakınız: ["Express için şablon motorları geliştirme"](/expressjs.com/{{ page.lang }}/advanced/developing-template-engines.html).

@@ -9,7 +9,7 @@ redirect_from: "/guide/writing-middleware.html"
 
 <h2>Overview</h2>
 
-_Middleware_ functions are functions that have access to the [request object](/{{ page.lang }}/4x/api.html#req)  (`req`), the [response object](/{{ page.lang }}/4x/api.html#res) (`res`), and the `next` function in the application's request-response cycle. The `next` function is a function in the Express router which, when invoked, executes the middleware succeeding the current middleware.
+_Middleware_ functions are functions that have access to the [request object](/expressjs.com/{{ page.lang }}/4x/api.html#req)  (`req`), the [response object](/expressjs.com/{{ page.lang }}/4x/api.html#res) (`res`), and the `next` function in the application's request-response cycle. The `next` function is a function in the Express router which, when invoked, executes the middleware succeeding the current middleware.
 
 Middleware functions can perform the following tasks:
 
@@ -24,7 +24,7 @@ The following figure shows the elements of a middleware function call:
 
 <table id="mw-fig">
 <tr><td id="mw-fig-imgcell">
-<img src="/images/express-mw.png" id="mw-fig-img" />
+<img src="/expressjs.com/images/express-mw.png" id="mw-fig-img" />
 </td>
 <td class="mw-fig-callouts">
 <div class="callout" id="callout1">HTTP method for which the middleware function applies.</div>
@@ -35,9 +35,9 @@ The following figure shows the elements of a middleware function call:
 
 <div class="callout" id="callout4">Callback argument to the middleware function, called "next" by convention.</div>
 
-<div class="callout" id="callout5">HTTP <a href="/{{ page.lang }}/4x/api.html#res">response</a> argument to the middleware function, called "res" by convention.</div>
+<div class="callout" id="callout5">HTTP <a href="/expressjs.com/{{ page.lang }}/4x/api.html#res">response</a> argument to the middleware function, called "res" by convention.</div>
 
-<div class="callout" id="callout6">HTTP <a href="/{{ page.lang }}/4x/api.html#req">request</a> argument to the middleware function, called "req" by convention.</div>
+<div class="callout" id="callout6">HTTP <a href="/expressjs.com/{{ page.lang }}/4x/api.html#req">request</a> argument to the middleware function, called "req" by convention.</div>
 </td></tr>
 </table>
 
@@ -190,7 +190,7 @@ Note how `next()` is called after `await cookieValidator(req.cookies)`.  This en
 
 Because you have access to the request object, the response object, the next middleware function in the stack, and the whole Node.js API, the possibilities with middleware functions are endless.
 
-For more information about Express middleware, see: [Using Express middleware](/{{ page.lang }}/guide/using-middleware.html).
+For more information about Express middleware, see: [Using Express middleware](/expressjs.com/{{ page.lang }}/guide/using-middleware.html).
 
 <h2>Configurable middleware</h2>
 

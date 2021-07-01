@@ -9,7 +9,7 @@ lang: de
 
 Express ist ein Weiterleitungs- und Middleware-Web-Framework, das selbst nur minimale Funktionalität aufweist: Eine Express-Anwendung besteht im Wesentlichen aus einer Reihe von Middlewarefunktionsaufrufen.
 
-*Middlewarefunktionen* sind Funktionen, die Zugriff auf das [Anforderungsobjekt](/{{ page.lang }}/4x/api.html#req) (`req`), das [Antwortobjekt](/{{ page.lang }}/4x/api.html#res) (`res`) und die nächste Middlewarefunktion im Anforderung/Antwort-Zyklus der Anwendung haben. Die nächste Middlewarefunktion wird im Allgemeinen durch die Variable `next` bezeichnet.
+*Middlewarefunktionen* sind Funktionen, die Zugriff auf das [Anforderungsobjekt](/expressjs.com/{{ page.lang }}/4x/api.html#req) (`req`), das [Antwortobjekt](/expressjs.com/{{ page.lang }}/4x/api.html#res) (`res`) und die nächste Middlewarefunktion im Anforderung/Antwort-Zyklus der Anwendung haben. Die nächste Middlewarefunktion wird im Allgemeinen durch die Variable `next` bezeichnet.
 
 Über Middlewarefunktionen lassen sich die folgenden Tasks ausführen:
 
@@ -32,7 +32,7 @@ Sie können Middleware auf Anwendungsebene und Routerebene mit einem optionalen 
 
 <h2 id='middleware.application'>Middleware auf Anwendungsebene</h2>
 
-Binden Sie Middleware auf Anwendungsebene zu einer Instanz des [Anwendungsobjekts](/{{ page.lang }}/4x/api.html#app), indem Sie die Funktionen `app.use()` und `app.METHOD()` verwenden. `METHOD` ist dabei die HTTP-Methode der Anforderung, die die Middlewarefunktion in Kleinschreibung verarbeitet (wie GET, PU oder POST).
+Binden Sie Middleware auf Anwendungsebene zu einer Instanz des [Anwendungsobjekts](/expressjs.com/{{ page.lang }}/4x/api.html#app), indem Sie die Funktionen `app.use()` und `app.METHOD()` verwenden. `METHOD` ist dabei die HTTP-Methode der Anforderung, die die Middlewarefunktion in Kleinschreibung verarbeitet (wie GET, PU oder POST).
 
 Dieses Beispiel zeigt eine Middlewarefunktion ohne Mountpfad. Die Funktion wird immer dann ausgeführt, wenn die Anwendung eine Anforderung erhält.
 
@@ -196,7 +196,7 @@ app.use(function(err, req, res, next) {
 </code>
 </pre>
 
-Details zu Middleware für die Fehlerbehandlung siehe [Fehlerbehandlung](/{{ page.lang }}/guide/error-handling.html).
+Details zu Middleware für die Fehlerbehandlung siehe [Fehlerbehandlung](/expressjs.com/{{ page.lang }}/guide/error-handling.html).
 
 <h2 id='middleware.built-in'>Integrierte Middleware</h2>
 

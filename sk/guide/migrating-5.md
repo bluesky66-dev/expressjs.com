@@ -89,7 +89,7 @@ Nasledujúce názvy metód boli pluralizované. Používanie pôvodných názvov
 
 Dvojbodka (:) na začiatku v name argumente volania `app.param(name, fn)` funkcie je pozostatkom z Express 3 a v záujme spätnej kompatibility ju Express 4 podporoval s deprecation warning-om. Express 5 ju bude ticho ignorovať a používa name parameter bez prefixu počiatočnej dvojbodky.
 
-Táto zmena by nemala ovplyvniť váš kód v prípade, ak postupujete podľa dokumentácie k Express 4 [app.param](/{{ page.lang }}/4x/api.html#app.param), kde sa žiadna počiatočná dvojbodka už nespomína.
+Táto zmena by nemala ovplyvniť váš kód v prípade, ak postupujete podľa dokumentácie k Express 4 [app.param](/expressjs.com/{{ page.lang }}/4x/api.html#app.param), kde sa žiadna počiatočná dvojbodka už nespomína.
 
 <h4 id="req.param">req.param(name)</h4>
 

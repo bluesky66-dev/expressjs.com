@@ -44,7 +44,7 @@ app.use(express.static('files'));
 
 Express ricerca i file nell'ordine in cui sono state impostate le directory statiche con la funzione middleware `express.static`.
 
-Per creare un prefisso per il percorso virtuale (in cui il percorso non esiste effettivamente nel file system) per i file gestiti dalla funzione `express.static`, [specificare un percorso di caricamento](/{{ page.lang }}/4x/api.html#app.use) per la directory statica, come mostrato di seguito:
+Per creare un prefisso per il percorso virtuale (in cui il percorso non esiste effettivamente nel file system) per i file gestiti dalla funzione `express.static`, [specificare un percorso di caricamento](/expressjs.com/{{ page.lang }}/4x/api.html#app.use) per la directory statica, come mostrato di seguito:
 
 <pre>
 <code class="language-javascript" translate="no">

@@ -84,7 +84,7 @@ Express 5 不再支援 `app.del()` 函數。如果您使用此函數，會擲出
 
 `app.param(name, fn)` 函數名稱中的前導冒號字元 (:) 遺留自 Express 3，基於舊版相容性，Express 4 仍支援它，只是會發出淘汰警示。Express 5 會無聲自動忽略它，並使用少了冒號字首的名稱參數。
 
-如果您遵循 Express 4 [app.param](/{{ page.lang }}/4x/api.html#app.param) 說明文件，應該不會影響您的程式碼，因為該說明文件不會提及前導冒號。
+如果您遵循 Express 4 [app.param](/expressjs.com/{{ page.lang }}/4x/api.html#app.param) 說明文件，應該不會影響您的程式碼，因為該說明文件不會提及前導冒號。
 
 <h4 id="req.param">req.param(name)</h4>
 

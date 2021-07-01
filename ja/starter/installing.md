@@ -46,4 +46,4 @@ $ npm install express --no-save
 npm 5.0 以降のデフォルトでは、npm install はモジュールを `package.json` ファイルの `dependencies` リストに追加します。以前のバージョンの npm では、`--save` オプションを明示的に指定しなければなりません。その後、app ディレクトリで `npm install` を実行すると、依存関係リストにモジュールが自動的にインストールされます。
 </div>
 
-###  [Next: Hello World ](/{{ page.lang }}/starter/hello-world.html)
+###  [Next: Hello World ](/expressjs.com/{{ page.lang }}/starter/hello-world.html)

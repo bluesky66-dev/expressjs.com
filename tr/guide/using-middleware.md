@@ -9,7 +9,7 @@ lang: tr
 
 Express, kendine özgü minimal bir işlevselliği olan bir yönlendirme ve ara yazılım web çatısıdır: Bir Express uygulaması aslında bir dizi ara yazılım fonksiyon çağrısıdır.
 
-_Middleware_ fonksiyonları, uygulamanın istek-yanıt döngüsündeki [istek objesi](/{{ page.lang }}/4x/api.html#req)  (`req`), [yanıt objesi](/{{ page.lang }}/4x/api.html#res) (`res`), ve bir sonraki ara yazılım fonksiyonuna erişebilen fonksiyonlardır. Bir sonraki ara yazılım fonksiyonu çoğunlukla `next` isimli bir değişken ile tanımlanır.
+_Middleware_ fonksiyonları, uygulamanın istek-yanıt döngüsündeki [istek objesi](/expressjs.com/{{ page.lang }}/4x/api.html#req)  (`req`), [yanıt objesi](/expressjs.com/{{ page.lang }}/4x/api.html#res) (`res`), ve bir sonraki ara yazılım fonksiyonuna erişebilen fonksiyonlardır. Bir sonraki ara yazılım fonksiyonu çoğunlukla `next` isimli bir değişken ile tanımlanır.
 
 Ara yazılım fonksiyonları aşağıdaki görevleri yapabilir:
 
@@ -34,7 +34,7 @@ Hedef bir yolda, bir ara katman yazılımı alt kümesi oluşturacak bir ara yaz
 
 <h2 id='middleware.application'>Uygulama-düzeyi ara yazılımı</h2>
 
-Uygulama-düzeyi ara yazılımı `app.use()` ve `app.METHOD()` fonksiyonları kullanarak bir [uygulama objesi](/{{ page.lang }}/4x/api.html#app) örneğine bağlanır; `METHOD` ise, küçük harflerle, ara yazılım fonksiyonunun işlediği isteğin HTTP metodunun ismidir (örneğin GET, PUT, veya POST).
+Uygulama-düzeyi ara yazılımı `app.use()` ve `app.METHOD()` fonksiyonları kullanarak bir [uygulama objesi](/expressjs.com/{{ page.lang }}/4x/api.html#app) örneğine bağlanır; `METHOD` ise, küçük harflerle, ara yazılım fonksiyonunun işlediği isteğin HTTP metodunun ismidir (örneğin GET, PUT, veya POST).
 
 Bu örnek, hedef yolu bulunmayan bir ara yazılım fonksiyonunu gösteriyor. Fonksiyon uygulama her istek aldığında çalışır.
 
@@ -208,7 +208,7 @@ app.use(function (err, req, res, next) {
 })
 ```
 
-Hata-işleyici ara yazılım hakkında daha fazla detay için bakınız [Hata-işleme](/{{ page.lang }}/guide/error-handling.html).
+Hata-işleyici ara yazılım hakkında daha fazla detay için bakınız [Hata-işleme](/expressjs.com/{{ page.lang }}/guide/error-handling.html).
 
 <h2 id='middleware.built-in'>Gömülü ara yazılım</h2>
 

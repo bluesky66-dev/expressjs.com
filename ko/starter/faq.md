@@ -79,7 +79,7 @@ app.use(function(err, req, res, next) {
 </code>
 </pre>
 
-자세한 정보는 [오류 처리](/{{ page.lang }}/guide/error-handling.html)를 참조하십시오.
+자세한 정보는 [오류 처리](/expressjs.com/{{ page.lang }}/guide/error-handling.html)를 참조하십시오.
 
 ## 일반적인 HTML은 어떻게 렌더링해야 합니까?
 

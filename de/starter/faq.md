@@ -62,7 +62,7 @@ app.use(function(err, req, res, next) {
 </code>
 </pre>
 
-Weitere Informationen siehe [Fehlerbehandlung](/{{ page.lang }}/guide/error-handling.html).
+Weitere Informationen siehe [Fehlerbehandlung](/expressjs.com/{{ page.lang }}/guide/error-handling.html).
 
 ## Wie gebe ich normales HTML-Format aus?
 

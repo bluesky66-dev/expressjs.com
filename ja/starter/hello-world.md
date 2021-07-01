@@ -8,10 +8,10 @@ lang: ja
 # Hello World の例
 
 <div class="doc-box doc-info" markdown="1">
-ここで紹介するのは基本的に、作成できる最も単純な Express アプリケーションです。このアプリケーションは単一ファイル・アプリケーションであり、[Express ジェネレーター](/{{ page.lang }}/starter/generator.html) を使用して得られるものでは *ありません* 。このジェネレーターは、さまざまな目的で多数の JavaScript ファイル、Jade テンプレート、サブディレクトリーを使用する完全なアプリケーション用のスキャフォールディングを作成します。
+ここで紹介するのは基本的に、作成できる最も単純な Express アプリケーションです。このアプリケーションは単一ファイル・アプリケーションであり、[Express ジェネレーター](/expressjs.com/{{ page.lang }}/starter/generator.html) を使用して得られるものでは *ありません* 。このジェネレーターは、さまざまな目的で多数の JavaScript ファイル、Jade テンプレート、サブディレクトリーを使用する完全なアプリケーション用のスキャフォールディングを作成します。
 </div>
 
-最初に、`myapp` という名前のディレクトリーを作成して、そのディレクトリーに移動し、`npm init` を実行します。次に、[インストール・ガイド](/{{ page.lang }}/starter/installing.html)に従い、依存関係として `express` をインストールします。
+最初に、`myapp` という名前のディレクトリーを作成して、そのディレクトリーに移動し、`npm init` を実行します。次に、[インストール・ガイド](/expressjs.com/{{ page.lang }}/starter/installing.html)に従い、依存関係として `express` をインストールします。
 
 `myapp` ディレクトリーで、`app.js` というファイルを作成して、以下のコードを追加します。
 

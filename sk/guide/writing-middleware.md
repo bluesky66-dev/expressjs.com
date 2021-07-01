@@ -28,7 +28,7 @@ Nasledujúci diagram ukazuje jednotlivé časti volania middleware funkcie:
 
 <table id="mw-fig">
 <tr><td id="mw-fig-imgcell">
-<img src="/images/express-mw.png" id="mw-fig-img" />
+<img src="/expressjs.com/images/express-mw.png" id="mw-fig-img" />
 </td>
 <td class="mw-fig-callouts">
 <div class="callout" id="callout1">HTTP metóda pre ktorú je middleware funkcia aplikovateľná.</div>
@@ -156,4 +156,4 @@ Po vykonaní requestu na hlavnú stránku aplikácie sa zobrazí v prehliadači 
 
 Keďže máte prístup k request a response objektu, ďalšej middleware funkcii v poradí a celému Node.js API, možnosti middleware funkcií sú nekonečné.
 
-Pre viac informácií ohľadom Express middleware si pozrite: [Použitie Express middleware](/{{ page.lang }}/guide/using-middleware.html).
+Pre viac informácií ohľadom Express middleware si pozrite: [Použitie Express middleware](/expressjs.com/{{ page.lang }}/guide/using-middleware.html).

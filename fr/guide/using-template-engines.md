@@ -58,4 +58,4 @@ app.get('/', function (req, res) {
 
 Lorsque vous faites une demande vers la page d'accueil, le fichier `index.pug` est généré en HTML.
 
-Pour en savoir plus sur le fonctionnement des moteurs de modèle dans Express, voir : ["Développement de moteurs de modèles pour Express"](/{{ page.lang }}/advanced/developing-template-engines.html).
+Pour en savoir plus sur le fonctionnement des moteurs de modèle dans Express, voir : ["Développement de moteurs de modèles pour Express"](/expressjs.com/{{ page.lang }}/advanced/developing-template-engines.html).

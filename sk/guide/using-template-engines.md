@@ -15,12 +15,12 @@ _Template engine_ umožňuje použitie statických template súborov vo vašej a
 Tento prístup robí návrh HTML stránok jednoduchším.
 
 Medzi populárne template enginy fungujúce s Express patria [Pug](https://pugjs.org/api/getting-started.html), [Mustache](https://www.npmjs.com/package/mustache) a [EJS](https://www.npmjs.com/package/ejs).
-[Express generátor](/{{ page.lang }}/starter/generator.html) požíva ako defaultný Pug, avšak podporuje aj mnohé ďalšie.
+[Express generátor](/expressjs.com/{{ page.lang }}/starter/generator.html) požíva ako defaultný Pug, avšak podporuje aj mnohé ďalšie.
 
 Zoznam podporovaných template enginov nájdete tu: [Template Engines (Express wiki)](https://github.com/expressjs/express/wiki#template-engines).
 Pozrite si taktiež [Comparing JavaScript Templating Engines: Jade, Mustache, Dust and More](https://strongloop.com/strongblog/compare-javascript-templates-jade-mustache-dust/).
 
-Aby Express dokázal spracovať a vyrendrovať template súbory, musí aplikácia obsahovať [nasledujúce nastavenia](/{{ page.lang }}/4x/api.html#app.set):
+Aby Express dokázal spracovať a vyrendrovať template súbory, musí aplikácia obsahovať [nasledujúce nastavenia](/expressjs.com/{{ page.lang }}/4x/api.html#app.set):
 
 * `views`, cesta k priečinku, kde sa nachádzajú template súbory. Napr: `app.set('views', './views')`. Defaultne to je priečinok `views` nachádzajúci sa v hlavnom priečinku aplikácie.
 * `view engine`, template engine, ktorý chcete použiť. Napr., ak by ste chceli použiť Pug: `app.set('view engine', 'pug')`
@@ -71,4 +71,4 @@ app.get('/', function (req, res) {
 
 Po vykonaní requestu na hlavnú stránku, sa súbor `index.pug` vyrendruje ako HTML.
 
-Pre viac informácií ohľadom fungovania template enginov v Express si prečítajte: ["Vývoj template enginov pre Express"](/{{ page.lang }}/advanced/developing-template-engines.html).
+Pre viac informácií ohľadom fungovania template enginov v Express si prečítajte: ["Vývoj template enginov pre Express"](/expressjs.com/{{ page.lang }}/advanced/developing-template-engines.html).

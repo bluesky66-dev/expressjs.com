@@ -26,7 +26,7 @@ Donde:
 - `HANDLER` es la función que se ejecuta cuando se correlaciona la ruta.
 
 <div class="doc-box doc-notice" markdown="1">
-En esta guía de aprendizaje se supone que se crea una instancia de `express` denominada `app` y que el servidor está en ejecución. Si no está familiarizado con la creación y el inicio de una aplicación, consulte el [Ejemplo Hello world](/{{ page.lang }}/starter/hello-world.html).
+En esta guía de aprendizaje se supone que se crea una instancia de `express` denominada `app` y que el servidor está en ejecución. Si no está familiarizado con la creación y el inicio de una aplicación, consulte el [Ejemplo Hello world](/expressjs.com/{{ page.lang }}/starter/hello-world.html).
 </div>
 
 El siguiente ejemplo ilustra la definición de rutas simples.
@@ -71,4 +71,4 @@ app.delete('/user', function (req, res) {
 </code>
 </pre>
 
-Para obtener más detalles sobre el direccionamiento, consulte la [guía de direccionamiento](/{{ page.lang }}/guide/routing.html).
+Para obtener más detalles sobre el direccionamiento, consulte la [guía de direccionamiento](/expressjs.com/{{ page.lang }}/guide/routing.html).

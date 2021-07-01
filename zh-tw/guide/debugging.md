@@ -29,7 +29,7 @@ $ DEBUG=express:* node index.js
 </code>
 </pre>
 
-對 [express generator](/{{ page.lang }}/starter/generator.html) 產生的預設應用程式執行這個指令，會列印下列輸出：
+對 [express generator](/expressjs.com/{{ page.lang }}/starter/generator.html) 產生的預設應用程式執行這個指令，會列印下列輸出：
 
 <pre>
 <code class="language-sh" translate="no">

@@ -12,8 +12,8 @@ tem uma funcionalidade mínima por si só: Um aplicativo do Express é
 essencialmente uma série de chamadas de funções de middleware.
 
 Funções de *Middleware* são funções que tem acesso
-ao [objeto de solicitação](/{{ page.lang }}/4x/api.html#req)
-(`req`), o [objeto de resposta](/{{ page.lang }}/4x/api.html#res)
+ao [objeto de solicitação](/expressjs.com/{{ page.lang }}/4x/api.html#req)
+(`req`), o [objeto de resposta](/expressjs.com/{{ page.lang }}/4x/api.html#res)
 (`res`), e a próxima função de middleware no ciclo
 solicitação-resposta do aplicativo. A próxima função middleware é
 comumente denotada por uma variável chamada `next`.
@@ -44,7 +44,7 @@ Um aplicativo Express pode usar os seguintes tipos de middleware:
 <h2 id='middleware.application'>Middleware de nível do aplicativo</h2>
 
 Vincule middlewares de nível do aplicativo a uma instância do
-[objeto app](/{{ page.lang }}/4x/api.html#app) usando as funções
+[objeto app](/expressjs.com/{{ page.lang }}/4x/api.html#app) usando as funções
 `app.use()` e `app.METHOD()`, onde
 `METHOD` é o método HTTP da solicitação que a função
 de middleware manipula (como GET, PUT, ou POST) em letras minúsculas.
@@ -246,7 +246,7 @@ app.use(function(err, req, res, next) {
 </pre>
 
 Para obter detalhes sobre middleware de manipulação de erros,
-consulte [Manipulação de erros](/{{ page.lang }}/guide/error-handling.html).
+consulte [Manipulação de erros](/expressjs.com/{{ page.lang }}/guide/error-handling.html).
 
 <h2 id='middleware.built-in'>Middleware integrado</h2>
 

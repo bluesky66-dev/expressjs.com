@@ -49,8 +49,8 @@ URL 的一部分，用來識別資源。例如，在 `http://foo.com/products/id
 
 ### 路由器 (router)
 
-請參閱 API 參照中的[路由器](/{{ page.lang }}/4x/api.html#router)。
+請參閱 API 參照中的[路由器](/expressjs.com/{{ page.lang }}/4x/api.html#router)。
 
 ### 應用程式 (application)
 
-通常是指設計成實行作業以達特定目的的一或多個程式。就 Express 環境定義來說，是指使用 Express API（在 Node.js 平台上執行）的程式。亦可稱為[應用程式物件 (app object)](/{{ page.lang }}/api.html#express)。
+通常是指設計成實行作業以達特定目的的一或多個程式。就 Express 環境定義來說，是指使用 Express API（在 Node.js 平台上執行）的程式。亦可稱為[應用程式物件 (app object)](/expressjs.com/{{ page.lang }}/api.html#express)。

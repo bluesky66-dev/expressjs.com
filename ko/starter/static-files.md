@@ -44,7 +44,7 @@ app.use(express.static('files'));
 
 Express는 `express.static` 미들웨어 함수를 이용해 정적 디렉토리를 설정한 순서대로 파일을 검색합니다.
 
-`express.static` 함수를 통해 제공되는 파일에 대한 가상 경로 접두부(파일 시스템 내에 해당 경로가 실제로 존재하지 않는 경우)를 작성하려면, 아래에 표시된 것과 같이 정적 디렉토리에 대한 [마운트 경로를 지정](/{{ page.lang }}/4x/api.html#app.use)하십시오.
+`express.static` 함수를 통해 제공되는 파일에 대한 가상 경로 접두부(파일 시스템 내에 해당 경로가 실제로 존재하지 않는 경우)를 작성하려면, 아래에 표시된 것과 같이 정적 디렉토리에 대한 [마운트 경로를 지정](/expressjs.com/{{ page.lang }}/4x/api.html#app.use)하십시오.
 
 <pre>
 <code class="language-javascript" translate="no">
