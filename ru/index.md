@@ -9,7 +9,7 @@ lang: ru
   <div id="overlay"></div>
   <div id="homepage-leftpane" class="pane">
     <section id="description">
-        <div class="express"><a href="/">Express</a></div>
+        <div class="express"><a href="/expressjs.com/">Express</a></div>
         <span class="description">Быстрый, гибкий, минималистичный веб-фреймворк для приложений <a href='http://nodejs.org'>Node.js</a></span>
     </section>
     <div id="install-command">$ npm install express --save</div>

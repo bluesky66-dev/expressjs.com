@@ -10,7 +10,7 @@ lang: fr
   <div id="overlay"></div>
   <div id="homepage-leftpane" class="pane">
     <section id="description">
-        <div class="express"><a href="/">Express</a></div>
+        <div class="express"><a href="/expressjs.com/">Express</a></div>
         <span class="description">Infrastructure Web minimaliste, souple et rapide pour <a href='http://nodejs.org'>Node.js</a></span>
     </section>
     <div id="install-command">$ npm install express --save</div>

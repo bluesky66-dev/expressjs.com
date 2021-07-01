@@ -10,7 +10,7 @@ lang: ja
   <div id="overlay"></div>
   <div id="homepage-leftpane" class="pane">
     <section id="description">
-        <div class="express"><a href="/">Express</a></div>
+        <div class="express"><a href="/expressjs.com/">Express</a></div>
         <span class="description"><a href='https://nodejs.org/ja/'>Node.js</a> のための高速で、革新的な、最小限のWebフレームワーク</span>
     </section>
     <div id="install-command">$ npm install express --save</div>
